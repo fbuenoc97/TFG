@@ -1,0 +1,38 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l ldap_injection.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/owasp/opensource/arachni/ldap_injection.clean
+Packet [87]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [88]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [89]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [90]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [95]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F&format=xml]	Nattacks [1]	Signatures	[300002413]
+Packet [96]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F&format=xml]	Nattacks [1]	Signatures	[300002413]
+Packet [102]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F%23%5E%28%24%21%40%24%29%28%28%29%29%29%2A%2A%2A%2A%2A%2A&format=xml]	Nattacks [2]	Signatures	[300000069]	[300002413]
+Packet [103]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F&format=xml%23%5E%28%24%21%40%24%29%28%28%29%29%29%2A%2A%2A%2A%2A%2A]	Nattacks [2]	Signatures	[300000069]	[300002413]
+Packet [104]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F%23%5E%28%24%21%40%24%29%28%28%29%29%29%2A%2A%2A%2A%2A%2A]	Nattacks [2]	Signatures	[300000069]	[300002413]
+Packet [113]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [114]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [115]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [116]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [118]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F&format=xml]	Nattacks [1]	Signatures	[300002413]
+Packet [119]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F&format=xml]	Nattacks [1]	Signatures	[300002413]
+Packet [133]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [134]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [144]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F%23%5E%28%24%21%40%24%29%28%28%29%29%29%2A%2A%2A%2A%2A%2A&reauth=1]	Nattacks [2]	Signatures	[300000069]	[300002413]
+Packet [145]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1%23%5E%28%24%21%40%24%29%28%28%29%29%29%2A%2A%2A%2A%2A%2A]	Nattacks [2]	Signatures	[300000069]	[300002413]
+Packet [146]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [147]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [148]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [149]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [150]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [151]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [152]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [153]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [154]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+# N. packets [255], [28] with alerts, N. Alerts [33]
+# Execution time: 0.059866 s

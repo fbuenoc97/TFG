@@ -1,0 +1,34 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l sql_injection.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/owasp/opensource/grendel-scan/sql_injection.clean
+Packet [7]	Uri [/randommhldvx.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [12]	Uri [/randomquymnk.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [16]	Uri [/randomqoicjl.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [23]	Uri [/randommkabdl.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [24]	Uri [/randomuxzsqk.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [38]	Uri [/randomlsxvtt.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [42]	Uri [/randomohcbec.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [44]	Uri [/randomvhuedz.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [54]	Uri [/web/randomiqehsx.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [55]	Uri [/web/randomiqehsx.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [64]	Uri [/web/randomcnejtk.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [65]	Uri [/web/randomcnejtk.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [76]	Uri [/web/randomhqwowp.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [77]	Uri [/web/randomhqwowp.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [104]	Uri [/web/randomiubtyh.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [105]	Uri [/web/randomiubtyh.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [122]	Uri [/web/randomcgpcyl.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [123]	Uri [/web/randomcgpcyl.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [126]	Uri [/web/randomqzdzee.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [127]	Uri [/web/randomqzdzee.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [132]	Uri [/web/randomvwfjer.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [133]	Uri [/web/randomvwfjer.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [136]	Uri [/web/randomukmbda.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [137]	Uri [/web/randomukmbda.pl]	Nattacks [1]	Signatures	[300001513]
+# N. packets [137], [24] with alerts, N. Alerts [24]
+# Execution time: 0.027960 s

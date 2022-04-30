@@ -1,0 +1,35 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l xss.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/arachni/xss.clean
+Packet [285]	Uri [/web/xmlrpc.php?rsd=]	Nattacks [1]	Signatures	[2018754]
+Packet [286]	Uri [/web/xmlrpc.php?rsd=]	Nattacks [1]	Signatures	[2018754]
+Packet [287]	Uri [/web/wp-includes/wlwmanifest.xml]	Nattacks [1]	Signatures	[2031505]
+Packet [288]	Uri [/web/wp-includes/wlwmanifest.xml]	Nattacks [1]	Signatures	[2031505]
+Packet [381]	Uri [/web/xmlrpc.php?rsd=1%3Cxss_ccf904f218dd6e5b01860ed36d374d94%2F%3E]	Nattacks [1]	Signatures	[2018754]
+Packet [382]	Uri [/web/xmlrpc.php?rsd=1%253Cxss_ccf904f218dd6e5b01860ed36d374d94%252F%253E]	Nattacks [1]	Signatures	[2018754]
+Packet [383]	Uri [/web/xmlrpc.php?rsd=1%28%29%22%26%251%27-%3B%3Cxss_ccf904f218dd6e5b01860ed36d374d94%2F%3E%27]	Nattacks [1]	Signatures	[2018754]
+Packet [384]	Uri [/web/xmlrpc.php?rsd=1%2528%2529%2522%2526%25251%2527-%253B%253Cxss_ccf904f218dd6e5b01860ed36d374d94%252F%253E%2527]	Nattacks [1]	Signatures	[2018754]
+Packet [385]	Uri [/web/xmlrpc.php?rsd=1%3C%2Ftextarea%3E--%3E%3Cxss_ccf904f218dd6e5b01860ed36d374d94%2F%3E%3C%21--%3Ctextarea%3E]	Nattacks [1]	Signatures	[2018754]
+Packet [386]	Uri [/web/xmlrpc.php?rsd=1%253C%252Ftextarea%253E--%253E%253Cxss_ccf904f218dd6e5b01860ed36d374d94%252F%253E%253C%2521--%253Ctextarea%253E]	Nattacks [1]	Signatures	[2018754]
+Packet [387]	Uri [/web/xmlrpc.php?rsd=1%20script%3A%3Barachni_xss_in_element_event%3Dccf904f218dd6e5b01860ed36d374d94%2F%2F]	Nattacks [1]	Signatures	[2018754]
+Packet [388]	Uri [/web/xmlrpc.php?rsd=1%20%3Barachni_xss_in_element_event%3Dccf904f218dd6e5b01860ed36d374d94%2F%2F]	Nattacks [1]	Signatures	[2018754]
+Packet [389]	Uri [/web/xmlrpc.php?rsd=1%20script%3A%22%3Barachni_xss_in_element_event%3Dccf904f218dd6e5b01860ed36d374d94%2F%2F]	Nattacks [1]	Signatures	[2018754]
+Packet [390]	Uri [/web/xmlrpc.php?rsd=1%20%22%3Barachni_xss_in_element_event%3Dccf904f218dd6e5b01860ed36d374d94%2F%2F]	Nattacks [1]	Signatures	[2018754]
+Packet [391]	Uri [/web/xmlrpc.php?rsd=1%20script%3A%27%3Barachni_xss_in_element_event%3Dccf904f218dd6e5b01860ed36d374d94%2F%2F]	Nattacks [1]	Signatures	[2018754]
+Packet [392]	Uri [/web/xmlrpc.php?rsd=1%20%27%3Barachni_xss_in_element_event%3Dccf904f218dd6e5b01860ed36d374d94%2F%2F]	Nattacks [1]	Signatures	[2018754]
+Packet [393]	Uri [/web/xmlrpc.php?rsd=1%20arachni_xss_in_tag%3Dccf904f218dd6e5b01860ed36d374d94%20blah%3D]	Nattacks [1]	Signatures	[2018754]
+Packet [394]	Uri [/web/xmlrpc.php?rsd=1%27%20arachni_xss_in_tag%3D%27ccf904f218dd6e5b01860ed36d374d94%27%20blah%3D%27]	Nattacks [1]	Signatures	[2018754]
+Packet [395]	Uri [/web/xmlrpc.php?rsd=1%22%20arachni_xss_in_tag%3D%22ccf904f218dd6e5b01860ed36d374d94%22%20blah%3D%22]	Nattacks [1]	Signatures	[2018754]
+Packet [427]	Uri [/web/xmlrpc.php]	Nattacks [1]	Signatures	[2018754]
+Packet [428]	Uri [/web/xmlrpc.php]	Nattacks [1]	Signatures	[2018754]
+# N. packets [1764], [21] with alerts, N. Alerts [21]
+# Execution time: 0.265977 s

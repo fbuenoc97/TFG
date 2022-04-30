@@ -1,0 +1,18 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l ssi_injection.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/security_tools_benchmarking/ironwasp/ssi_injection.clean
+Packet [9]	Uri [/crossdomain.xml%0aadmin.php%0aadmin.aspx%0a]	Nattacks [1]	Signatures	[300001512]
+Packet [13]	Uri [/web/crossdomain.xml%0aadmin.php%0aadmin.aspx%0a]	Nattacks [1]	Signatures	[300001512]
+Packet [18]	Uri [/web%22'%3e%3c!--%23printenv%20--%3e]	Nattacks [5]	Signatures	[300000052]	[300000068]	[300000069]	[300001063]	[300002846]
+Packet [19]	Uri [/%22'%3e%3c!--%23printenv%20--%3e]	Nattacks [5]	Signatures	[300000052]	[300000068]	[300000069]	[300001063]	[300002846]
+Packet [20]	Uri [/%3c!--%23printenv%20--%3e]	Nattacks [3]	Signatures	[300000068]	[300000069]	[300002846]
+Packet [21]	Uri [/web%22'%3e%3c!--%23printenv%20--%3e/]	Nattacks [5]	Signatures	[300000052]	[300000068]	[300000069]	[300001063]	[300002846]
+Packet [22]	Uri [/%22'%3e%3c!--%23printenv%20--%3e/]	Nattacks [5]	Signatures	[300000052]	[300000068]	[300000069]	[300001063]	[300002846]
+Packet [23]	Uri [/%3c!--%23printenv%20--%3e/]	Nattacks [3]	Signatures	[300000068]	[300000069]	[300002846]
+# N. packets [23], [8] with alerts, N. Alerts [28]
+# Execution time: 0.005543 s

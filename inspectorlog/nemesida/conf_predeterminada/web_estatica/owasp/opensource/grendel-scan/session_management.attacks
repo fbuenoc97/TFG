@@ -1,0 +1,26 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l session_management.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_estatica/owasp/opensource/grendel-scan/session_management.clean
+Packet [3]	Uri [/randomhworfj.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [10]	Uri [/randomzhonkp.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [18]	Uri [/randomhvwrcm.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [25]	Uri [/randomwkhdml.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [26]	Uri [/randompzfbfm.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [35]	Uri [/randommwcizz.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [37]	Uri [/randomaxffit.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [44]	Uri [/randomcnseci.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [49]	Uri [/web/randombgmhjq.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [51]	Uri [/web/randombhpjof.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [64]	Uri [/web/randomcgillw.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [79]	Uri [/web/randomgbzxpl.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [83]	Uri [/web/randomiklvid.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [85]	Uri [/web/randomwmtbcg.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [88]	Uri [/web/randomlnchfu.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [91]	Uri [/web/randomvkvkos.dll]	Nattacks [1]	Signatures	[300001562]
+# N. packets [92], [16] with alerts, N. Alerts [16]
+# Execution time: 0.008193 s

@@ -1,0 +1,54 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l cve.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/nuclei/cve.clean
+Packet [4]	Uri [/web/wp-content/plugins/anti-plagiarism/js.php?m=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [11]	Uri [/web/templates/m/inc_head.php?q=%22%3e%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [12]	Uri [/web/wp-content/plugins/forget-about-shortcode-buttons/assets/js/fasc-buttons/popup.php?source=1&ver=1%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [15]	Uri [/web/cms/info.php?mod=list%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [16]	Uri [/web/wp-content/plugins/hero-maps-pro/views/dashboard/index.php?v=%22%3E%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [19]	Uri [/web/search/members/?id`%3D520)%2f**%2funion%2f**%2fselect%2f**%2f1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2Cunhex%28%2770726f6a656374646973636f766572792e696f%27%29%2C13%2C14%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%23sqli=1]	Nattacks [2]	Signatures	[16431]	[2006446]
+Packet [21]	Uri [/web/wp-content/plugins/wp-mailster/view/subscription/unsubscribe2.php?mes=%3C%2Fscript%3E%22%3E%3Cscript%3Ealert%28123%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [23]	Uri [/web/secure/QueryComponentRendererValue!Default.jspa?assignee=user:admin]	Nattacks [1]	Signatures	[2033136]
+Packet [34]	Uri [/web/ie50/system/login/SysLoginUser.aspx?Login=Denied&UID=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [35]	Uri [/web/ics?tool=search&query=%22%3E%3Cscript%3Ealert(document.domain)%3C/script%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [37]	Uri [/web/wp-content/plugins/forget-about-shortcode-buttons/assets/js/fasc-buttons/popup.php?source=1&ver=1%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [38]	Uri [/web/cms/info.php?mod=list%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [39]	Uri [/web/wp-content/plugins/hero-maps-pro/views/dashboard/index.php?v=%22%3E%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [44]	Uri [/web/secure/QueryComponentRendererValue!Default.jspa?assignee=user:admin]	Nattacks [1]	Signatures	[2033136]
+Packet [45]	Uri [/web/wp-content/plugins/wp-mailster/view/subscription/unsubscribe2.php?mes=%3C%2Fscript%3E%22%3E%3Cscript%3Ealert%28123%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [46]	Uri [/web/search/members/?id`%3D520)%2f**%2funion%2f**%2fselect%2f**%2f1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2Cunhex%28%2770726f6a656374646973636f766572792e696f%27%29%2C13%2C14%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%23sqli=1]	Nattacks [2]	Signatures	[16431]	[2006446]
+Packet [54]	Uri [/web/ie50/system/login/SysLoginUser.aspx?Login=Denied&UID=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [57]	Uri [/web/ics?tool=search&query=%22%3E%3Cscript%3Ealert(document.domain)%3C/script%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [58]	Uri [/web/does_not_exist%22%22%3E%3Cscript%3Ealert%28%22XSS%22%29%3C/script%3E%3Cimg%20src=x]	Nattacks [1]	Signatures	[2009714]
+Packet [61]	Uri [/web/autodiscover/autodiscover.json?@test.com/owa/?&Email=autodiscover/autodiscover.json%3F@test.com]	Nattacks [1]	Signatures	[57907]
+Packet [62]	Uri [/web/wp-content/plugins/hdw-tube/mychannel.php?channel=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [63]	Uri [/web/jira/secure/QueryComponentRendererValue!Default.jspa?assignee=user:admin]	Nattacks [1]	Signatures	[2033136]
+Packet [64]	Uri [/web/wp-content/plugins/photoxhibit/common/inc/pages/build.php?gid=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [65]	Uri [/web/wp-admin/admin-ajax.php?action=bwg_frontend_data&shortcode_id=1"%20onmouseover=alert(document.domain)//]	Nattacks [1]	Signatures	[2009715]
+Packet [66]	Uri [/web/%2F..%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [67]	Uri [/web/horde/util/barcode.php?type=../../../../../../../../../../../etc/./passwd%00]	Nattacks [1]	Signatures	[2012373]
+Packet [71]	Uri [/web/test.txt%0d%0aSet-Cookie:CRLFInjection=Test%0d%0aLocation:%20example.com%0d%0aX-XSS-Protection:0]	Nattacks [2]	Signatures	[2011763]	[2017143]
+Packet [74]	Uri [/web/system/login/SysLoginUser.aspx?Login=Denied&UID=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [75]	Uri [/web/does_not_exist%22%22%3E%3Cscript%3Ealert%28%22XSS%22%29%3C/script%3E%3Cimg%20src=x]	Nattacks [1]	Signatures	[2009714]
+Packet [77]	Uri [/web/%2F..%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [78]	Uri [/web/wp-content/plugins/hdw-tube/mychannel.php?channel=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [79]	Uri [/web/autodiscover/autodiscover.json?@test.com/owa/?&Email=autodiscover/autodiscover.json%3F@test.com]	Nattacks [1]	Signatures	[57907]
+Packet [81]	Uri [/web/wp-admin/admin-ajax.php?action=bwg_frontend_data&shortcode_id=1"%20onmouseover=alert(document.domain)//]	Nattacks [1]	Signatures	[2009715]
+Packet [82]	Uri [/web/jira/secure/QueryComponentRendererValue!Default.jspa?assignee=user:admin]	Nattacks [1]	Signatures	[2033136]
+Packet [83]	Uri [/web/wp-content/plugins/photoxhibit/common/inc/pages/build.php?gid=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [84]	Uri [/web/horde/util/barcode.php?type=../../../../../../../../../../../etc/./passwd%00]	Nattacks [1]	Signatures	[2012373]
+Packet [87]	Uri [/web/test.txt%0d%0aSet-Cookie:CRLFInjection=Test%0d%0aLocation:%20example.com%0d%0aX-XSS-Protection:0]	Nattacks [2]	Signatures	[2011763]	[2017143]
+Packet [90]	Uri [/web/autodiscover/autodiscover.json?@test.com/mapi/nspi/?&Email=autodiscover/autodiscover.json%3F@test.com]	Nattacks [1]	Signatures	[57907]
+Packet [91]	Uri [/web/system/login/SysLoginUser.aspx?Login=Denied&UID=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [98]	Uri [/web/?x=${jndi:ldap://127.0.0.1]	Nattacks [2]	Signatures	[58722]	[58744]
+# N. packets [98], [40] with alerts, N. Alerts [45]
+# Execution time: 0.325339 s

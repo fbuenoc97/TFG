@@ -1,0 +1,30 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l exposure.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_estatica/owasp/opensource/nuclei/exposure.clean
+Packet [95]	Uri [/web/_profiler/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [217]	Uri [/web/vendor/phpfastcache/phpfastcache/docs/examples/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [258]	Uri [/web/vendor/phpfastcache/phpfastcache/docs/examples/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [264]	Uri [/web/vendor/phpfastcache/phpfastcache/examples/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [311]	Uri [/web/vendor/phpfastcache/phpfastcache/examples/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [325]	Uri [/web/actuator/health]	Nattacks [1]	Signatures	[2031500]
+Packet [345]	Uri [/web/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [382]	Uri [/web/sftp-config.json]	Nattacks [1]	Signatures	[2015940]
+Packet [383]	Uri [/web/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [432]	Uri [/web/.env]	Nattacks [1]	Signatures	[2031502]
+Packet [460]	Uri [/web/.env]	Nattacks [1]	Signatures	[2031502]
+Packet [589]	Uri [/web/.env]	Nattacks [1]	Signatures	[2031502]
+Packet [668]	Uri [/web/%20../web-inf/web.xml]	Nattacks [1]	Signatures	[2017611]
+Packet [711]	Uri [/web/%20../web-inf/web.xml]	Nattacks [1]	Signatures	[2017611]
+Packet [781]	Uri [/web/dashboard/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [930]	Uri [/web/api/.env]	Nattacks [1]	Signatures	[2031502]
+# N. packets [983], [16] with alerts, N. Alerts [16]
+# Execution time: 0.009086 s

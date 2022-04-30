@@ -1,0 +1,23 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l misconfiguration.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/conf_personalizada/web_dinamica/owasp/opensource/nikto/misconfiguration.clean
+Packet [576]	Uri [/web/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [582]	Uri [/web/../../../../../../../../../../../../etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [791]	Uri [/web/xsql/demo/adhocsql/query.xsql?sql=select%20username%20from%20ALL_USERS]	Nattacks [2]	Signatures	[2006445]	[2010963]
+Packet [1019]	Uri [/web/jsp-examples/jsp2/jspx/textRotate.jspx?name=<script>alert(111)</script>]	Nattacks [1]	Signatures	[2009714]
+Packet [1020]	Uri [/web/jsp-examples/jsp2/el/implicit-objects.jsp?foo=<script>alert(112)</script>]	Nattacks [1]	Signatures	[2009714]
+Packet [1021]	Uri [/web/jsp-examples/jsp2/el/functions.jsp?foo=<script>alert(113)</script>]	Nattacks [1]	Signatures	[2009714]
+Packet [1104]	Uri [/web/wp-content/w3tc/dbcache/]	Nattacks [1]	Signatures	[2016100]
+Packet [1321]	Uri [/web/.env]	Nattacks [1]	Signatures	[2031502]
+Packet [1322]	Uri [/web/cgi-bin/config.exp]	Nattacks [1]	Signatures	[2033089]
+# N. packets [1322], [9] with alerts, N. Alerts [10]
+# Execution time: 0.202412 s

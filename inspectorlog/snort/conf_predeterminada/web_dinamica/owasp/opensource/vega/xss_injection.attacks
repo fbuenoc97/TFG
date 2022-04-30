@@ -1,0 +1,18 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l xss_injection.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/vega/xss_injection.clean
+Packet [10]	Uri [/?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [47]	Uri [/web?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [87]	Uri [/web/index.php?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [127]	Uri [/web/index.php/comments/feed?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+# N. packets [158], [4] with alerts, N. Alerts [12]
+# Execution time: 0.713830 s

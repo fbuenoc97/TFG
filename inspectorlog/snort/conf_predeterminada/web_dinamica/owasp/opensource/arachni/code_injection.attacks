@@ -1,0 +1,28 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l code_injection.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/arachni/code_injection.clean
+Packet [514]	Uri [/web/xmlrpc.php?rsd=]	Nattacks [1]	Signatures	[2018754]
+Packet [515]	Uri [/web/xmlrpc.php?rsd=]	Nattacks [1]	Signatures	[2018754]
+Packet [516]	Uri [/web/wp-includes/wlwmanifest.xml]	Nattacks [1]	Signatures	[2031505]
+Packet [517]	Uri [/web/wp-includes/wlwmanifest.xml]	Nattacks [1]	Signatures	[2031505]
+Packet [566]	Uri [/web/xmlrpc.php?rsd=%3Bprint%2028763%2A4196403%3B]	Nattacks [1]	Signatures	[2018754]
+Packet [567]	Uri [/web/xmlrpc.php?rsd=%22%3Bprint%2028763%2A4196403%3B%23]	Nattacks [1]	Signatures	[2018754]
+Packet [568]	Uri [/web/xmlrpc.php?rsd=%27%3Bprint%2028763%2A4196403%3B%23]	Nattacks [1]	Signatures	[2018754]
+Packet [569]	Uri [/web/xmlrpc.php?rsd=print%2028763%2A4196403%3B]	Nattacks [1]	Signatures	[2018754]
+Packet [570]	Uri [/web/xmlrpc.php?rsd=%20sleep%284000%2F1000%29%3B]	Nattacks [1]	Signatures	[2018754]
+Packet [571]	Uri [/web/xmlrpc.php?rsd=%3Bsleep%284000%2F1000%29%3B]	Nattacks [1]	Signatures	[2018754]
+Packet [572]	Uri [/web/xmlrpc.php?rsd=%22%3Bsleep%284000%2F1000%29%3B%23]	Nattacks [1]	Signatures	[2018754]
+Packet [573]	Uri [/web/xmlrpc.php?rsd=%27%3Bsleep%284000%2F1000%29%3B%23]	Nattacks [1]	Signatures	[2018754]
+Packet [596]	Uri [/web/xmlrpc.php]	Nattacks [1]	Signatures	[2018754]
+Packet [598]	Uri [/web/xmlrpc.php]	Nattacks [1]	Signatures	[2018754]
+# N. packets [1591], [14] with alerts, N. Alerts [14]
+# Execution time: 0.265363 s

@@ -1,0 +1,42 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l backup.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/wapiti/backup.clean
+Packet [1]	Uri [/web/wp-comments-post.php~]	Nattacks [1]	Signatures	[2009955]
+Packet [33]	Uri [/web/wp-includes/wlwmanifest.xml~]	Nattacks [1]	Signatures	[2031505]
+Packet [34]	Uri [/web/wp-includes/wlwmanifest.xml.backup]	Nattacks [1]	Signatures	[2031505]
+Packet [35]	Uri [/web/wp-includes/wlwmanifest.xml.bck]	Nattacks [1]	Signatures	[2031505]
+Packet [36]	Uri [/web/wp-includes/wlwmanifest.xml.old]	Nattacks [1]	Signatures	[2031505]
+Packet [37]	Uri [/web/wp-includes/wlwmanifest.xml.save]	Nattacks [1]	Signatures	[2031505]
+Packet [38]	Uri [/web/wp-includes/wlwmanifest.xml.bak]	Nattacks [1]	Signatures	[2031505]
+Packet [40]	Uri [/web/wp-includes/wlwmanifest.xml.zip]	Nattacks [1]	Signatures	[2031505]
+Packet [41]	Uri [/web/wp-includes/wlwmanifest.xml.rar]	Nattacks [1]	Signatures	[2031505]
+Packet [42]	Uri [/web/wp-includes/wlwmanifest.xml.tar.gz]	Nattacks [1]	Signatures	[2031505]
+Packet [43]	Uri [/web/wp-includes/wlwmanifest.xml.tgz]	Nattacks [1]	Signatures	[2031505]
+Packet [44]	Uri [/web/wp-includes/wlwmanifest.xml.tar.bz2]	Nattacks [1]	Signatures	[2031505]
+Packet [45]	Uri [/web/wp-includes/wlwmanifest.xml.tbz2]	Nattacks [1]	Signatures	[2031505]
+Packet [46]	Uri [/web/wp-includes/wlwmanifest.xml.7zip]	Nattacks [1]	Signatures	[2031505]
+Packet [65]	Uri [/web/wp-login.php~]	Nattacks [1]	Signatures	[2009955]
+Packet [91]	Uri [/web/xmlrpc.php~]	Nattacks [2]	Signatures	[2009955]	[2018754]
+Packet [92]	Uri [/web/xmlrpc.php.backup]	Nattacks [1]	Signatures	[2018754]
+Packet [93]	Uri [/web/xmlrpc.php.bck]	Nattacks [1]	Signatures	[2018754]
+Packet [94]	Uri [/web/xmlrpc.php.old]	Nattacks [1]	Signatures	[2018754]
+Packet [95]	Uri [/web/xmlrpc.php.save]	Nattacks [1]	Signatures	[2018754]
+Packet [96]	Uri [/web/xmlrpc.php.bak]	Nattacks [1]	Signatures	[2018754]
+Packet [98]	Uri [/web/xmlrpc.php.zip]	Nattacks [1]	Signatures	[2018754]
+Packet [99]	Uri [/web/xmlrpc.php.rar]	Nattacks [1]	Signatures	[2018754]
+Packet [100]	Uri [/web/xmlrpc.php.tar.gz]	Nattacks [1]	Signatures	[2018754]
+Packet [101]	Uri [/web/xmlrpc.php.tgz]	Nattacks [1]	Signatures	[2018754]
+Packet [102]	Uri [/web/xmlrpc.php.tar.bz2]	Nattacks [1]	Signatures	[2018754]
+Packet [103]	Uri [/web/xmlrpc.php.tbz2]	Nattacks [1]	Signatures	[2018754]
+Packet [104]	Uri [/web/xmlrpc.php.7zip]	Nattacks [1]	Signatures	[2018754]
+# N. packets [116], [28] with alerts, N. Alerts [29]
+# Execution time: 0.184915 s

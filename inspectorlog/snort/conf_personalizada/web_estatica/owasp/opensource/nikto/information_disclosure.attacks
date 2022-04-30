@@ -1,0 +1,47 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l information_disclosure.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/conf_personalizada/web_estatica/owasp/opensource/nikto/information_disclosure.clean
+Packet [585]	Uri [/web/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [591]	Uri [/web/../../../../../../../../../../../../etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [660]	Uri [/web/web-console/ServerInfo.jsp%00]	Nattacks [1]	Signatures	[24342]
+Packet [886]	Uri [/web/mambo/administrator/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [900]	Uri [/web/phpBB/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [938]	Uri [/web/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000]	Nattacks [1]	Signatures	[2011141]
+Packet [939]	Uri [/web/?=PHPE9568F36-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011144]
+Packet [940]	Uri [/web/?=PHPE9568F34-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011142]
+Packet [941]	Uri [/web/?=PHPE9568F35-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011143]
+Packet [986]	Uri [/web/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [987]	Uri [/web/test/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [988]	Uri [/web/phpinfo.php3]	Nattacks [1]	Signatures	[2019526]
+Packet [989]	Uri [/web/test/phpinfo.php3]	Nattacks [1]	Signatures	[2019526]
+Packet [998]	Uri [/web/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [999]	Uri [/web/phpinfo.php3]	Nattacks [1]	Signatures	[2019526]
+Packet [1004]	Uri [/web/test/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [1005]	Uri [/web/test/phpinfo.php3]	Nattacks [1]	Signatures	[2019526]
+Packet [1014]	Uri [/web/forum/memberlist.php?s=23c37cf1af5d2ad05f49361b0407ad9e&what=\">\"<script>javascript:alert(document.cookie)</script>]	Nattacks [1]	Signatures	[2009714]
+Packet [1023]	Uri [/web/docs/<script>alert('Vulnerable');</script>]	Nattacks [1]	Signatures	[2009714]
+Packet [1034]	Uri [/web/admin/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [1039]	Uri [/web/texis.exe/?-dump]	Nattacks [1]	Signatures	[2014704]
+Packet [1040]	Uri [/web/texis.exe/?-version]	Nattacks [1]	Signatures	[2014704]
+Packet [1067]	Uri [/web/?\"><script>alert('Vulnerable');</script>]	Nattacks [1]	Signatures	[2009714]
+Packet [1104]	Uri [/web/jmx-console/]	Nattacks [1]	Signatures	[21516]
+Packet [1187]	Uri [/web/admin/install/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [1206]	Uri [/web/?-s]	Nattacks [1]	Signatures	[2014704]
+Packet [1207]	Uri [/web/login.php?-s]	Nattacks [1]	Signatures	[2014704]
+Packet [1214]	Uri [/web/web-console/ServerInfo.jsp]	Nattacks [1]	Signatures	[24342]
+Packet [1227]	Uri [/web/wp-content/w3tc/dbcache/]	Nattacks [1]	Signatures	[2016100]
+Packet [1307]	Uri [/web/jmx-console/HtmlAdaptor?action=inspectMBean&name=Catalina%3Atype%3DServer]	Nattacks [3]	Signatures	[21516]	[2011696]	[2014017]
+Packet [1427]	Uri [/web/app/plugins/php_plugin/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [1503]	Uri [/web/.env]	Nattacks [1]	Signatures	[2031502]
+Packet [1511]	Uri [/web/cgi-bin/config.exp]	Nattacks [1]	Signatures	[2033089]
+# N. packets [1511], [33] with alerts, N. Alerts [35]
+# Execution time: 0.569614 s

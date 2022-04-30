@@ -1,0 +1,17 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l denial_of_service.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/conf_personalizada/web_dinamica/owasp/opensource/nikto/denial_of_service.clean
+Packet [497]	Uri [/web/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [503]	Uri [/web/../../../../../../../../../../../../etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [527]	Uri [/web/cfide/Administrator/startstop.html]	Nattacks [1]	Signatures	[2016184]
+# N. packets [544], [3] with alerts, N. Alerts [3]
+# Execution time: 0.510400 s

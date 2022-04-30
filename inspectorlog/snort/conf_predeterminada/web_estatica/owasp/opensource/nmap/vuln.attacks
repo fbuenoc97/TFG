@@ -1,0 +1,31 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l vuln.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_estatica/owasp/opensource/nmap/vuln.clean
+Packet [8]	Uri [/?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input]	Nattacks [3]	Signatures	[2014704]	[2016977]	[2016982]
+Packet [10]	Uri [/help/../../etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [14]	Uri [/CFIDE/adminapi/administrator.cfc?method=login&adminpassword=&rdsPasswordAllowed=true]	Nattacks [2]	Signatures	[25976]	[2016183]
+Packet [23]	Uri [/CFIDE/administrator/enter.cfm?locale=..\..\..\..\..\..\..\..\..\..\JRun4\servers\cfusion\cfusion-ear\cfusion-war\WEB-INF\cfusion\lib\password.properties%00en]	Nattacks [3]	Signatures	[25975]	[2016184]	[2016836]
+Packet [24]	Uri [/index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=updatexml(1,concat(1,user()),1)]	Nattacks [1]	Signatures	[2024342]
+Packet [35]	Uri [/?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input]	Nattacks [3]	Signatures	[2014704]	[2016977]	[2016982]
+Packet [38]	Uri [/jmx-console/]	Nattacks [1]	Signatures	[21516]
+Packet [47]	Uri [/CFIDE/administrator/enter.cfm?locale=..\..\..\..\..\..\..\..\ColdFusion8\lib\password.properties%00en]	Nattacks [3]	Signatures	[25975]	[2016184]	[2016836]
+Packet [53]	Uri [/CFIDE/administrator/enter.cfm?locale=..\..\..\..\..\..\..\..\CFusionMX7\lib\password.properties%00en]	Nattacks [3]	Signatures	[25975]	[2016184]	[2016836]
+Packet [58]	Uri [/CFIDE/administrator/enter.cfm?locale=..\..\..\..\..\..\..\..\CFusionMX\lib\password.properties%00en]	Nattacks [3]	Signatures	[25975]	[2016184]	[2016836]
+Packet [156]	Uri [/upload_multiple_js.php,/uploadtester.asp,/info.php,/phpinfo.php,/kusabax/manage_page.php,/plus/lurking.php,/adm/barra/assetmanager/assetmanager.php,/eyeos/]	Nattacks [1]	Signatures	[2019526]
+Packet [158]	Uri [/vhosts/ehcp/?op=applyfordomainaccount,/tools_admin.cgi?,/level/15,/exec/show/log/CR,/level/15/exec/-/configure/http,/level/15/exec/-,/appServer/jvmReport.jsf?instanceName=server&pageTitle=JVM%20Report,/common/appServer/jvmReport.jsf?pageTitle=JVM%20Report]	Nattacks [1]	Signatures	[2010623]
+Packet [181]	Uri [/mxportal/home/en_US/servicetools.gif,/mxportal/home/MxPortalFrames.jsp,/xymon/menu/menu.css,/rrc.htm,/manager/html/upload,/manager/html,/axis2/axis2-web/HappyAxis.jsp,/axis2/]	Nattacks [1]	Signatures	[2009220]
+Packet [182]	Uri [/happyaxis.jsp,/web-console/ServerInfo.jsp,/web-console/Invoker,/invoker/JMXInvokerServlet,/invoker/,/jmx-console/,/admin-console/,/CFIDE/administrator/enter.cfm]	Nattacks [6]	Signatures	[21516]	[21517]	[24342]	[24343]	[25975]	[2016184]
+Packet [183]	Uri [/CFIDE/administrator/entman/index.cfm,/cfide/install.cfm,/CFIDE/administrator/archives/index.cfm,/CFIDE/wizards/common/_logintowizard.cfm,/CFIDE/componentutils/login.cfm,/CFIDE/Administrator/startstop.html,/common/help/en/go/login_ts.html,/system/login/]	Nattacks [4]	Signatures	[25975]	[25977]	[2016182]	[2016184]
+Packet [234]	Uri [/cwhp/auditLog.do?file=..\..\..\..\..\..\..\Program%20Files\CSCOpx\MDC\Tomcat\webapps\triveni\WEB-INF\classes\schedule.properties,/cwhp/auditLog.do?file=..\..\..\..\..\..\..\Program%20Files\CSCOpx\lib\classpath\com\cisco\nm\cmf\dbservice2\DBServer.properties,/cwhp/auditLog.do?file=..\..\..\..\..\..\..\Program%20Files\CSCOpx\log\dbpwdChange.log,..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f/var/mobile/Library/AddressBook/AddressBook.sqlitedb,/Info.live.htm,/CuteSoft_Client/CuteEditor/Load.ashx?type=image&file=../../../web.config]	Nattacks [1]	Signatures	[2012116]
+Packet [235]	Uri [/plugins/PluginController.php?path=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwindows%2fwin.ini%00,/tiki-listmovies.php?movie=../../../../../../etc/passwd%001234,/index.php?option=com_jce&task=plugin&plugin=imgmanager&file=imgmanager&version=1576&cid=20,/d41d8cd98f00b204e9800998ecf8427e.php,/bsc_lan.php?NO_NEED_AUTH=1&AUTH_GROUP=0,/rom-0,/Telerik.Web.UI.DialogHandler.aspx?dp=////]	Nattacks [1]	Signatures	[2012750]
+# N. packets [374], [17] with alerts, N. Alerts [38]
+# Execution time: 0.237667 s

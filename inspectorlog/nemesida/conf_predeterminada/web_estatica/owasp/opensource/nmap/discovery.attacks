@@ -1,0 +1,27 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l discovery.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_estatica/owasp/opensource/nmap/discovery.clean
+Packet [8]	Uri [/server-status]	Nattacks [1]	Signatures	[300001899]
+Packet [15]	Uri [/scripts/WPnBr.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [17]	Uri [/scripts/WPnBr.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [154]	Uri [/sdk/../../../../../../../etc/vmware/hostd/vmInventory.xml]	Nattacks [2]	Signatures	[300000057]	[300000067]
+Packet [166]	Uri [/sdk/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/etc/vmware/hostd/vmInventory.xml]	Nattacks [2]	Signatures	[300000057]	[300000067]
+Packet [173]	Uri [/../../../../../../../../../../etc/passwd]	Nattacks [3]	Signatures	[300000057]	[300000067]	[300001559]
+Packet [178]	Uri [/../../../../../../../../../../boot.ini]	Nattacks [3]	Signatures	[300000057]	[300000067]	[300001517]
+Packet [181]	Uri [/?p4yl04d=../../../../../../../../../../../../../../../../../etc/passwd]	Nattacks [4]	Signatures	[300000057]	[300000067]	[300001145]	[300001559]
+Packet [189]	Uri [/?p4yl04d2=1%20UNION%20ALL%20SELECT%201,2,3,table_name%20FROM%20information_schema.tables,/?p4yl04d3=<script>alert(document.cookie)</script>]	Nattacks [9]	Signatures	[300000053]	[300000508]	[300000515]	[300000537]	[300000550]	[300001042]	[300001086]	[300001109]	[300001116]
+Packet [211]	Uri [/noindex/css/bootstrap.min.bak]	Nattacks [1]	Signatures	[300001927]
+Packet [213]	Uri [/noindex/css/bootstrap.min.css~]	Nattacks [1]	Signatures	[300001500]
+Packet [220]	Uri [/noindex/css/bootstrap.min.css.~1~]	Nattacks [1]	Signatures	[300001500]
+Packet [223]	Uri [/noindex/css/open-sans.bak]	Nattacks [1]	Signatures	[300001927]
+Packet [225]	Uri [/noindex/css/open-sans.css~]	Nattacks [1]	Signatures	[300001500]
+Packet [233]	Uri [/noindex/css/open-sans.css.~1~]	Nattacks [1]	Signatures	[300001500]
+Packet [239]	Uri [/tomcat/manager/html/,/tomcat/manager/status/,/tomcat/manager/text/,/cognos_express/manager/html/,/host-manager/html/,/host-manager/text/,/tomcat/host-manager/html/,/tomcat/host-manager/text/,/system/console]	Nattacks [1]	Signatures	[300001901]
+Packet [267]	Uri [/login.stm,/tools_admin.php,/bsc_lan.php,/Manage.tri,/logo_t.gif,//system.html,/main_configure.cgi,/OvCgi/Toolbar.exe]	Nattacks [1]	Signatures	[300001562]
+# N. packets [331], [17] with alerts, N. Alerts [34]
+# Execution time: 0.055470 s

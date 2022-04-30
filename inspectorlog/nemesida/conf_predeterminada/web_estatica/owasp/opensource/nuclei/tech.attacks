@@ -1,0 +1,18 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l tech.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_estatica/owasp/opensource/nuclei/tech.clean
+Packet [14]	Uri [/web/cgi-bin/upload/web-ftp.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [22]	Uri [/web/tmui/login.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [28]	Uri [/web/check_mk/login.py]	Nattacks [1]	Signatures	[300001513]
+Packet [46]	Uri [/web/cgi-bin/upload/web-ftp.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [54]	Uri [/web/tmui/login.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [69]	Uri [/web/tmui/tmui/login/welcome.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [93]	Uri [/web/tmui/tmui/login/welcome.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [141]	Uri [/web/fpui/jsp/login.jsp]	Nattacks [1]	Signatures	[300001516]
+# N. packets [257], [8] with alerts, N. Alerts [8]
+# Execution time: 0.018676 s

@@ -1,0 +1,23 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l panel.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/owasp/opensource/nuclei/panel.clean
+Packet [27]	Uri [/web/cgi-bin/ck/domenu.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [28]	Uri [/web/zdm/login_xdm_uc.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [32]	Uri [/web/carbon/admin/login.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [53]	Uri [/web/cgi-bin/ck/domenu.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [54]	Uri [/web/zdm/login_xdm_uc.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [59]	Uri [/web/carbon/admin/login.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [68]	Uri [/web/crx/de/index.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [72]	Uri [/web/SecMail/login.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [75]	Uri [/web/mifs/login.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [89]	Uri [/web/crx/de/index.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [93]	Uri [/web/SecMail/login.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [96]	Uri [/web/mifs/login.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [99]	Uri [/web/mifs/user/login.jsp]	Nattacks [1]	Signatures	[300001516]
+# N. packets [104], [13] with alerts, N. Alerts [13]
+# Execution time: 0.009188 s

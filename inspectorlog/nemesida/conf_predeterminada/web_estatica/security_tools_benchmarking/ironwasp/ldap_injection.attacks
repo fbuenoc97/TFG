@@ -1,0 +1,12 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l ldap_injection.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_estatica/security_tools_benchmarking/ironwasp/ldap_injection.clean
+Packet [6]	Uri [/crossdomain.xml%0aadmin.php%0aadmin.aspx%0a]	Nattacks [1]	Signatures	[300001512]
+Packet [12]	Uri [/web/crossdomain.xml%0aadmin.php%0aadmin.aspx%0a]	Nattacks [1]	Signatures	[300001512]
+# N. packets [104], [2] with alerts, N. Alerts [2]
+# Execution time: 0.008660 s

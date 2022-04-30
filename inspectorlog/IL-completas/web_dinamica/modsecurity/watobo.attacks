@@ -1,0 +1,6 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l watobo.uri -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -t list -o modsecurity/watobo.clean
+Packet [10]	Uri [/web?xsd=../conf/axis2.xml]	Nattacks [1 ]	Signatures	[930110]
+Packet [15]	Uri [/web?xsd=../../../../../../../etc/passwd]	Nattacks [6 ]	Signatures	[930100]	[930110]	[930110]	[930120]	[932160]	[942460]
+# N. packets [852], [2] with alerts, N. Alerts [7]

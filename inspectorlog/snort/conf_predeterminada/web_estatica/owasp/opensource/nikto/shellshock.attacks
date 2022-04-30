@@ -1,0 +1,38 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l shellshock.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_estatica/owasp/opensource/nikto/shellshock.clean
+Packet [289]	Uri [/web/cgi.cgi/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [350]	Uri [/web/webcgi/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [411]	Uri [/web/cgi-914/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [472]	Uri [/web/cgi-915/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [533]	Uri [/web/bin/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [594]	Uri [/web/cgi/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [655]	Uri [/web/mpcgi/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [716]	Uri [/web/cgi-bin/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [777]	Uri [/web/ows-bin/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [838]	Uri [/web/cgi-sys/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [899]	Uri [/web/cgi-local/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [960]	Uri [/web/htbin/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1021]	Uri [/web/cgibin/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1082]	Uri [/web/cgis/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1143]	Uri [/web/scripts/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1204]	Uri [/web/cgi-win/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1265]	Uri [/web/fcgi-bin/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1326]	Uri [/web/cgi-exe/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1387]	Uri [/web/cgi-home/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1448]	Uri [/web/cgi-perl/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1509]	Uri [/web/scgi-bin/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1570]	Uri [/web/cgi-bin-sdb/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1631]	Uri [/web/cgi-mod/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1692]	Uri [/web/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+# N. packets [1697], [24] with alerts, N. Alerts [24]
+# Execution time: 0.768998 s

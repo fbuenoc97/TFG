@@ -1,0 +1,25 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l remote_file_retrieval.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/conf_personalizada/web_dinamica/owasp/opensource/nikto/remote_file_retrieval.clean
+Packet [501]	Uri [/web/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [507]	Uri [/web/../../../../../../../../../../../../etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [527]	Uri [/web/[SecCheck]/..%252f..%252f../ext.ini]	Nattacks [1]	Signatures	[2030337]
+Packet [1185]	Uri [/web/tmUnblock.cgi]	Nattacks [1]	Signatures	[2018132]
+Packet [1191]	Uri [/web/../../../../../../../../../../../../etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [1316]	Uri [/web/cgi-bin/%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%57%49%4E%4E%54%2F%73%79%73%74%65%6D%33%32%2Fping.exe%20127.0.0.1]	Nattacks [1]	Signatures	[2009362]
+Packet [1325]	Uri [/web/..%252f..%252f..%252f..%252f..%252f../windows/repair/sam]	Nattacks [1]	Signatures	[2030337]
+Packet [1326]	Uri [/web/..%252f..%252f..%252f..%252f..%252f../winnt/repair/sam]	Nattacks [1]	Signatures	[2030337]
+Packet [1327]	Uri [/web/..%252f..%252f..%252f..%252f..%252f../winnt/repair/sam._]	Nattacks [1]	Signatures	[2030337]
+Packet [1348]	Uri [/web/help/../../../../../../../../../../../../../../../../etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [1352]	Uri [/web/horde/util/barcode.php?type=../../../../../../../../../../../etc/./passwd%00]	Nattacks [1]	Signatures	[2012373]
+# N. packets [1374], [11] with alerts, N. Alerts [11]
+# Execution time: 0.584658 s

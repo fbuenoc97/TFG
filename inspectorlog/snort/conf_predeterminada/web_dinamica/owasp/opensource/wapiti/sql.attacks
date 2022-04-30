@@ -1,0 +1,18 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l sql.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/wapiti/sql.clean
+Packet [14]	Uri [/web/xmlrpc.php?rsd]	Nattacks [1]	Signatures	[2018754]
+Packet [19]	Uri [/web/xmlrpc.php]	Nattacks [1]	Signatures	[2018754]
+Packet [21]	Uri [/web/wp-includes/wlwmanifest.xml]	Nattacks [1]	Signatures	[2031505]
+Packet [98]	Uri [/web/xmlrpc.php?rsd=%C2%BF%27%22%28]	Nattacks [1]	Signatures	[2018754]
+# N. packets [123], [4] with alerts, N. Alerts [4]
+# Execution time: 0.262823 s

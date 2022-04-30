@@ -1,0 +1,22 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l command_injection.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_estatica/security_tools_benchmarking/ironwasp/command_injection.clean
+Packet [9]	Uri [/crossdomain.xml%0aadmin.php%0aadmin.aspx%0a]	Nattacks [1]	Signatures	[300001512]
+Packet [15]	Uri [/web/crossdomain.xml%0aadmin.php%0aadmin.aspx%0a]	Nattacks [1]	Signatures	[300001512]
+Packet [74]	Uri [/%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [1]	Signatures	[300001517]
+Packet [80]	Uri [/%26%26%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [2]	Signatures	[300000032]	[300001517]
+Packet [86]	Uri [/%7c%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [1]	Signatures	[300001517]
+Packet [92]	Uri [/%3b%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [2]	Signatures	[300000051]	[300001517]
+Packet [98]	Uri [/%20run%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [1]	Signatures	[300001517]
+Packet [104]	Uri [/web%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [1]	Signatures	[300001517]
+Packet [110]	Uri [/web%26%26%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [1]	Signatures	[300001517]
+Packet [116]	Uri [/web%7c%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [1]	Signatures	[300001517]
+Packet [122]	Uri [/web%3b%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [2]	Signatures	[300000051]	[300001517]
+Packet [128]	Uri [/web%20run%20type%20%25SYSTEMROOT%25%5cwin.ini]	Nattacks [1]	Signatures	[300001517]
+# N. packets [1976], [12] with alerts, N. Alerts [15]
+# Execution time: 0.219077 s

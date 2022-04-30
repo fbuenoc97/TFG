@@ -1,0 +1,41 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l vulnerabilities.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/nuclei/vulnerabilities.clean
+Packet [2]	Uri [/web/plugins/address_add/add.php?first=HOVER%20ME!%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [6]	Uri [/web/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php?file=../../../../../wp-config.php]	Nattacks [1]	Signatures	[41420]
+Packet [14]	Uri [/web/webadmin/reporter/view_server_log.php?server=localhost&act=stats&filename=&offset=1&count=1000&sortorder=&log=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E&offset=&sortitem=&filter=]	Nattacks [1]	Signatures	[2009714]
+Packet [17]	Uri [/web/Visitor/bin/WebStrings.srf?file=&obj_name=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [18]	Uri [/web/filter/jmol/js/jsmol/php/jsmol.php?call=saveFile&data=%3Cscript%3Ealert(%27XSS%27)%3C/script%3E&mimetype=text/html]	Nattacks [1]	Signatures	[2009714]
+Packet [23]	Uri [/web/assets/php/_devtools/installer/step_2.php?installation_path=%22%3E%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [24]	Uri [/web/main/calendar/agenda_list.php?type=xss"+onmouseover=alert(document.domain)+"]	Nattacks [1]	Signatures	[2009715]
+Packet [26]	Uri [/web/wp-content/plugins/aspose-importer-exporter/aspose_import_export_download?file=../../../wp-config.php]	Nattacks [1]	Signatures	[41420]
+Packet [29]	Uri [/web/Visitor//%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fwindows%5Cwin.ini]	Nattacks [1]	Signatures	[2019880]
+Packet [37]	Uri [/web/wp-content/plugins/aspose-cloud-ebook-generator/aspose_posts_exporter_download.php?file=../../../wp-config.php]	Nattacks [1]	Signatures	[41420]
+Packet [38]	Uri [/web/upload/mobile/index.php?c=category&a=asynclist&price_max=1.0%20AND%20(SELECT%201%20FROM(SELECT%20COUNT(*),CONCAT(0x7e,md5(1),0x7e,FLOOR(RAND(0)*2))x%20FROM%20INFORMATION_SCHEMA.CHARACTER_SETS%20GROUP%20BY%20x)a)'']	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+Packet [41]	Uri [/web/webadmin/reporter/view_server_log.php?server=localhost&act=stats&filename=&offset=1&count=1000&sortorder=&log=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E&offset=&sortitem=&filter=]	Nattacks [1]	Signatures	[2009714]
+Packet [44]	Uri [/web/Visitor/bin/WebStrings.srf?file=&obj_name=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [45]	Uri [/web/filter/jmol/js/jsmol/php/jsmol.php?call=saveFile&data=%3Cscript%3Ealert(%27XSS%27)%3C/script%3E&mimetype=text/html]	Nattacks [1]	Signatures	[2009714]
+Packet [50]	Uri [/web/assets/php/_devtools/installer/step_2.php?installation_path=%22%3E%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [51]	Uri [/web/main/calendar/agenda_list.php?type=xss"+onmouseover=alert(document.domain)+"]	Nattacks [1]	Signatures	[2009715]
+Packet [53]	Uri [/web/wp-content/plugins/aspose-importer-exporter/aspose_import_export_download?file=../../../wp-config.php]	Nattacks [1]	Signatures	[41420]
+Packet [57]	Uri [/web/wp-content/plugins/aspose-cloud-ebook-generator/aspose_posts_exporter_download.php?file=../../../wp-config.php]	Nattacks [1]	Signatures	[41420]
+Packet [63]	Uri [/web/upload/mobile/index.php?c=category&a=asynclist&price_max=1.0%20AND%20(SELECT%201%20FROM(SELECT%20COUNT(*),CONCAT(0x7e,md5(1),0x7e,FLOOR(RAND(0)*2))x%20FROM%20INFORMATION_SCHEMA.CHARACTER_SETS%20GROUP%20BY%20x)a)'']	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+Packet [65]	Uri [/web/wp-content/themes/oxygen-theme/download.php?file=../../../wp-config.php]	Nattacks [1]	Signatures	[41420]
+Packet [70]	Uri [/web/homeautomation_v3_3_2/api.php?do=groups/toggle&groupid=1&status=1&redirect=https://example.com/]	Nattacks [1]	Signatures	[2012998]
+Packet [71]	Uri [/web/qcubed/assets/php/_devtools/installer/step_2.php?installation_path=%22%3E%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [72]	Uri [/web/member/ajax_membergroup.php?action=post&membergroup=@`'`/*!50000Union+*/+/*!50000select+*/+md5(999999)+--+@`'`]	Nattacks [1]	Signatures	[2006446]
+Packet [77]	Uri [/web/monitoring?part=graph&graph=usedMemory%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [80]	Uri [/web/tiki-5.2/tiki-edit_wiki_section.php?type=%22%3E%3Cscript%3Ealert(31337)%3C/script%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [87]	Uri [/web/homeautomation_v3_3_2/api.php?do=groups/toggle&groupid=1&status=1&redirect=https://example.com/]	Nattacks [1]	Signatures	[2012998]
+Packet [88]	Uri [/web/qcubed/assets/php/_devtools/installer/step_2.php?installation_path=%22%3E%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+# N. packets [93], [27] with alerts, N. Alerts [31]
+# Execution time: 0.267754 s

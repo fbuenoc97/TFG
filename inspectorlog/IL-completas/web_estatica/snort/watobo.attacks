@@ -1,0 +1,15 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l watobo.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o snort/watobo.clean
+Packet [3265]	Uri [/web?watobo=%25%7B%28%23_memberAccess%5B%27allowStaticMethodAccess%27%5D%3Dtrue%29%28%23context%5B%27xwork.MethodAccessor.denyMethodExecution%27%5D%3Dfalse%29%28%23writer%3D%40org.apache.struts2.ServletActionContext%40getResponse%28%29.getWriter%28%29%2C%23writer.println%28%27INJ%27%2B%271645209911%27%29%2C%23writer.close%28%29%29%7D]	Nattacks [3]	Signatures	[2016920]	[2016956]	[2026094]
+# N. packets [3734], [1] with alerts, N. Alerts [3]
+# Execution time: 0.644805 s

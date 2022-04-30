@@ -1,0 +1,14 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l sql_injection.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/owasp/opensource/vega/sql_injection.clean
+Packet [10]	Uri [/?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [48]	Uri [/web?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [86]	Uri [/web/index.php?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [127]	Uri [/web/index.php/comments/feed?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+# N. packets [158], [4] with alerts, N. Alerts [36]
+# Execution time: 0.022135 s

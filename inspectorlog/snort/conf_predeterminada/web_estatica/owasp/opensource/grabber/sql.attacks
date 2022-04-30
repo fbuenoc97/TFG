@@ -1,0 +1,29 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l sql.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_estatica/owasp/opensource/grabber/sql.clean
+Packet [2]	Uri [/web/?demo-email=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [3]	Uri [/web/?demo-email=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [18]	Uri [/web/?name=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [19]	Uri [/web/?name=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [34]	Uri [/web/?demo-priority=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [35]	Uri [/web/?demo-priority=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [50]	Uri [/web/?demo-human=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [51]	Uri [/web/?demo-human=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [66]	Uri [/web/?demo-name=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [67]	Uri [/web/?demo-name=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [82]	Uri [/web/?demo-copy=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [83]	Uri [/web/?demo-copy=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [98]	Uri [/web/?email=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [99]	Uri [/web/?email=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE]	Nattacks [1]	Signatures	[2006445]
+Packet [114]	Uri [/web/?demo-email=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE&name=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE&demo-priority=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE&demo-human=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE&demo-name=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE&demo-copy=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE&email=1+UNI%2F%2A%2A%2FON+SELECT+ALL+FROM+WHERE&]	Nattacks [1]	Signatures	[2006445]
+# N. packets [121], [15] with alerts, N. Alerts [15]
+# Execution time: 0.389885 s

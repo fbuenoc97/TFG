@@ -1,0 +1,43 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l eval_code_injection.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/owasp/opensource/vega/eval_code_injection.clean
+Packet [11]	Uri [/?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [48]	Uri [/web?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [129]	Uri [/web/xmlrpc.php?rsd=phpinfo()%3B]	Nattacks [2]	Signatures	[300000051]	[300001871]
+Packet [133]	Uri [/web/wp-content?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [152]	Uri [/web/comments?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [155]	Uri [/web/xmlrpc.php/phpinfo()%3B]	Nattacks [2]	Signatures	[300000051]	[300001871]
+Packet [158]	Uri [/web/wp-json?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [161]	Uri [/web/wp-includes?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [168]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [423]	Uri [/web/wp-includes/rss-functions.php/abc123/]	Nattacks [1]	Signatures	[300001860]
+Packet [431]	Uri [/web/http:?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [435]	Uri [/web/wp-includes/rss-functions.php/]	Nattacks [1]	Signatures	[300001860]
+Packet [1093]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1094]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1095]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1096]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1097]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1100]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1101]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1103]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1104]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1105]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1138]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1139]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1145]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1146]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1149]	Uri [/web/wp-includes/rss-functions.php]	Nattacks [1]	Signatures	[300001860]
+Packet [1313]	Uri [/web/feed?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [2862]	Uri [/?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [2899]	Uri [/web?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [2938]	Uri [/web/index.php?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+Packet [2960]	Uri [/web/index.php/phpinfo()%3B]	Nattacks [2]	Signatures	[300000051]	[300001871]
+Packet [2963]	Uri [/web/comments/feed?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [9]	Signatures	[300000068]	[300000508]	[300000515]	[300000537]	[300001053]	[300001559]	[300001845]	[300001882]	[300002734]
+# N. packets [3010], [33] with alerts, N. Alerts [132]
+# Execution time: 0.319671 s

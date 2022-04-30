@@ -1,0 +1,42 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l xss.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/owasp/opensource/grendel-scan/xss.clean
+Packet [7]	Uri [/randomttszrb.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [8]	Uri [/randomyjarsg.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [9]	Uri [/randomniocxp.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [12]	Uri [/randomffmsch.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [17]	Uri [/randomrdjyhs.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [23]	Uri [/randomqgdwrt.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [28]	Uri [/randomnuerok.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [41]	Uri [/randomelvnyp.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [55]	Uri [/UAADMHTZ.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [58]	Uri [/UAADMHTZ.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [59]	Uri [/UAADMHTZ.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [61]	Uri [/UAADMHTZ.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [63]	Uri [/UAADMHTZ.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [69]	Uri [/UAADMHTZ.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [73]	Uri [/UAADMHTZ.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [84]	Uri [/UAADMHTZ.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [88]	Uri [/web/randomqlenuo.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [94]	Uri [/web/randomqlenuo.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [122]	Uri [/web/randomrdcqdd.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [123]	Uri [/web/randomrdcqdd.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [132]	Uri [/web/randomvplugl.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [133]	Uri [/web/randomvplugl.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [136]	Uri [/web/randomtrwcyi.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [137]	Uri [/web/randomtrwcyi.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [138]	Uri [/web/randomueaknp.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [139]	Uri [/web/randomueaknp.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [174]	Uri [/web/randomgknzxl.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [175]	Uri [/web/randomgknzxl.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [180]	Uri [/web/randomoiqdbj.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [181]	Uri [/web/randomoiqdbj.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [186]	Uri [/web/randommqycgt.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [187]	Uri [/web/randommqycgt.inc]	Nattacks [1]	Signatures	[300001517]
+# N. packets [191], [32] with alerts, N. Alerts [32]
+# Execution time: 0.016540 s

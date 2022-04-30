@@ -1,0 +1,34 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l xss.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_estatica/owasp/opensource/grendel-scan/xss.clean
+Packet [2]	Uri [/randomfdmibd.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [8]	Uri [/randombinlks.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [19]	Uri [/randompuhfbc.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [22]	Uri [/randomztjarx.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [27]	Uri [/randomdtertk.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [35]	Uri [/randombhvrcm.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [36]	Uri [/randomignqvo.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [42]	Uri [/randomkzaiaf.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [56]	Uri [/web/randomghuizz.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [61]	Uri [/FOKRCXWK.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [65]	Uri [/FOKRCXWK.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [66]	Uri [/web/randomlmazdj.bat]	Nattacks [1]	Signatures	[300001562]
+Packet [67]	Uri [/FOKRCXWK.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [71]	Uri [/FOKRCXWK.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [75]	Uri [/FOKRCXWK.exe]	Nattacks [1]	Signatures	[300001562]
+Packet [78]	Uri [/web/randomfepwln.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [85]	Uri [/FOKRCXWK.inc]	Nattacks [1]	Signatures	[300001517]
+Packet [92]	Uri [/web/randomngrfpf.dll]	Nattacks [1]	Signatures	[300001562]
+Packet [93]	Uri [/FOKRCXWK.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [100]	Uri [/web/randomivpfjo.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [111]	Uri [/FOKRCXWK.pl]	Nattacks [1]	Signatures	[300001513]
+Packet [114]	Uri [/web/randomxuvyio.cfm]	Nattacks [1]	Signatures	[300001516]
+Packet [120]	Uri [/web/randomxlfuwq.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [128]	Uri [/web/randomogpzyk.exe]	Nattacks [1]	Signatures	[300001562]
+# N. packets [146], [24] with alerts, N. Alerts [24]
+# Execution time: 0.013528 s

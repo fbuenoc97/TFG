@@ -1,0 +1,26 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l redirect.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/wapiti/redirect.clean
+Packet [6]	Uri [/web/xmlrpc.php?rsd]	Nattacks [1]	Signatures	[2018754]
+Packet [9]	Uri [/web/xmlrpc.php]	Nattacks [1]	Signatures	[2018754]
+Packet [15]	Uri [/web/wp-includes/wlwmanifest.xml]	Nattacks [1]	Signatures	[2031505]
+Packet [90]	Uri [/web/wp-login.php?redirect_to=https%3A%2F%2Fopenbugbounty.org%2F&reauth=1]	Nattacks [1]	Signatures	[2012998]
+Packet [91]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=https%3A%2F%2Fopenbugbounty.org%2F]	Nattacks [1]	Signatures	[2012998]
+Packet [92]	Uri [/web/wp-login.php?wp_lang=https%3A%2F%2Fopenbugbounty.org%2F]	Nattacks [1]	Signatures	[2012998]
+Packet [93]	Uri [/web/wp-login.php?action=https%3A%2F%2Fopenbugbounty.org%2F]	Nattacks [1]	Signatures	[2012998]
+Packet [94]	Uri [/web/wp-login.php?redirect_to=https%3A%2F%2Fopenbugbounty.org%2F&wp_lang=es_ES]	Nattacks [1]	Signatures	[2012998]
+Packet [95]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&wp_lang=https%3A%2F%2Fopenbugbounty.org%2F]	Nattacks [1]	Signatures	[2012998]
+Packet [96]	Uri [/web/wp-login.php?action=https%3A%2F%2Fopenbugbounty.org%2F&wp_lang=es_ES]	Nattacks [1]	Signatures	[2012998]
+Packet [97]	Uri [/web/wp-login.php?action=lostpassword&wp_lang=https%3A%2F%2Fopenbugbounty.org%2F]	Nattacks [1]	Signatures	[2012998]
+Packet [98]	Uri [/web/xmlrpc.php?rsd=https%3A%2F%2Fopenbugbounty.org%2F]	Nattacks [2]	Signatures	[2012998]	[2018754]
+# N. packets [98], [12] with alerts, N. Alerts [13]
+# Execution time: 0.238052 s

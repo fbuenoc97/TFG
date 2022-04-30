@@ -1,0 +1,26 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l injection.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/owasp/opensource/nuclei/injection.clean
+Packet [2]	Uri [/web/glpi/scripts/unlock_tasks.php?cycle=1%20UNION%20ALL%20SELECT%201,(@@version)--%20&only_tasks=1]	Nattacks [3]	Signatures	[300000033]	[300000068]	[300001115]
+Packet [4]	Uri [/web/plus/pass_reset.php?L=english&pmc_username=%22%3E%3Cscript%3Ealert(1337)%3C/script%3E%3C]	Nattacks [3]	Signatures	[300000508]	[300000515]	[300000537]
+Packet [5]	Uri [/web/etc/passwd]	Nattacks [1]	Signatures	[300001559]
+Packet [7]	Uri [/web/maint/modules/home/index.php?lang=english|cat%20/etc/passwd]	Nattacks [1]	Signatures	[300001559]
+Packet [12]	Uri [/web/tools.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [16]	Uri [/web/cgi-bin/slogin/login.py]	Nattacks [1]	Signatures	[300001513]
+Packet [19]	Uri [/web/wp-json/wc/store/products/collection-data?calculate_attribute_counts[0][query_type]=or&calculate_attribute_counts[0][taxonomy]=%252522%252529%252520union%252520all%252520select%2525201%25252Cconcat%252528id%25252C0x3a%25252c%252522sqli-test%252522%252529from%252520wp_users%252520where%252520%252549%252544%252520%252549%25254E%252520%2525281%252529%25253B%252500]	Nattacks [2]	Signatures	[300001021]	[300001068]
+Packet [23]	Uri [/web/cgi-bin/weblogin.cgi?username=admin';cat]	Nattacks [3]	Signatures	[300000051]	[300000052]	[300001513]
+Packet [24]	Uri [/web/scripts/unlock_tasks.php?cycle=1%20UNION%20ALL%20SELECT%201,(@@version)--%20&only_tasks=1]	Nattacks [3]	Signatures	[300000033]	[300000068]	[300001115]
+Packet [28]	Uri [/web/?rest_route=/wc/store/products/collection-data&calculate_attribute_counts[0][query_type]=or&calculate_attribute_counts[0][taxonomy]=%252522%252529%252520union%252520all%252520select%2525201%25252Cconcat%252528id%25252C0x3a%25252c%252522sqli-test%252522%252529from%252520wp_users%252520where%252520%252549%252544%252520%252549%25254E%252520%2525281%252529%25253B%252500]	Nattacks [2]	Signatures	[300001021]	[300001068]
+Packet [29]	Uri [/web/plugins/weathermap/configs/poc.conf]	Nattacks [1]	Signatures	[300001517]
+Packet [36]	Uri [/web/maint/modules/home/index.php?lang=english|cat%20/etc/passwd]	Nattacks [1]	Signatures	[300001559]
+Packet [38]	Uri [/web/tools.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [40]	Uri [/web/tools.cgi]	Nattacks [1]	Signatures	[300001513]
+Packet [44]	Uri [/web/?rest_route=/wc/store/products/collection-data&calculate_attribute_counts[0][query_type]=or&calculate_attribute_counts[0][taxonomy]=%252522%252529%252520union%252520all%252520select%2525201%25252Cconcat%252528id%25252C0x3a%25252c%252522sqli-test%252522%252529from%252520wp_users%252520where%252520%252549%252544%252520%252549%25254E%252520%2525281%252529%25253B%252500]	Nattacks [2]	Signatures	[300001021]	[300001068]
+Packet [56]	Uri [/web/cgi-bin/file_transfer.cgi]	Nattacks [1]	Signatures	[300001513]
+# N. packets [58], [16] with alerts, N. Alerts [27]
+# Execution time: 0.024269 s

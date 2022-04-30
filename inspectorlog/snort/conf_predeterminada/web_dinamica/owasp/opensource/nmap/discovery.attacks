@@ -1,0 +1,36 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l discovery.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/nmap/discovery.clean
+Packet [10]	Uri [/?=PHPE9568F36-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011144]
+Packet [162]	Uri [/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000]	Nattacks [1]	Signatures	[2011141]
+Packet [197]	Uri [/?p4yl04d2=1%20UNION%20ALL%20SELECT%201,2,3,table_name%20FROM%20information_schema.tables,/?p4yl04d3=<script>alert(document.cookie)</script>]	Nattacks [4]	Signatures	[2006445]	[2006446]	[2009714]	[2017808]
+Packet [211]	Uri [/?parameter=<script>alert(1)</script>]	Nattacks [1]	Signatures	[2009714]
+Packet [216]	Uri [/?parameter=%3Cscript%3Ealert%281%29%3C%2Fscript%3E]	Nattacks [1]	Signatures	[2009714]
+Packet [1045]	Uri [/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [1062]	Uri [/level/15/exec/-/configure/http]	Nattacks [1]	Signatures	[2010623]
+Packet [1221]	Uri [/manager/html/upload]	Nattacks [1]	Signatures	[2009220]
+Packet [1226]	Uri [/web-console/ServerInfo.jsp]	Nattacks [1]	Signatures	[24342]
+Packet [1227]	Uri [/web-console/Invoker]	Nattacks [1]	Signatures	[24342]
+Packet [1228]	Uri [/invoker/JMXInvokerServlet]	Nattacks [1]	Signatures	[24343]
+Packet [1230]	Uri [/jmx-console/]	Nattacks [1]	Signatures	[21516]
+Packet [1231]	Uri [/admin-console/]	Nattacks [1]	Signatures	[21517]
+Packet [1232]	Uri [/CFIDE/administrator/enter.cfm]	Nattacks [2]	Signatures	[25975]	[2016184]
+Packet [1233]	Uri [/CFIDE/administrator/entman/index.cfm]	Nattacks [2]	Signatures	[25975]	[2016184]
+Packet [1235]	Uri [/CFIDE/administrator/archives/index.cfm]	Nattacks [2]	Signatures	[25975]	[2016184]
+Packet [1237]	Uri [/CFIDE/componentutils/login.cfm]	Nattacks [2]	Signatures	[25977]	[2016182]
+Packet [1238]	Uri [/CFIDE/Administrator/startstop.html]	Nattacks [1]	Signatures	[2016184]
+Packet [1583]	Uri [/Info.live.htm]	Nattacks [1]	Signatures	[2012116]
+Packet [1585]	Uri [/plugins/PluginController.php?path=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwindows%2fwin.ini%00]	Nattacks [1]	Signatures	[2012750]
+Packet [1590]	Uri [/rom-0]	Nattacks [1]	Signatures	[2018232]
+Packet [1597]	Uri [/cgi-bin/config.exp]	Nattacks [1]	Signatures	[2033089]
+# N. packets [2635], [22] with alerts, N. Alerts [29]
+# Execution time: 0.042756 s

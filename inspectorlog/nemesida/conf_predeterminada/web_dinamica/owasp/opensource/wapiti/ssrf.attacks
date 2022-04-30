@@ -1,0 +1,20 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l ssrf.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/owasp/opensource/wapiti/ssrf.clean
+Packet [32]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F&format=xml]	Nattacks [1]	Signatures	[300002413]
+Packet [36]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [47]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [48]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F&format=xml]	Nattacks [1]	Signatures	[300002413]
+Packet [60]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [1]	Signatures	[300002413]
+Packet [63]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&wp_lang=es_ES]	Nattacks [1]	Signatures	[300002413]
+Packet [87]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F&format=https%3A%2F%2Fwapiti3.ovh%2Fssrf%2Fm0vwok%2F17%2F666f726d6174%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [89]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F&format=https%3A%2F%2Fwapiti3.ovh%2Fssrf%2Fm0vwok%2F29%2F666f726d6174%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [91]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=https%3A%2F%2Fwapiti3.ovh%2Fssrf%2Fm0vwok%2F36%2F726561757468%2F]	Nattacks [1]	Signatures	[300002413]
+Packet [93]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&wp_lang=https%3A%2F%2Fwapiti3.ovh%2Fssrf%2Fm0vwok%2F39%2F77705f6c616e67%2F]	Nattacks [1]	Signatures	[300002413]
+# N. packets [123], [10] with alerts, N. Alerts [10]
+# Execution time: 0.024683 s

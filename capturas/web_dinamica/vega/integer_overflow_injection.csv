@@ -1,0 +1,230 @@
+http.accept	http.accept_encoding	http.accept_language	http.authbasic	http.authcitrix	http.authcitrix.domain	http.authcitrix.password	http.authcitrix.session	http.authcitrix.user	http.authorization	http.bad_header_name	http.cache_control	http.chat	http.chunk_boundary	http.chunk_size	http.chunkd_and_length	http.chunked_trailer_part	http.connection	http.content_encoding	http.content_length	http.content_length_header	http.content_type	http.cookie_pair	http.date	http.decompression_disabled	http.decompression_failed	http.file_data	http.host	http.http2_settings	http.http2_settings_uri	http.last_modified	http.leading_crlf	http.location	http.next_request_in	http.next_response_in	http.notification	http.prev_request_in	http.proxy_authenticate	http.proxy_authorization	http.proxy_connect_host	http.proxy_connect_port	http.referer	http.request	http.request.full_uri	http.request.line	http.request.method	http.request.uri.path	http.request.uri.query	http.request.uri.query.parameter	http.request.version	http.request_in	http.request_number	http.sec_websocket_accept	http.sec_websocket_extensions	http.sec_websocket_key	http.sec_websocket_protocol	http.sec_websocket_version	http.server	http.set_cookie	http.ssl_port	http.subdissector_failed	http.te_and_length	http.te_unknown	http.time	http.tls_port	http.transfer_encoding	http.unknown_header	http.upgrade	http.user_agent	http.www_authenticate	http.x_forwarded_for	http.cookie	http.request.uri
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104									3						1	http://192.168.1.104/web/comments		GET				HTTP/1.1																			UserAgent				/web/comments
+	gzip,deflate																Keep-Alive										192.168.1.104									4						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									28						1	http://192.168.1.104/abc123/		GET				HTTP/1.1																			UserAgent				/abc123/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									34						1	http://192.168.1.104/nosuchpage123		GET				HTTP/1.1																			UserAgent				/nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									38						1	http://192.168.1.104/lpt9		GET				HTTP/1.1																			UserAgent				/lpt9
+	gzip,deflate																Keep-Alive										192.168.1.104									39						1	http://192.168.1.104/~nosuchpage123		GET				HTTP/1.1																			UserAgent				/~nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									40						1	http://192.168.1.104/nosuchpage123		GET				HTTP/1.1																			UserAgent				/nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									41						1	http://192.168.1.104/?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)		GET				HTTP/1.1																			UserAgent				/?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)
+	gzip,deflate																Keep-Alive										192.168.1.104									42						1	http://192.168.1.104/?_test1=ccddeeeimmnossstwwxy.:\\\&_test2=acdepsstw//&_test3=bhins//&_test4=CEEFLMORSTeeinnnosttx-*&_test5=cefhilnosu///&_test6=acceiilpprrrssttt1)(&_test7=aaaceijlprrsttv1):(		GET				HTTP/1.1																			UserAgent				/?_test1=ccddeeeimmnossstwwxy.:\\\&_test2=acdepsstw//&_test3=bhins//&_test4=CEEFLMORSTeeinnnosttx-*&_test5=cefhilnosu///&_test6=acceiilpprrrssttt1)(&_test7=aaaceijlprrsttv1):(
+	gzip,deflate																Keep-Alive										192.168.1.104									45						1	http://192.168.1.104/PUT-putfile		PUT				HTTP/1.1																			UserAgent				/PUT-putfile
+	gzip,deflate																Keep-Alive										192.168.1.104									48						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									49						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									52						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									31						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									55						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									61						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									58						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									64						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									70						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									73						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									76						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									79						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									82						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									85						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									88						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									91						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									94						1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104									67						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									98						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									101						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									104						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									107						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									112						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									115						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									122						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									125						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									128						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									119						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									139						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									150						1	http://192.168.1.104/		GET				HTTP/1.1																			UserAgent				/
+	gzip,deflate																Keep-Alive										192.168.1.104									154						1	http://192.168.1.104/web/nosuchpage123		GET				HTTP/1.1																			UserAgent				/web/nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									157						1	http://192.168.1.104/-0000012345		GET				HTTP/1.1																			UserAgent				/-0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									161						1	http://192.168.1.104/0000023456		GET				HTTP/1.1																			UserAgent				/0000023456
+	gzip,deflate																Keep-Alive										192.168.1.104									162						1	http://192.168.1.104/4294967296		GET				HTTP/1.1																			UserAgent				/4294967296
+	gzip,deflate																Keep-Alive										192.168.1.104									163						1	http://192.168.1.104/4294967295		GET				HTTP/1.1																			UserAgent				/4294967295
+	gzip,deflate																Keep-Alive										192.168.1.104									97						1	http://192.168.1.104/2147483648		GET				HTTP/1.1																			UserAgent				/2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									165						1	http://192.168.1.104/2147483647		GET				HTTP/1.1																			UserAgent				/2147483647
+	gzip,deflate																Keep-Alive										192.168.1.104									167						1	http://192.168.1.104/0000012345		GET				HTTP/1.1																			UserAgent				/0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									168						1	http://192.168.1.104/-2147483648		GET				HTTP/1.1																			UserAgent				/-2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									164						1	http://192.168.1.104/-2147483649		GET				HTTP/1.1																			UserAgent				/-2147483649
+	gzip,deflate																Keep-Alive										192.168.1.104									170						1	http://192.168.1.104/-2147483649		GET				HTTP/1.1																			UserAgent				/-2147483649
+	gzip,deflate																Keep-Alive										192.168.1.104									172						1	http://192.168.1.104/0000023456		GET				HTTP/1.1																			UserAgent				/0000023456
+	gzip,deflate																Keep-Alive										192.168.1.104									169						1	http://192.168.1.104/4294967296		GET				HTTP/1.1																			UserAgent				/4294967296
+	gzip,deflate																Keep-Alive										192.168.1.104									183						1	http://192.168.1.104/4294967295		GET				HTTP/1.1																			UserAgent				/4294967295
+	gzip,deflate																Keep-Alive										192.168.1.104									192						1	http://192.168.1.104/2147483648		GET				HTTP/1.1																			UserAgent				/2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									195						1	http://192.168.1.104/2147483647		GET				HTTP/1.1																			UserAgent				/2147483647
+	gzip,deflate																Keep-Alive										192.168.1.104									199						1	http://192.168.1.104/0000012345		GET				HTTP/1.1																			UserAgent				/0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									201						1	http://192.168.1.104/-2147483648		GET				HTTP/1.1																			UserAgent				/-2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									202						1	http://192.168.1.104/-0000012345		GET				HTTP/1.1																			UserAgent				/-0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									203						1	http://192.168.1.104/web/nosuchpage123		GET				HTTP/1.1																			UserAgent				/web/nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									197						1	http://192.168.1.104/web/~nosuchpage123		GET				HTTP/1.1																			UserAgent				/web/~nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									160						1	http://192.168.1.104/web/lpt9		GET				HTTP/1.1																			UserAgent				/web/lpt9
+	gzip,deflate																Keep-Alive										192.168.1.104									206						1	http://192.168.1.104/web?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)		GET				HTTP/1.1																			UserAgent				/web?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)
+	gzip,deflate																Keep-Alive										192.168.1.104									261						1	http://192.168.1.104/web?_test1=ccddeeeimmnossstwwxy.:\\\&_test2=acdepsstw//&_test3=bhins//&_test4=CEEFLMORSTeeinnnosttx-*&_test5=cefhilnosu///&_test6=acceiilpprrrssttt1)(&_test7=aaaceijlprrsttv1):(		GET				HTTP/1.1																			UserAgent				/web?_test1=ccddeeeimmnossstwwxy.:\\\&_test2=acdepsstw//&_test3=bhins//&_test4=CEEFLMORSTeeinnnosttx-*&_test5=cefhilnosu///&_test6=acceiilpprrrssttt1)(&_test7=aaaceijlprrsttv1):(
+	gzip,deflate																Keep-Alive										192.168.1.104									262						1	http://192.168.1.104/web/index.php/		GET				HTTP/1.1																			UserAgent				/web/index.php/
+	gzip,deflate																Keep-Alive										192.168.1.104									205						1	http://192.168.1.104/PUT-putfile		PUT				HTTP/1.1																			UserAgent				/PUT-putfile
+	gzip,deflate																Keep-Alive										192.168.1.104									204						1	http://192.168.1.104/web/comments/		GET				HTTP/1.1																			UserAgent				/web/comments/
+	gzip,deflate																Keep-Alive										192.168.1.104									264						1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104									263						1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			UserAgent				/web/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/nosuchpage123		GET				HTTP/1.1																			UserAgent				/web/index.php/nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									265						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									376						1	http://192.168.1.104/web/comments/feed/nosuchpage123		GET				HTTP/1.1																			UserAgent				/web/comments/feed/nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									309						1	http://192.168.1.104/web/-0000012345		GET				HTTP/1.1																			UserAgent				/web/-0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									306						1	http://192.168.1.104/web/-2147483649		GET				HTTP/1.1																			UserAgent				/web/-2147483649
+	gzip,deflate																Keep-Alive										192.168.1.104									303						1	http://192.168.1.104/web/0000023456		GET				HTTP/1.1																			UserAgent				/web/0000023456
+	gzip,deflate																Keep-Alive										192.168.1.104									300						1	http://192.168.1.104/web/4294967296		GET				HTTP/1.1																			UserAgent				/web/4294967296
+	gzip,deflate																Keep-Alive										192.168.1.104									297						1	http://192.168.1.104/web/4294967295		GET				HTTP/1.1																			UserAgent				/web/4294967295
+	gzip,deflate																Keep-Alive										192.168.1.104									294						1	http://192.168.1.104/web/2147483648		GET				HTTP/1.1																			UserAgent				/web/2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									335						1	http://192.168.1.104/web/2147483647		GET				HTTP/1.1																			UserAgent				/web/2147483647
+	gzip,deflate																Keep-Alive										192.168.1.104									291						1	http://192.168.1.104/web/0000012345		GET				HTTP/1.1																			UserAgent				/web/0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									273						1	http://192.168.1.104/web/-2147483648		GET				HTTP/1.1																			UserAgent				/web/-2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									564						1	http://192.168.1.104/web/comments/feed/lpt9		GET				HTTP/1.1																			UserAgent				/web/comments/feed/lpt9
+	gzip,deflate																Keep-Alive										192.168.1.104									288						1	http://192.168.1.104/web/comments/feed/~nosuchpage123		GET				HTTP/1.1																			UserAgent				/web/comments/feed/~nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									279						1	http://192.168.1.104/web/comments/feed/nosuchpage123		GET				HTTP/1.1																			UserAgent				/web/comments/feed/nosuchpage123
+	gzip,deflate																Keep-Alive										192.168.1.104									356						1	http://192.168.1.104/web/index.php?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)		GET				HTTP/1.1																			UserAgent				/web/index.php?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)
+	gzip,deflate																Keep-Alive										192.168.1.104									315						1	http://192.168.1.104/web/index.php?_test1=ccddeeeimmnossstwwxy.:\\\&_test2=acdepsstw//&_test3=bhins//&_test4=CEEFLMORSTeeinnnosttx-*&_test5=cefhilnosu///&_test6=acceiilpprrrssttt1)(&_test7=aaaceijlprrsttv1):(		GET				HTTP/1.1																			UserAgent				/web/index.php?_test1=ccddeeeimmnossstwwxy.:\\\&_test2=acdepsstw//&_test3=bhins//&_test4=CEEFLMORSTeeinnnosttx-*&_test5=cefhilnosu///&_test6=acceiilpprrrssttt1)(&_test7=aaaceijlprrsttv1):(
+	gzip,deflate																Keep-Alive										192.168.1.104									338						1	http://192.168.1.104/web/-0000012345		GET				HTTP/1.1																			UserAgent				/web/-0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									344						1	http://192.168.1.104/web/-2147483649		GET				HTTP/1.1																			UserAgent				/web/-2147483649
+	gzip,deflate																Keep-Alive										192.168.1.104									350						1	http://192.168.1.104/web/0000023456		GET				HTTP/1.1																			UserAgent				/web/0000023456
+	gzip,deflate																Keep-Alive										192.168.1.104									341						1	http://192.168.1.104/web/4294967296		GET				HTTP/1.1																			UserAgent				/web/4294967296
+	gzip,deflate																Keep-Alive										192.168.1.104									347						1	http://192.168.1.104/web/4294967295		GET				HTTP/1.1																			UserAgent				/web/4294967295
+	gzip,deflate																Keep-Alive										192.168.1.104									353						1	http://192.168.1.104/web/2147483648		GET				HTTP/1.1																			UserAgent				/web/2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									651						1	http://192.168.1.104/web/2147483647		GET				HTTP/1.1																			UserAgent				/web/2147483647
+	gzip,deflate																Keep-Alive										192.168.1.104									318						1	http://192.168.1.104/web/0000012345		GET				HTTP/1.1																			UserAgent				/web/0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									327						1	http://192.168.1.104/web/-2147483648		GET				HTTP/1.1																			UserAgent				/web/-2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									681						1	http://192.168.1.104/webfoo/feed		GET				HTTP/1.1																			UserAgent				/webfoo/feed
+	gzip,deflate																Keep-Alive										192.168.1.104									1161						1	http://192.168.1.104/web/comments/feed?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)		GET				HTTP/1.1																			UserAgent				/web/comments/feed?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)
+	gzip,deflate																Keep-Alive										192.168.1.104									680						1	http://192.168.1.104/web/comments/feed?_test1=ccddeeeimmnossstwwxy.:\\\&_test2=acdepsstw//&_test3=bhins//&_test4=CEEFLMORSTeeinnnosttx-*&_test5=cefhilnosu///&_test6=acceiilpprrrssttt1)(&_test7=aaaceijlprrsttv1):(		GET				HTTP/1.1																			UserAgent				/web/comments/feed?_test1=ccddeeeimmnossstwwxy.:\\\&_test2=acdepsstw//&_test3=bhins//&_test4=CEEFLMORSTeeinnnosttx-*&_test5=cefhilnosu///&_test6=acceiilpprrrssttt1)(&_test7=aaaceijlprrsttv1):(
+	gzip,deflate																Keep-Alive										192.168.1.104									822						1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104									823						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									678						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									654						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									653						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									658						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									655						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									652						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									657						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									656						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									650						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									334						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									331						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									312						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									321						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									324						1	http://192.168.1.104/web/index.php		GET				HTTP/1.1																			UserAgent				/web/index.php
+	gzip,deflate																Keep-Alive										192.168.1.104									1163						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1162						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									983						1	http://192.168.1.104/web/comments/PUT-putfile		PUT				HTTP/1.1																			UserAgent				/web/comments/PUT-putfile
+	gzip,deflate																Keep-Alive										192.168.1.104									929						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									979						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									949						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									927						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									926						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									966						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									940						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									928						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1166						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments/abc123/		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/abc123/
+	gzip,deflate																Keep-Alive										192.168.1.104									1168						1	http://192.168.1.104/web/index.php/comments/		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/
+	gzip,deflate																Keep-Alive										192.168.1.104									1180						1	http://192.168.1.104/web/index.php/-2147483649		GET				HTTP/1.1																			UserAgent				/web/index.php/-2147483649
+	gzip,deflate																Keep-Alive										192.168.1.104									1177						1	http://192.168.1.104/web/index.php/-2147483648		GET				HTTP/1.1																			UserAgent				/web/index.php/-2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									1178						1	http://192.168.1.104/web/index.php/-0000012345		GET				HTTP/1.1																			UserAgent				/web/index.php/-0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									1181						1	http://192.168.1.104/web/index.php/0000023456		GET				HTTP/1.1																			UserAgent				/web/index.php/0000023456
+	gzip,deflate																Keep-Alive										192.168.1.104									1179						1	http://192.168.1.104/web/index.php/4294967296		GET				HTTP/1.1																			UserAgent				/web/index.php/4294967296
+	gzip,deflate																Keep-Alive										192.168.1.104									1174						1	http://192.168.1.104/web/index.php/4294967295		GET				HTTP/1.1																			UserAgent				/web/index.php/4294967295
+	gzip,deflate																Keep-Alive										192.168.1.104									1175						1	http://192.168.1.104/web/index.php/2147483648		GET				HTTP/1.1																			UserAgent				/web/index.php/2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									1172						1	http://192.168.1.104/web/index.php/2147483647		GET				HTTP/1.1																			UserAgent				/web/index.php/2147483647
+	gzip,deflate																Keep-Alive										192.168.1.104									1171						1	http://192.168.1.104/web/index.php/0000012345		GET				HTTP/1.1																			UserAgent				/web/index.php/0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									1383						1	http://192.168.1.104/web/comments/feed/-0000012345		GET				HTTP/1.1																			UserAgent				/web/comments/feed/-0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									1356						1	http://192.168.1.104/web/comments/feed/-2147483649		GET				HTTP/1.1																			UserAgent				/web/comments/feed/-2147483649
+	gzip,deflate																Keep-Alive										192.168.1.104									1386						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1375						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1378						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1402						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1404						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1372						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1409						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1390						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1410						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1403						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1361						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1380						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1405						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1408						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1406						1	http://192.168.1.104/web/comments/feed/		GET				HTTP/1.1																			UserAgent				/web/comments/feed/
+	gzip,deflate																Keep-Alive										192.168.1.104									1364						1	http://192.168.1.104/web/comments/feed/0000023456		GET				HTTP/1.1																			UserAgent				/web/comments/feed/0000023456
+	gzip,deflate																Keep-Alive										192.168.1.104									1363						1	http://192.168.1.104/web/comments/feed/4294967296		GET				HTTP/1.1																			UserAgent				/web/comments/feed/4294967296
+	gzip,deflate																Keep-Alive										192.168.1.104									1362						1	http://192.168.1.104/web/comments/feed/4294967295		GET				HTTP/1.1																			UserAgent				/web/comments/feed/4294967295
+	gzip,deflate																Keep-Alive										192.168.1.104									1407						1	http://192.168.1.104/web/comments/feed/2147483648		GET				HTTP/1.1																			UserAgent				/web/comments/feed/2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									1359						1	http://192.168.1.104/web/comments/feed/2147483647		GET				HTTP/1.1																			UserAgent				/web/comments/feed/2147483647
+	gzip,deflate																Keep-Alive										192.168.1.104									1358						1	http://192.168.1.104/web/comments/feed/0000012345		GET				HTTP/1.1																			UserAgent				/web/comments/feed/0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									1360						1	http://192.168.1.104/web/comments/feed/-2147483648		GET				HTTP/1.1																			UserAgent				/web/comments/feed/-2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									1354						1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104									1355						1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104									1357						1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104															1	http://192.168.1.104/web/index.php/comments		GET				HTTP/1.1																			UserAgent				/web/index.php/comments
+	gzip,deflate																Keep-Alive										192.168.1.104									1483						1	http://192.168.1.104/web/comments/feed/0000012345		GET				HTTP/1.1																			UserAgent				/web/comments/feed/0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									1468						1	http://192.168.1.104/web/comments/feed/-2147483648		GET				HTTP/1.1																			UserAgent				/web/comments/feed/-2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									1515						1	http://192.168.1.104/web/comments/feed/-0000012345		GET				HTTP/1.1																			UserAgent				/web/comments/feed/-0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									1524						1	http://192.168.1.104/web/comments/feed/-2147483649		GET				HTTP/1.1																			UserAgent				/web/comments/feed/-2147483649
+	gzip,deflate																Keep-Alive										192.168.1.104									1475						1	http://192.168.1.104/web/comments/feed/0000023456		GET				HTTP/1.1																			UserAgent				/web/comments/feed/0000023456
+	gzip,deflate																Keep-Alive										192.168.1.104									1527						1	http://192.168.1.104/web/comments/feed/4294967296		GET				HTTP/1.1																			UserAgent				/web/comments/feed/4294967296
+	gzip,deflate																Keep-Alive										192.168.1.104									1471						1	http://192.168.1.104/web/comments/feed/4294967295		GET				HTTP/1.1																			UserAgent				/web/comments/feed/4294967295
+	gzip,deflate																Keep-Alive										192.168.1.104									1472						1	http://192.168.1.104/web/comments/feed/2147483648		GET				HTTP/1.1																			UserAgent				/web/comments/feed/2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									1482						1	http://192.168.1.104/web/comments/feed/2147483647		GET				HTTP/1.1																			UserAgent				/web/comments/feed/2147483647
+	gzip,deflate																Keep-Alive										192.168.1.104									1481						1	http://192.168.1.104/web/index.php/comments/-0000012345		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/-0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									1470						1	http://192.168.1.104/web/index.php/comments/-2147483649		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/-2147483649
+	gzip,deflate																Keep-Alive										192.168.1.104									1509						1	http://192.168.1.104/web/index.php/comments/0000023456		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/0000023456
+	gzip,deflate																Keep-Alive										192.168.1.104									1479						1	http://192.168.1.104/web/index.php/comments/4294967296		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/4294967296
+	gzip,deflate																Keep-Alive										192.168.1.104									1512						1	http://192.168.1.104/web/index.php/comments/4294967295		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/4294967295
+	gzip,deflate																Keep-Alive										192.168.1.104									1463						1	http://192.168.1.104/web/index.php/comments/2147483648		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/2147483648
+	gzip,deflate																Keep-Alive										192.168.1.104									1485						1	http://192.168.1.104/web/index.php/comments/2147483647		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/2147483647
+	gzip,deflate																Keep-Alive										192.168.1.104									1503						1	http://192.168.1.104/web/index.php/comments/0000012345		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/0000012345
+	gzip,deflate																Keep-Alive										192.168.1.104									1497						1	http://192.168.1.104/web/index.php/comments/-2147483648		GET				HTTP/1.1																			UserAgent				/web/index.php/comments/-2147483648

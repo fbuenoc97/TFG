@@ -1,0 +1,17 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l xsser.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o nemesida/xsser.clean
+Packet [9]	Uri [/web/index.php/comments/feed/quot;https:/gravatar.com/%33%37%2c%35%30%2c%35%30%2c%33%37%2c%35%31%2c%36%39%2c%31%30%30%2c%35%31%2c%34%38%2c%31%30%30%2c%31%30%30%2c%35%37%2c%35%36%2c%35%31%2c%35%30%2c%39%37%2c%35%36%2c%34%39%2c%35%35%2c%34%38%2c%39%39%2c%31%30%30%2c%34%38%2c%35%30%2c%39%39%2c%39%39%2c%39%38%2c%35%31%2c%35%33%2c%35%32%2c%39%39%2c%34%39%2c%35%36%2c%31%30%32%2c%39%39%2c%39%39%2c%31%30%31%2c%31%30%32]	Nattacks [3]	Signatures	[300000031]	[300000051]	[300001879]
+Packet [22]	Uri [/web/index.php/2022/01/21/hola-mundo/\'http:/192.168.1.102/web/index.php/2022/01/21/hola-mundo/?replytocom=34%252C62%252C55%252C99%252C54%252C52%252C100%252C52%252C49%252C56%252C54%252C99%252C101%252C53%252C52%252C102%252C54%252C98%252C49%252C97%252C55%252C101%252C101%252C101%252C50%252C98%252C55%252C100%252C52%252C54%252C57%252C52%252C57%252C54]	Nattacks [2]	Signatures	[300000052]	[300001879]
+Packet [29]	Uri [/web/index.php/2022/01/21/hola-mundo/\'https:/wordpress.org/\'/34%2C62%2C52%2C50%2C49%2C54%2C97%2C102%2C53%2C99%2C54%2C56%2C100%2C50%2C50%2C49%2C48%2C50%2C49%2C57%2C99%2C49%2C53%2C52%2C51%2C56%2C56%2C99%2C50%2C53%2C101%2C97%2C57%2C99]	Nattacks [3]	Signatures	[300000031]	[300000052]	[300001879]
+Packet [38]	Uri [/web/index.php/2022/01/21/hola-mundo/\'https:/wordpress.org/\'/%22%3e%35%61%31%64%61%65%31%39%66%33%64%38%66%66%35%30%62%36%30%31%37%32%61%37%34%61%63%36%37%63%39%33]	Nattacks [2]	Signatures	[300000052]	[300001879]
+Packet [44]	Uri [/web/index.php/2022/01/21/hola-mundo/\'http:/192.168.1.102/web/index.php/2022/01/21/hola-mundo/?replytocom=%2522%253e%2538%2563%2531%2535%2565%2561%2539%2532%2536%2531%2530%2533%2531%2531%2539%2563%2562%2535%2533%2561%2565%2538%2564%2566%2530%2536%2561%2562%2562%2565%2563%2533]	Nattacks [2]	Signatures	[300000052]	[300001879]
+Packet [57]	Uri [/web/index.php/2022/01/21/hola-mundo/\'https:/wordpress.org/\'/">fc20d472e4394b96618ddeb4710780da]	Nattacks [2]	Signatures	[300000052]	[300001879]
+Packet [61]	Uri [/web/index.php/2022/01/21/hola-mundo/\'http:/192.168.1.102/web/index.php/2022/01/21/hola-mundo/?replytocom=%22%3E6d5b04a328eb92826fd6a62821640923]	Nattacks [2]	Signatures	[300000052]	[300001879]
+# N. packets [61], [7] with alerts, N. Alerts [16]
+# Execution time: 0.021442 s

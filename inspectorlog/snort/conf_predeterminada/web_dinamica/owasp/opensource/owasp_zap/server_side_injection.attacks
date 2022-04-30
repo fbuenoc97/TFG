@@ -1,0 +1,26 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l server_side_injection.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_dinamica/owasp/opensource/owasp_zap/server_side_injection.clean
+Packet [303]	Uri [/web/xmlrpc.php?rsd=%3C%21--%23EXEC+cmd%3D%22ls+%2F%22--%3E]	Nattacks [1]	Signatures	[2018754]
+Packet [305]	Uri [/web/xmlrpc.php?rsd=%22%3E%3C%21--%23EXEC+cmd%3D%22ls+%2F%22--%3E%3C]	Nattacks [1]	Signatures	[2018754]
+Packet [306]	Uri [/web/xmlrpc.php?rsd=%3C%21--%23EXEC+cmd%3D%22dir+%5C%22--%3E]	Nattacks [1]	Signatures	[2018754]
+Packet [307]	Uri [/web/xmlrpc.php?rsd=%22%3E%3C%21--%23EXEC+cmd%3D%22dir+%5C%22--%3E%3C]	Nattacks [1]	Signatures	[2018754]
+Packet [735]	Uri [/web/xmlrpc.php?rsd=%22%3Bprint%28chr%28122%29.chr%2897%29.chr%28112%29.chr%2895%29.chr%28116%29.chr%28111%29.chr%28107%29.chr%28101%29.chr%28110%29%29%3B%24var%3D%22]	Nattacks [1]	Signatures	[2018754]
+Packet [737]	Uri [/web/xmlrpc.php?rsd=%27%3Bprint%28chr%28122%29.chr%2897%29.chr%28112%29.chr%2895%29.chr%28116%29.chr%28111%29.chr%28107%29.chr%28101%29.chr%28110%29%29%3B%24var%3D%27]	Nattacks [1]	Signatures	[2018754]
+Packet [739]	Uri [/web/xmlrpc.php?rsd=%24%7B%40print%28chr%28122%29.chr%2897%29.chr%28112%29.chr%2895%29.chr%28116%29.chr%28111%29.chr%28107%29.chr%28101%29.chr%28110%29%29%7D]	Nattacks [1]	Signatures	[2018754]
+Packet [742]	Uri [/web/xmlrpc.php?rsd=%24%7B%40print%28chr%28122%29.chr%2897%29.chr%28112%29.chr%2895%29.chr%28116%29.chr%28111%29.chr%28107%29.chr%28101%29.chr%28110%29%29%7D%5C]	Nattacks [1]	Signatures	[2018754]
+Packet [744]	Uri [/web/xmlrpc.php?rsd=%3Bprint%28chr%28122%29.chr%2897%29.chr%28112%29.chr%2895%29.chr%28116%29.chr%28111%29.chr%28107%29.chr%28101%29.chr%28110%29%29%3B]	Nattacks [1]	Signatures	[2018754]
+Packet [746]	Uri [/web/xmlrpc.php?rsd=%22%2Bresponse.write%28%5B914%2C033*266%2C133%29%2B%22]	Nattacks [1]	Signatures	[2018754]
+Packet [748]	Uri [/web/xmlrpc.php?rsd=%2Bresponse.write%28%7B0%7D*%7B1%7D%29%2B]	Nattacks [1]	Signatures	[2018754]
+Packet [749]	Uri [/web/xmlrpc.php?rsd=response.write%28914%2C033*266%2C133%29]	Nattacks [1]	Signatures	[2018754]
+# N. packets [749], [12] with alerts, N. Alerts [12]
+# Execution time: 0.027628 s

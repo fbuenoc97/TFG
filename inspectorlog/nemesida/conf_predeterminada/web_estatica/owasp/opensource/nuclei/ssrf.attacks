@@ -1,0 +1,24 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l ssrf.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_estatica/owasp/opensource/nuclei/ssrf.clean
+Packet [1]	Uri [/web/Items/RemoteSearch/Image?ProviderName=TheMovieDB&ImageURL=http://notburpcollaborator.net]	Nattacks [1]	Signatures	[300001322]
+Packet [6]	Uri [/web/wavemaker/studioService.download?method=getContent&inUrl=file///etc/passwd]	Nattacks [1]	Signatures	[300001559]
+Packet [7]	Uri [/web/OA_HTML/lcmServiceController.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [12]	Uri [/web/?file=http://0177.0.0.1/etc/passwd]	Nattacks [1]	Signatures	[300001559]
+Packet [14]	Uri [/web/Items/RemoteSearch/Image?ProviderName=TheMovieDB&ImageURL=http://notburpcollaborator.net]	Nattacks [1]	Signatures	[300001322]
+Packet [18]	Uri [/web/wavemaker/studioService.download?method=getContent&inUrl=file///etc/passwd]	Nattacks [1]	Signatures	[300001559]
+Packet [19]	Uri [/web/OA_HTML/lcmServiceController.jsp]	Nattacks [1]	Signatures	[300001516]
+Packet [30]	Uri [/web/service/error/sfdc_preauth.jsp?session=s&userid=1&server=http://c8aci819m8v9dqeihrd0cekc1eeyyyyy1.oast.site%23.salesforce.com/]	Nattacks [2]	Signatures	[300000069]	[300001516]
+Packet [39]	Uri [/web/zimlet/com_zimbra_webex/httpPost.jsp?companyId=http://c8aci819m8v9dqeihrd0cekc1eeyyyync.oast.site%23]	Nattacks [2]	Signatures	[300000069]	[300001516]
+Packet [41]	Uri [/web/uddiexplorer/SearchPublicRegistries.jsp?rdoSearch=name&txtSearchname=sdf&txtSearchkey=&txtSearchfor=&selfor=Business+location&btnSubmit=Search&operator=http://c8aci819m8v9dqeihrd0cekc1eeyyyynk.oast.site]	Nattacks [1]	Signatures	[300001516]
+Packet [54]	Uri [/web/proxy.stream?origin=http://burpcollaborator.net/]	Nattacks [1]	Signatures	[300001322]
+Packet [61]	Uri [/web/service/error/sfdc_preauth.jsp?session=s&userid=1&server=http://c8aci819m8v9dqeihrd0cekc1eeyyyyy1.oast.site%23.salesforce.com/]	Nattacks [2]	Signatures	[300000069]	[300001516]
+Packet [65]	Uri [/web/wp-admin/admin-post.php?swp_debug=load_options&swp_url=http://burpcollaborator.net]	Nattacks [2]	Signatures	[300001322]	[300002723]
+Packet [85]	Uri [/web/zimlet/com_zimbra_webex/httpPost.jsp?companyId=http://c8aci819m8v9dqeihrd0cekc1eeyyyync.oast.site%23]	Nattacks [2]	Signatures	[300000069]	[300001516]
+# N. packets [105], [14] with alerts, N. Alerts [19]
+# Execution time: 0.085783 s

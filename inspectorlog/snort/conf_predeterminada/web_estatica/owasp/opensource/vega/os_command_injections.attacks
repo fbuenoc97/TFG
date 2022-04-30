@@ -1,0 +1,26 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l os_command_injections.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_estatica/owasp/opensource/vega/os_command_injections.clean
+Packet [11]	Uri [/?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [48]	Uri [/web?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [294]	Uri [/web/images?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [351]	Uri [/web/assets?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [612]	Uri [/web/assets/sass?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [623]	Uri [/web/assets/css?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [634]	Uri [/web/assets/fonts?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [693]	Uri [/web/assets/js?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [1128]	Uri [/web/assets/sass/libs?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [1132]	Uri [/web/assets/sass/layout?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [1180]	Uri [/web/assets/sass/base?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+Packet [1182]	Uri [/web/assets/sass/components?_test1=c:\windows\system32\cmd.exe&_test2=/etc/passwd&_test3=|/bin/sh&_test4=(SELECT%20*%20FROM%20nonexistent)%20--&_test5=>/no/such/file&_test6=<script>alert(1)</script>&_test7=javascript:alert(1)]	Nattacks [3]	Signatures	[2006445]	[2009714]	[2011465]
+# N. packets [1624], [12] with alerts, N. Alerts [36]
+# Execution time: 0.479531 s

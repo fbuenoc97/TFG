@@ -1,0 +1,48 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l miscellaneous_attacks.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_estatica/owasp/opensource/grendel-scan/miscellaneous_attacks.clean
+Packet [4]	Uri [/randomsnawew.vbs]	Nattacks [1]	Signatures	[2009481]
+Packet [5]	Uri [/randomfaevly.do]	Nattacks [1]	Signatures	[2009481]
+Packet [9]	Uri [/randomjstjyn.aspx]	Nattacks [1]	Signatures	[2009481]
+Packet [10]	Uri [/randomsryixe.htm]	Nattacks [1]	Signatures	[2009481]
+Packet [15]	Uri [/randomzappxp.plx]	Nattacks [1]	Signatures	[2009481]
+Packet [18]	Uri [/randomrflwwn.cfc]	Nattacks [1]	Signatures	[2009481]
+Packet [20]	Uri [/randomlqswxm.asp]	Nattacks [1]	Signatures	[2009481]
+Packet [21]	Uri [/randommnvvet.pl]	Nattacks [1]	Signatures	[2009481]
+Packet [22]	Uri [/randomashttf.wsdl]	Nattacks [1]	Signatures	[2009481]
+Packet [28]	Uri [/randometxjfp.xdl]	Nattacks [1]	Signatures	[2009481]
+Packet [30]	Uri [/randomvamdgy.htr]	Nattacks [1]	Signatures	[2009481]
+Packet [35]	Uri [/randomxkfwgl.php3]	Nattacks [1]	Signatures	[2009481]
+Packet [36]	Uri [/randomvgadso.html]	Nattacks [1]	Signatures	[2009481]
+Packet [40]	Uri [/randomdqmshg.axd]	Nattacks [1]	Signatures	[2009481]
+Packet [41]	Uri [/randomaqtmyg.cfm]	Nattacks [1]	Signatures	[2009481]
+Packet [42]	Uri [/randomgbcbvw.cgi]	Nattacks [1]	Signatures	[2009481]
+Packet [43]	Uri [/randomzkfzkx.bat]	Nattacks [1]	Signatures	[2009481]
+Packet [54]	Uri [/web/randomgfhang.aspx]	Nattacks [1]	Signatures	[2009481]
+Packet [64]	Uri [/web/randomygwymd.xdl]	Nattacks [1]	Signatures	[2009481]
+Packet [65]	Uri [/web/randomqdvzmd.cfc]	Nattacks [1]	Signatures	[2009481]
+Packet [66]	Uri [/web/randomrpqcbi.plx]	Nattacks [1]	Signatures	[2009481]
+Packet [68]	Uri [/web/randomjcsxrq.html]	Nattacks [1]	Signatures	[2009481]
+Packet [69]	Uri [/web/randomfsimhv.php3]	Nattacks [1]	Signatures	[2009481]
+Packet [71]	Uri [/web/randomvpstij.asp]	Nattacks [1]	Signatures	[2009481]
+Packet [76]	Uri [/web/randomtnxhux.cfm]	Nattacks [1]	Signatures	[2009481]
+Packet [77]	Uri [/web/randomuqdqmj.pl]	Nattacks [1]	Signatures	[2009481]
+Packet [78]	Uri [/web/randommxaezr.cgi]	Nattacks [1]	Signatures	[2009481]
+Packet [79]	Uri [/web/randomfedqlu.vbs]	Nattacks [1]	Signatures	[2009481]
+Packet [80]	Uri [/web/randomxlmvge.bat]	Nattacks [1]	Signatures	[2009481]
+Packet [81]	Uri [/web/randomqjzzcg.wsdl]	Nattacks [1]	Signatures	[2009481]
+Packet [82]	Uri [/web/randomslurnd.axd]	Nattacks [1]	Signatures	[2009481]
+Packet [87]	Uri [/web/randommdsuvs.htm]	Nattacks [1]	Signatures	[2009481]
+Packet [88]	Uri [/web/randomghanhv.htr]	Nattacks [1]	Signatures	[2009481]
+Packet [90]	Uri [/web/randomuwpzsb.do]	Nattacks [1]	Signatures	[2009481]
+# N. packets [96], [34] with alerts, N. Alerts [34]
+# Execution time: 0.862301 s
