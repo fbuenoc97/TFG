@@ -1,0 +1,28 @@
+backup
+# N. packets [11], [0] with alerts, N. Alerts [0]
+blind_sql
+# N. packets [11], [0] with alerts, N. Alerts [0]
+brute_login_form
+# N. packets [18], [0] with alerts, N. Alerts [0]
+buster
+# N. packets [20653], [165] with alerts, N. Alerts [169]
+crlf
+# N. packets [60], [0] with alerts, N. Alerts [0]
+exec
+# N. packets [404], [0] with alerts, N. Alerts [0]
+file
+# N. packets [584], [0] with alerts, N. Alerts [0]
+http_headers
+# N. packets [2], [0] with alerts, N. Alerts [0]
+methods
+# N. packets [5], [0] with alerts, N. Alerts [0]
+shellshock
+# N. packets [5], [0] with alerts, N. Alerts [0]
+sql
+# N. packets [10], [0] with alerts, N. Alerts [0]
+ssrf
+# N. packets [10], [0] with alerts, N. Alerts [0]
+wapiti
+# N. packets [21783], [165] with alerts, N. Alerts [169]
+xss
+# N. packets [10], [0] with alerts, N. Alerts [0]

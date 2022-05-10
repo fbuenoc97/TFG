@@ -1,0 +1,56 @@
+backup
+# N. packets [116], [28] with alerts, N. Alerts [29]
+blindsql
+# N. packets [2867], [452] with alerts, N. Alerts [452]
+brute_login_form
+# N. packets [1068], [0] with alerts, N. Alerts [0]
+buster
+# N. packets [36071], [4] with alerts, N. Alerts [4]
+crlf
+# N. packets [16], [1] with alerts, N. Alerts [1]
+exec
+# N. packets [1189], [29] with alerts, N. Alerts [29]
+file
+# N. packets [2416], [373] with alerts, N. Alerts [394]
+http_headers
+# N. packets [2], [0] with alerts, N. Alerts [0]
+methods
+# N. packets [36], [2] with alerts, N. Alerts [2]
+redirect
+# N. packets [98], [12] with alerts, N. Alerts [13]
+shellshock
+# N. packets [118], [5] with alerts, N. Alerts [5]
+sql
+# N. packets [123], [4] with alerts, N. Alerts [4]
+ssrf
+# N. packets [123], [13] with alerts, N. Alerts [14]
+xss
+# N. packets [720], [159] with alerts, N. Alerts [191]
+backup
+# N. packets [116], [28] with alerts, N. Alerts [29]
+blindsql
+# N. packets [2867], [452] with alerts, N. Alerts [452]
+brute_login_form
+# N. packets [1068], [0] with alerts, N. Alerts [0]
+buster
+# N. packets [36071], [4] with alerts, N. Alerts [4]
+crlf
+# N. packets [16], [1] with alerts, N. Alerts [1]
+exec
+# N. packets [1189], [29] with alerts, N. Alerts [29]
+file
+# N. packets [2416], [373] with alerts, N. Alerts [394]
+http_headers
+# N. packets [2], [0] with alerts, N. Alerts [0]
+methods
+# N. packets [36], [2] with alerts, N. Alerts [2]
+redirect
+# N. packets [98], [12] with alerts, N. Alerts [13]
+shellshock
+# N. packets [118], [5] with alerts, N. Alerts [5]
+sql
+# N. packets [123], [4] with alerts, N. Alerts [4]
+ssrf
+# N. packets [123], [13] with alerts, N. Alerts [14]
+xss
+# N. packets [720], [159] with alerts, N. Alerts [191]

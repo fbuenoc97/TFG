@@ -1,0 +1,28 @@
+apache
+# N. packets [173], [28] with alerts, N. Alerts [172]
+cve
+# N. packets [98], [40] with alerts, N. Alerts [45]
+exposure
+# N. packets [135], [0] with alerts, N. Alerts [0]
+injection
+# N. packets [58], [11] with alerts, N. Alerts [29]
+lfi
+# N. packets [493], [61] with alerts, N. Alerts [71]
+panel
+# N. packets [104], [0] with alerts, N. Alerts [0]
+rce
+# N. packets [210], [32] with alerts, N. Alerts [173]
+sqli
+# N. packets [55], [20] with alerts, N. Alerts [49]
+ssrf
+# N. packets [72], [5] with alerts, N. Alerts [5]
+tech
+# N. packets [140], [0] with alerts, N. Alerts [0]
+vulnerabilities
+# N. packets [93], [27] with alerts, N. Alerts [31]
+wordpress
+# N. packets [117], [54] with alerts, N. Alerts [57]
+wp-plugin
+# N. packets [231], [127] with alerts, N. Alerts [150]
+xss
+# N. packets [97], [55] with alerts, N. Alerts [56]

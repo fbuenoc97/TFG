@@ -1,0 +1,16 @@
+CLRF_injection
+# N. packets [453], [213] with alerts, N. Alerts [336]
+parameter_tampering
+# N. packets [456], [57] with alerts, N. Alerts [58]
+path_trasversal
+# N. packets [1434], [561] with alerts, N. Alerts [1411]
+remote_file_inclusion
+# N. packets [1091], [60] with alerts, N. Alerts [84]
+remote_os_command_injection
+# N. packets [2609], [1225] with alerts, N. Alerts [2774]
+server_side_injection
+# N. packets [749], [420] with alerts, N. Alerts [1121]
+sql_injection
+# N. packets [1628], [531] with alerts, N. Alerts [1845]
+XSS
+# N. packets [641], [112] with alerts, N. Alerts [325]

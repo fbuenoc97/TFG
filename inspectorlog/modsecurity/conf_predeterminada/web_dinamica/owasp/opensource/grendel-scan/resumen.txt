@@ -1,0 +1,19 @@
+application_architecture
+# N. packets [137], [27] with alerts, N. Alerts [27]
+file_enumeration
+# N. packets [18230], [388] with alerts, N. Alerts [391]
+grendel-scan
+# N. packets [19249], [597] with alerts, N. Alerts [600]
+information_leakage
+# N. packets [139], [27] with alerts, N. Alerts [27]
+miscellaneous_attacks
+# N. packets [137], [27] with alerts, N. Alerts [27]
+miscellaneous_attacks
+session_management
+# N. packets [137], [27] with alerts, N. Alerts [27]
+sql_injection
+# N. packets [137], [27] with alerts, N. Alerts [27]
+web_server_configuration
+# N. packets [141], [27] with alerts, N. Alerts [27]
+xss
+# N. packets [191], [47] with alerts, N. Alerts [47]

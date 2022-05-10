@@ -1,0 +1,26 @@
+code_injection
+# N. packets [60], [0] with alerts, N. Alerts [0]
+command_injection
+# N. packets [116], [0] with alerts, N. Alerts [0]
+expression_language_injection
+# N. packets [16], [0] with alerts, N. Alerts [0]
+header_injection
+# N. packets [17], [0] with alerts, N. Alerts [0]
+ldap_injection
+# N. packets [21], [0] with alerts, N. Alerts [0]
+lfi
+# N. packets [52], [10] with alerts, N. Alerts [10]
+open_redirect
+# N. packets [47], [0] with alerts, N. Alerts [0]
+rfi
+# N. packets [32], [0] with alerts, N. Alerts [0]
+sql_injection
+# N. packets [125], [0] with alerts, N. Alerts [0]
+ssi_injection
+# N. packets [23], [0] with alerts, N. Alerts [0]
+ss_request_forgery
+# N. packets [22], [0] with alerts, N. Alerts [0]
+xpath_injection
+# N. packets [16], [0] with alerts, N. Alerts [0]
+xss
+# N. packets [35], [0] with alerts, N. Alerts [0]

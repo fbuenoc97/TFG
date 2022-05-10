@@ -1,0 +1,24 @@
+apache_expect_xss
+# N. packets [233], [0] with alerts, N. Alerts [0]
+apacheusers
+# N. packets [233], [0] with alerts, N. Alerts [0]
+auth
+# N. packets [232], [0] with alerts, N. Alerts [0]
+cgi
+# N. packets [255], [0] with alerts, N. Alerts [0]
+cookies
+# N. packets [232], [0] with alerts, N. Alerts [0]
+dictionary
+# N. packets [232], [0] with alerts, N. Alerts [0]
+dir_trasversal
+# N. packets [232], [0] with alerts, N. Alerts [0]
+headers
+# N. packets [259], [0] with alerts, N. Alerts [0]
+httpoptions
+# N. packets [236], [0] with alerts, N. Alerts [0]
+paths
+# N. packets [233], [0] with alerts, N. Alerts [0]
+report_sqlg
+# N. packets [232], [0] with alerts, N. Alerts [0]
+shellshock
+# N. packets [1697], [24] with alerts, N. Alerts [24]

@@ -1,0 +1,17 @@
+application_architecture
+# N. packets [137], [24] with alerts, N. Alerts [24]
+file_enumeration
+# N. packets [18230], [2494] with alerts, N. Alerts [2518]
+information_leakage
+# N. packets [139], [24] with alerts, N. Alerts [24]
+miscellaneous_attacks
+# N. packets [137], [24] with alerts, N. Alerts [24]
+miscellaneous_attacks
+session_management
+# N. packets [137], [24] with alerts, N. Alerts [24]
+sql_injection
+# N. packets [137], [24] with alerts, N. Alerts [24]
+web_server_configuration
+# N. packets [141], [24] with alerts, N. Alerts [24]
+xss
+# N. packets [191], [32] with alerts, N. Alerts [32]

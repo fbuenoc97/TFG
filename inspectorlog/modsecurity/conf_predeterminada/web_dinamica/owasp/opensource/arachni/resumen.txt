@@ -1,0 +1,22 @@
+arachni
+# N. packets [17044], [6487] with alerts, N. Alerts [31270]
+code_injection
+# N. packets [1591], [471] with alerts, N. Alerts [1647]
+csrf_detection
+# N. packets [88], [6] with alerts, N. Alerts [12]
+ldap_injection
+# N. packets [255], [58] with alerts, N. Alerts [161]
+os_command_injection
+# N. packets [4819], [1611] with alerts, N. Alerts [6399]
+path_traversal
+# N. packets [656], [576] with alerts, N. Alerts [5184]
+remote_file_inlcusion
+# N. packets [2500], [779] with alerts, N. Alerts [2566]
+sql_injection
+# N. packets [4853], [2324] with alerts, N. Alerts [13135]
+xml_external_entity
+# N. packets [86], [6] with alerts, N. Alerts [12]
+xpath_injection
+# N. packets [432], [116] with alerts, N. Alerts [263]
+xss
+# N. packets [1764], [540] with alerts, N. Alerts [1891]

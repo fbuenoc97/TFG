@@ -1,0 +1,20 @@
+code_injection
+# N. packets [1591], [14] with alerts, N. Alerts [14]
+csrf_detection
+# N. packets [88], [6] with alerts, N. Alerts [6]
+ldap_injection
+# N. packets [255], [7] with alerts, N. Alerts [7]
+os_command_injection
+# N. packets [4819], [52] with alerts, N. Alerts [52]
+path_traversal
+# N. packets [656], [332] with alerts, N. Alerts [404]
+remote_file_inlcusion
+# N. packets [2500], [172] with alerts, N. Alerts [186]
+sql_injection
+# N. packets [4853], [123] with alerts, N. Alerts [125]
+xml_external_entity
+# N. packets [86], [6] with alerts, N. Alerts [6]
+xpath_injection
+# N. packets [432], [9] with alerts, N. Alerts [9]
+xss
+# N. packets [1764], [21] with alerts, N. Alerts [21]

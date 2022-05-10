@@ -1,0 +1,28 @@
+eval_code_injection
+# N. packets [3010], [15] with alerts, N. Alerts [159]
+header_injections
+# N. packets [25033], [2467] with alerts, N. Alerts [6275]
+integer_overflow_injection
+# N. packets [229], [4] with alerts, N. Alerts [52]
+local_file_include
+# N. packets [157], [4] with alerts, N. Alerts [52]
+os_command_injection
+# N. packets [158], [4] with alerts, N. Alerts [52]
+remote_file_include
+# N. packets [158], [4] with alerts, N. Alerts [52]
+shell_injection
+# N. packets [158], [4] with alerts, N. Alerts [52]
+sql_injection
+# N. packets [158], [4] with alerts, N. Alerts [52]
+string_format
+# N. packets [158], [4] with alerts, N. Alerts [52]
+url_injection
+# N. packets [23583], [333] with alerts, N. Alerts [2278]
+vega
+# N. packets [53276], [2855] with alerts, N. Alerts [9232]
+xml_injection
+# N. packets [158], [4] with alerts, N. Alerts [52]
+xpath_injection
+# N. packets [158], [4] with alerts, N. Alerts [52]
+xss_injection
+# N. packets [158], [4] with alerts, N. Alerts [52]

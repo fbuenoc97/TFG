@@ -1,0 +1,18 @@
+auth
+# N. packets [20], [5] with alerts, N. Alerts [7]
+brute
+# N. packets [1728], [0] with alerts, N. Alerts [0]
+default
+# N. packets [22], [1] with alerts, N. Alerts [1]
+discovery
+# N. packets [331], [17] with alerts, N. Alerts [34]
+exploit
+# N. packets [47], [18] with alerts, N. Alerts [72]
+external
+# N. packets [2], [0] with alerts, N. Alerts [0]
+malware
+# N. packets [2], [1] with alerts, N. Alerts [1]
+version
+# N. packets [5], [0] with alerts, N. Alerts [0]
+vuln
+# N. packets [374], [82] with alerts, N. Alerts [183]
