@@ -1,0 +1,10 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l xst.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/conf_predeterminada/web_estatica/owasp/opensource/w3af/xst.clean
+# N. packets [22], [0] with alerts, N. Alerts [0]
+# Execution time: 0.003060 s
