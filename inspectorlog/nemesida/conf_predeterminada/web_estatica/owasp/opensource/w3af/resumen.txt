@@ -2,3 +2,57 @@ OWASP_TOP10
 # N. packets [7335], [31] with alerts, N. Alerts [52]
 OWASP_TOP10
 # N. packets [7335], [31] with alerts, N. Alerts [52]
+buffer_overflow
+# N. packets [22], [0] with alerts, N. Alerts [0]
+cors_origin
+# N. packets [23], [0] with alerts, N. Alerts [0]
+csrf
+# N. packets [21], [0] with alerts, N. Alerts [0]
+dav
+# N. packets [50], [0] with alerts, N. Alerts [0]
+eval
+# N. packets [21], [0] with alerts, N. Alerts [0]
+file_upload
+# N. packets [21], [0] with alerts, N. Alerts [0]
+format_string
+# N. packets [21], [0] with alerts, N. Alerts [0]
+frontpage
+# N. packets [22], [0] with alerts, N. Alerts [0]
+generic
+# N. packets [21], [0] with alerts, N. Alerts [0]
+global_redirect
+# N. packets [21], [0] with alerts, N. Alerts [0]
+htaccess_methods
+# N. packets [21], [0] with alerts, N. Alerts [0]
+ldap_injection
+# N. packets [21], [0] with alerts, N. Alerts [0]
+local_file_include
+# N. packets [21], [0] with alerts, N. Alerts [0]
+mx_injection
+# N. packets [21], [0] with alerts, N. Alerts [0]
+os_commanding
+# N. packets [21], [0] with alerts, N. Alerts [0]
+OWASP_TOP10
+# N. packets [7335], [31] with alerts, N. Alerts [52]
+phishing_vector
+# N. packets [21], [0] with alerts, N. Alerts [0]
+preg_replace
+# N. packets [21], [0] with alerts, N. Alerts [0]
+redos
+# N. packets [21], [0] with alerts, N. Alerts [0]
+remote_file_include
+# N. packets [21], [0] with alerts, N. Alerts [0]
+response_splitting
+# N. packets [21], [0] with alerts, N. Alerts [0]
+server_side_inclusion
+# N. packets [22], [0] with alerts, N. Alerts [0]
+sql_injection
+# N. packets [21], [0] with alerts, N. Alerts [0]
+w3af
+# N. packets [7896], [31] with alerts, N. Alerts [52]
+xpath
+# N. packets [21], [0] with alerts, N. Alerts [0]
+xss
+# N. packets [22], [0] with alerts, N. Alerts [0]
+xst
+# N. packets [22], [0] with alerts, N. Alerts [0]
