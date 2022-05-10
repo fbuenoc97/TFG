@@ -1,0 +1,12 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l panel.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_estatica/owasp/opensource/nuclei/panel.clean
+Packet [237]	Uri [/web/..;/manager/html]	Nattacks [1 ]	Signatures	[930110]
+Packet [260]	Uri [/web/owa/auth/logon.aspx?replaceCurrent=1&url=http://192.168.1.104/web/ecp]	Nattacks [2 ]	Signatures	[931100]	[931130]
+Packet [272]	Uri [/web/..;/manager/html]	Nattacks [1 ]	Signatures	[930110]
+Packet [293]	Uri [/web/..;/host-manager/html]	Nattacks [1 ]	Signatures	[930110]
+Packet [298]	Uri [/web/owa/auth/logon.aspx?replaceCurrent=1&url=http://192.168.1.104/web/ecp]	Nattacks [2 ]	Signatures	[931100]	[931130]
+Packet [318]	Uri [/web/..;/host-manager/html]	Nattacks [1 ]	Signatures	[930110]
+Packet [518]	Uri [/web/cgi-bin/webcm?getpage=../html/login.html]	Nattacks [1 ]	Signatures	[930110]
+Packet [566]	Uri [/web/cgi-bin/webcm?getpage=../html/login.html]	Nattacks [1 ]	Signatures	[930110]
+# N. packets [696], [8] with alerts, N. Alerts [10]

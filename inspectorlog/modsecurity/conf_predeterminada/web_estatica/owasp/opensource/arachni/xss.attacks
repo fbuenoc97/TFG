@@ -1,0 +1,7 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l xss.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_estatica/owasp/opensource/arachni/xss.clean
+Packet [7]	Uri [/web/?=%3E%22%27%3E%3Cmy_tag_6c5e9fdacd243fff503560e95bb49bfb%2F%3E]	Nattacks [2 ]	Signatures	[942431]	[942460]
+Packet [470]	Uri [/web/assets/css/?=%3E%22%27%3E%3Cmy_tag_6c5e9fdacd243fff503560e95bb49bfb%2F%3E]	Nattacks [2 ]	Signatures	[942431]	[942460]
+Packet [475]	Uri [/web/assets/js/?=%3E%22%27%3E%3Cmy_tag_6c5e9fdacd243fff503560e95bb49bfb%2F%3E]	Nattacks [2 ]	Signatures	[942431]	[942460]
+# N. packets [1024], [3] with alerts, N. Alerts [6]

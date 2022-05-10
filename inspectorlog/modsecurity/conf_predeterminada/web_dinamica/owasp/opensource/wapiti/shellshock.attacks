@@ -1,0 +1,10 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l shellshock.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_dinamica/owasp/opensource/wapiti/shellshock.clean
+Packet [28]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F&format=xml]	Nattacks [2 ]	Signatures	[931100]	[931130]
+Packet [30]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F]	Nattacks [2 ]	Signatures	[931100]	[931130]
+Packet [46]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F&format=xml]	Nattacks [2 ]	Signatures	[931100]	[931130]
+Packet [54]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F]	Nattacks [2 ]	Signatures	[931100]	[931130]
+Packet [61]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=1]	Nattacks [2 ]	Signatures	[931100]	[931130]
+Packet [80]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&wp_lang=es_ES]	Nattacks [2 ]	Signatures	[931100]	[931130]
+# N. packets [118], [6] with alerts, N. Alerts [12]

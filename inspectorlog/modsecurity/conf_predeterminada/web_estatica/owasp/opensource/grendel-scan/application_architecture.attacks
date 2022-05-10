@@ -1,0 +1,22 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l application_architecture.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_estatica/owasp/opensource/grendel-scan/application_architecture.clean
+Packet [3]	Uri [/randomwfunli.htr]	Nattacks [1 ]	Signatures	[920440]
+Packet [15]	Uri [/randomjoaatp.com]	Nattacks [1 ]	Signatures	[920440]
+Packet [20]	Uri [/randomxyfcba.bat]	Nattacks [1 ]	Signatures	[920440]
+Packet [24]	Uri [/randomshobqp.axd]	Nattacks [1 ]	Signatures	[920440]
+Packet [31]	Uri [/randomkunvxg.inc]	Nattacks [1 ]	Signatures	[920440]
+Packet [32]	Uri [/randommyweds.dll]	Nattacks [1 ]	Signatures	[920440]
+Packet [34]	Uri [/randomdgmjfp.vbs]	Nattacks [1 ]	Signatures	[920440]
+Packet [37]	Uri [/randommeenat.asa]	Nattacks [1 ]	Signatures	[920440]
+Packet [42]	Uri [/randomvkqdlx.asax]	Nattacks [1 ]	Signatures	[920440]
+Packet [49]	Uri [/web/randomtthhde.axd]	Nattacks [1 ]	Signatures	[920440]
+Packet [52]	Uri [/web/randomlzaumy.com]	Nattacks [1 ]	Signatures	[920440]
+Packet [53]	Uri [/web/randomenvahn.dll]	Nattacks [1 ]	Signatures	[920440]
+Packet [56]	Uri [/web/randomopxoqz.asax]	Nattacks [1 ]	Signatures	[920440]
+Packet [59]	Uri [/web/randombvbgjb.asa]	Nattacks [1 ]	Signatures	[920440]
+Packet [61]	Uri [/web/randomsgqckt.inc]	Nattacks [1 ]	Signatures	[920440]
+Packet [62]	Uri [/web/randomsdsqot.htr]	Nattacks [1 ]	Signatures	[920440]
+Packet [65]	Uri [/web/randombepzkd.bat]	Nattacks [1 ]	Signatures	[920440]
+Packet [92]	Uri [/web/randomtghemb.vbs]	Nattacks [1 ]	Signatures	[920440]
+# N. packets [92], [18] with alerts, N. Alerts [18]

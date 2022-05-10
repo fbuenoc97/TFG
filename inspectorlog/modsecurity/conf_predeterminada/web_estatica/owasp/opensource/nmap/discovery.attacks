@@ -1,0 +1,19 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l discovery.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_estatica/owasp/opensource/nmap/discovery.clean
+Packet [15]	Uri [/scripts/WPnBr.dll]	Nattacks [1 ]	Signatures	[920440]
+Packet [17]	Uri [/scripts/WPnBr.dll]	Nattacks [1 ]	Signatures	[920440]
+Packet [154]	Uri [/sdk/../../../../../../../etc/vmware/hostd/vmInventory.xml]	Nattacks [3 ]	Signatures	[930100]	[930110]	[930110]
+Packet [166]	Uri [/sdk/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/etc/vmware/hostd/vmInventory.xml]	Nattacks [3 ]	Signatures	[930100]	[930110]	[930110]
+Packet [173]	Uri [/../../../../../../../../../../etc/passwd]	Nattacks [2 ]	Signatures	[930100]	[930110]
+Packet [178]	Uri [/../../../../../../../../../../boot.ini]	Nattacks [3 ]	Signatures	[920440]	[930100]	[930110]
+Packet [181]	Uri [/?p4yl04d=../../../../../../../../../../../../../../../../../etc/passwd]	Nattacks [6 ]	Signatures	[930100]	[930110]	[930110]	[930120]	[932160]	[942460]
+Packet [189]	Uri [/?p4yl04d2=1%20UNION%20ALL%20SELECT%201,2,3,table_name%20FROM%20information_schema.tables,/?p4yl04d3=<script>alert(document.cookie)</script>]	Nattacks [17 ]	Signatures	[932190]	[941100]	[941110]	[941160]	[941180]	[941320]	[942140]	[942190]	[942270]	[942360]	[942130]	[942200]	[942260]	[942330]	[942361]	[942480]	[942431]
+Packet [211]	Uri [/noindex/css/bootstrap.min.bak]	Nattacks [1 ]	Signatures	[920440]
+Packet [213]	Uri [/noindex/css/bootstrap.min.css~]	Nattacks [1 ]	Signatures	[920500]
+Packet [217]	Uri [/noindex/css/Copy%20(2)%20of%20bootstrap.min.css]	Nattacks [1 ]	Signatures	[933161]
+Packet [223]	Uri [/noindex/css/open-sans.bak]	Nattacks [1 ]	Signatures	[920440]
+Packet [225]	Uri [/noindex/css/open-sans.css~]	Nattacks [1 ]	Signatures	[920500]
+Packet [230]	Uri [/noindex/css/Copy%20(2)%20of%20open-sans.css]	Nattacks [1 ]	Signatures	[933161]
+Packet [246]	Uri [/wp%-login]	Nattacks [2 ]	Signatures	[920220]	[920272]
+# N. packets [331], [15] with alerts, N. Alerts [44]

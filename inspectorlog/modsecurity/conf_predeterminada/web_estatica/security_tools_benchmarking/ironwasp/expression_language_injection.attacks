@@ -1,0 +1,10 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l expression_language_injection.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_estatica/security_tools_benchmarking/ironwasp/expression_language_injection.clean
+Packet [6]	Uri [/crossdomain.xml%0aadmin.php%0aadmin.aspx%0a]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [7]	Uri [/admin%0auploads%0a/]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [8]	Uri [/admin%0auploads%0a/should_not_xist_tttttttttttttt]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [11]	Uri [/web/crossdomain.xml%0aadmin.php%0aadmin.aspx%0a]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [13]	Uri [/web/admin%0auploads%0a/]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [14]	Uri [/web/admin%0auploads%0a/should_not_xist_cccccccccc]	Nattacks [2 ]	Signatures	[921190]	[920272]
+# N. packets [109], [6] with alerts, N. Alerts [12]

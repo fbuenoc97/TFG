@@ -1,0 +1,22 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l OWASP_TOP10.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_estatica/owasp/opensource/w3af/OWASP_TOP10.clean
+Packet [45]	Uri [/web?ysNBMxi=.%2F..%2F..%2F..%2Fetc%2Fmotd%00html]	Nattacks [11 ]	Signatures	[920270]	[920271]	[920272]	[930100]	[930110]	[930110]	[930110]	[930110]	[930110]	[930120]	[942460]
+Packet [46]	Uri [/web?ysNBMxi=type%2Bc%3A%5Cwinnt%5Crepair%5Csam._]	Nattacks [1 ]	Signatures	[930120]
+Packet [47]	Uri [/web?ysNBMxi=..%2F..%2F..%2F..%2Fbin%2Fchgrp%20nobody%20%2Fetc%2Fshadow%7C]	Nattacks [8 ]	Signatures	[930100]	[930110]	[930110]	[930110]	[930110]	[930120]	[932160]	[942460]
+Packet [48]	Uri [/web?ysNBMxi=SELECT%20TOP%201%20name%20FROM%20sysusers]	Nattacks [2 ]	Signatures	[942260]	[942480]
+Packet [49]	Uri [/web?ysNBMxi=..%2F..%2FWINNT%2Fsystem32%2Fcmd.exe%3Fdir%2Bc%3A%5C]	Nattacks [8 ]	Signatures	[930100]	[930110]	[930110]	[930110]	[930110]	[930110]	[930110]	[942460]
+Packet [50]	Uri [/web?ysNBMxi=..%2F..%2F..%2F..%2Fetc%2Fpasswd]	Nattacks [7 ]	Signatures	[930100]	[930110]	[930110]	[930110]	[930120]	[932160]	[942460]
+Packet [51]	Uri [/web?ysNBMxi=%3C%3F%20passthru%28%22id%22%29%3B%3F%3E]	Nattacks [5 ]	Signatures	[933100]	[933160]	[933190]	[942431]	[942460]
+Packet [52]	Uri [/web?ysNBMxi=id%3Buname%20-a]	Nattacks [1 ]	Signatures	[932105]
+Packet [53]	Uri [/web?ysNBMxi=exec%20master..xp_cmdshell%20dir]	Nattacks [3 ]	Signatures	[932150]	[942190]	[942470]
+Packet [54]	Uri [/web?ysNBMxi=exec%20xp_cmdshell%20dir]	Nattacks [3 ]	Signatures	[932150]	[942190]	[942470]
+Packet [55]	Uri [/web?ysNBMxi=%3Cscript%3Ealert%281%29%3C%2Fscript%3E]	Nattacks [6 ]	Signatures	[941100]	[941110]	[941160]	[941320]	[942130]	[942431]
+Packet [960]	Uri [/asdfasdfasdfasdfasdf/../]	Nattacks [2 ]	Signatures	[930100]	[930110]
+Packet [986]	Uri [/asdfasdfasdfasdfasdf/..]	Nattacks [1 ]	Signatures	[930110]
+Packet [1013]	Uri [/././././././qwerty/.././././././././]	Nattacks [2 ]	Signatures	[930100]	[930110]
+Packet [1046]	Uri [/..]	Nattacks [1 ]	Signatures	[930110]
+Packet [1055]	Uri [/../]	Nattacks [2 ]	Signatures	[930100]	[930110]
+Packet [1067]	Uri [/../../../../../]	Nattacks [2 ]	Signatures	[930100]	[930110]
+Packet [1076]	Uri [..]	Nattacks [2 ]	Signatures	[920100]	[930110]
+# N. packets [7335], [18] with alerts, N. Alerts [67]

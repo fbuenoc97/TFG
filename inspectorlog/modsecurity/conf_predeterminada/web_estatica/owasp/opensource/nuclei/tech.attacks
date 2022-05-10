@@ -1,0 +1,7 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l tech.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_estatica/owasp/opensource/nuclei/tech.clean
+Packet [179]	Uri [/web/Telerik.Web.UI.WebResource.axd?type=rau]	Nattacks [1 ]	Signatures	[920440]
+Packet [189]	Uri [/web/%c0]	Nattacks [1 ]	Signatures	[920272]
+Packet [218]	Uri [/web/Telerik.Web.UI.WebResource.axd?type=rau]	Nattacks [1 ]	Signatures	[920440]
+# N. packets [257], [3] with alerts, N. Alerts [3]

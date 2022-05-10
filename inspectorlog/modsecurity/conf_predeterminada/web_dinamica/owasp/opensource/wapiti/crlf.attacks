@@ -1,0 +1,20 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l crlf.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_dinamica/owasp/opensource/wapiti/crlf.clean
+Packet [1]	Uri [/web/?s=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [2]	Uri [/web/?p=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [3]	Uri [/web/index.php/2022/01/21/hola-mundo/?replytocom=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [4]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [5]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version&format=xml]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [6]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F&format=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [5 ]	Signatures	[920230]	[920272]	[921151]	[931100]	[931130]
+Packet [7]	Uri [/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F&format=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [5 ]	Signatures	[920230]	[920272]	[921151]	[931100]	[931130]
+Packet [8]	Uri [/web/wp-login.php?redirect_to=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version&reauth=1]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [9]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [5 ]	Signatures	[920230]	[920272]	[921151]	[931100]	[931130]
+Packet [10]	Uri [/web/wp-login.php?wp_lang=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [11]	Uri [/web/wp-login.php?action=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [12]	Uri [/web/wp-login.php?redirect_to=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version&wp_lang=es_ES]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [13]	Uri [/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&wp_lang=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [5 ]	Signatures	[920230]	[920272]	[921151]	[931100]	[931130]
+Packet [14]	Uri [/web/wp-login.php?action=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version&wp_lang=es_ES]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [15]	Uri [/web/wp-login.php?action=lostpassword&wp_lang=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+Packet [16]	Uri [/web/xmlrpc.php?rsd=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version]	Nattacks [3 ]	Signatures	[920230]	[920272]	[921151]
+# N. packets [16], [16] with alerts, N. Alerts [56]

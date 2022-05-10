@@ -1,0 +1,15 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l header_injection.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_dinamica/security_tools_benchmarking/ironwasp/header_injection.clean
+Packet [6]	Uri [/admin%0auploads%0a/]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [7]	Uri [/crossdomain.xml%0aadmin.php%0aadmin.aspx%0a]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [8]	Uri [/admin%0auploads%0a/should_not_xist_ggggggggggg]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [10]	Uri [/%0d%0aNeww%3a%20Headerr]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [11]	Uri [/web%0d%0aNeww%3a%20Headerr]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [12]	Uri [/aa%0d%0aNeww%3a%20Headerr]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [13]	Uri [/webaa%0d%0aNeww%3a%20Headerr]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [14]	Uri [/%0d%0aNeww%3a%20Headerr%0d%0a]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [15]	Uri [/web%0d%0aNeww%3a%20Headerr%0d%0a]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [16]	Uri [/aa%0d%0aNeww%3a%20Headerr%0d%0a]	Nattacks [2 ]	Signatures	[921190]	[920272]
+Packet [17]	Uri [/webaa%0d%0aNeww%3a%20Headerr%0d%0a]	Nattacks [2 ]	Signatures	[921190]	[920272]
+# N. packets [17], [11] with alerts, N. Alerts [22]

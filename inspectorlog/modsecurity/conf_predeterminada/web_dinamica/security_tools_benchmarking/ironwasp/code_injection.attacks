@@ -1,0 +1,16 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l code_injection.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_dinamica/security_tools_benchmarking/ironwasp/code_injection.clean
+Packet [49]	Uri [/sleep(5)%3b]	Nattacks [2 ]	Signatures	[933161]	[942101]
+Packet [50]	Uri [/sleep(5)%3b%23]	Nattacks [2 ]	Signatures	[933161]	[942101]
+Packet [51]	Uri [/'%3bsleep(5)%3b]	Nattacks [1 ]	Signatures	[933161]
+Packet [52]	Uri [/'%3bsleep(5)%3b%23]	Nattacks [1 ]	Signatures	[933161]
+Packet [53]	Uri [/%22%3bsleep(5)%3b]	Nattacks [1 ]	Signatures	[933161]
+Packet [54]	Uri [/%22%3bsleep(5)%3b%23]	Nattacks [1 ]	Signatures	[933161]
+Packet [55]	Uri [/import%20time%3btime.sleep(5)%3b]	Nattacks [1 ]	Signatures	[933161]
+Packet [56]	Uri [/import%20time%3btime.sleep(5)%3b%23]	Nattacks [1 ]	Signatures	[933161]
+Packet [57]	Uri [/'%3bimport%20time%3btime.sleep(5)%3b]	Nattacks [1 ]	Signatures	[933161]
+Packet [58]	Uri [/'%3bimport%20time%3btime.sleep(5)%3b%23]	Nattacks [1 ]	Signatures	[933161]
+Packet [59]	Uri [/%22%3bimport%20time%3btime.sleep(5)%3b]	Nattacks [1 ]	Signatures	[933161]
+Packet [60]	Uri [/%22%3bimport%20time%3btime.sleep(5)%3b%23]	Nattacks [1 ]	Signatures	[933161]
+# N. packets [60], [12] with alerts, N. Alerts [14]

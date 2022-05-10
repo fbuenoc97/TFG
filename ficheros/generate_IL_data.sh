@@ -53,7 +53,26 @@ case ${opcion} in
        	done
 	;;
 3)
-	RUTA_RULES=/home/kali/Downloads/coreruleset          ##CAMBIAR
+	RUTA_MS_IL=/home/dit/Downloads/inspectorlog
+	cd $RUTA_URI
+       	for j in $(ls $PWD)
+       	do
+       	cd $j  
+       	RUTA_HERR=$(echo $PWD | awk -F "capturas-full" '{print $2}')
+       	echo "Procesando ficheros de la ruta" $RUTA_HERR;
+       	cd pcap
+               	for i in $(ls $PWD | grep .uri)
+               	do
+
+                       	RUTA_MODSECURITY=/home/dit/TFG/inspectorlog/modsecurity$RUTA_HERR
+			mkdir -p $RUTA_MODSECURITY
+                       	nombre_fich=${i%.*}
+                       	echo "Analizando con IL+Reglas modsecurity el fichero" $i;
+                       	$RUTA_MS_IL/ms-inspectorlog -l $i -t list -r $RUTA_MS_IL/etc/basic_rules.conf -o $RUTA_MODSECURITY/$nombre_fich.clean > $RUTA_MODSECURITY/$nombre_fich.attacks;
+                       	echo "-----------------------------------------------------------------------------------";
+               	done
+       	cd ../..
+       	done
 	;;
 
 esac

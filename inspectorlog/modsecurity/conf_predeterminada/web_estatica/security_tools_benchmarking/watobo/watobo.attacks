@@ -1,0 +1,16 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l watobo.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/conf_predeterminada/web_estatica/security_tools_benchmarking/watobo/watobo.clean
+Packet [3]	Uri [/Trace.axd]	Nattacks [1 ]	Signatures	[920440]
+Packet [15]	Uri [/elmah.axd]	Nattacks [1 ]	Signatures	[920440]
+Packet [2456]	Uri [/MOVEitISAPI/MOVEitISAPI.dll?action=capa]	Nattacks [1 ]	Signatures	[920440]
+Packet [2487]	Uri [/moveitisapi/moveitisapi.dll?action=download]	Nattacks [1 ]	Signatures	[920440]
+Packet [3256]	Uri [/?action%3Awatobo_%25%7B10000-1%7D]	Nattacks [2 ]	Signatures	[920220]	[920272]
+Packet [3258]	Uri [/?redirectAction%3Awatobo_%25%7B10000-1%7D]	Nattacks [2 ]	Signatures	[920220]	[920272]
+Packet [3264]	Uri [/?redirect%3Awatobo_%25%7B10000-1%7D]	Nattacks [2 ]	Signatures	[920220]	[920272]
+Packet [3265]	Uri [/web?watobo=%25%7B%28%23_memberAccess%5B%27allowStaticMethodAccess%27%5D%3Dtrue%29%28%23context%5B%27xwork.MethodAccessor.denyMethodExecution%27%5D%3Dfalse%29%28%23writer%3D%40org.apache.struts2.ServletActionContext%40getResponse%28%29.getWriter%28%29%2C%23writer.println%28%27INJ%27%2B%271645209911%27%29%2C%23writer.close%28%29%29%7D]	Nattacks [13 ]	Signatures	[920220]	[920272]	[941340]	[942200]	[942260]	[942370]	[942430]	[942440]	[942490]	[942431]	[942460]	[942511]	[944130]
+Packet [3292]	Uri [/web.query.json?statement=%2F%2F%2A]	Nattacks [1 ]	Signatures	[942440]
+Packet [3298]	Uri [/.query.json?statement=%2F%2F%2A]	Nattacks [1 ]	Signatures	[942440]
+Packet [3687]	Uri [/web?xsd=../conf/axis2.xml]	Nattacks [1 ]	Signatures	[930110]
+Packet [3692]	Uri [/web?xsd=../../../../../../../etc/passwd]	Nattacks [6 ]	Signatures	[930100]	[930110]	[930110]	[930120]	[932160]	[942460]
+# N. packets [3734], [12] with alerts, N. Alerts [32]
