@@ -13,7 +13,7 @@ case ${opcion} in
 1)
 	RUTA_RULES=/home/kali/Downloads/reglas_javi/snort
 	cd $RUTA_URI  
-       	RUTA_HERR=$(echo $PWD | awk -F "capturas" '{print $2}')
+       	RUTA_HERR=$(echo $PWD | awk -F "capturas-full" '{print $2}')
 	cd pcap
        	echo "Procesando ficheros de la ruta" $RUTA_HERR;
                for i in $(ls $PWD | grep .uri)
@@ -29,7 +29,7 @@ case ${opcion} in
 2)
 	RUTA_RULES=/home/kali/Downloads/reglas_javi/nemesida
 	cd $RUTA_URI
-       	RUTA_HERR=$(echo $PWD | awk -F "capturas" '{print $2}')
+       	RUTA_HERR=$(echo $PWD | awk -F "capturas-full" '{print $2}')
        	echo "Procesando ficheros de la ruta" $RUTA_HERR;
        	cd pcap
                	for i in $(ls $PWD | grep .uri)

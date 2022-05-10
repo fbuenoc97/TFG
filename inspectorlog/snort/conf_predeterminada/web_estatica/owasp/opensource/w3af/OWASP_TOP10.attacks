@@ -9,7 +9,7 @@
 #----- Statistics (SNORT) ------------------------------
 # Read [9764] Snort rules, [5500] http-related, [0] with errors
 #----- Analysis results ----------------------------
-# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l OWASP_TOP10.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/web_estatica/owasp/opensource/w3af/OWASP_TOP10.clean
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l OWASP_TOP10.uri -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/inspectorlog/snort/conf_predeterminada/web_estatica/owasp/opensource/w3af/OWASP_TOP10.clean
 Packet [38]	Uri [/web?=PHPE9568F34-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011142]
 Packet [39]	Uri [/web?=PHPE9568F36-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011144]
 Packet [40]	Uri [/web?=PHPE9568F35-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011143]
@@ -130,4 +130,4 @@ Packet [5570]	Uri [/web/assets/fonts/fontawesome-webfont.svg?=PHPB8B5F2A0-3C92-1
 Packet [5571]	Uri [/web/assets/fonts/fontawesome-webfont.svg?=PHPE9568F34-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011142]
 Packet [5572]	Uri [/web/assets/fonts/fontawesome-webfont.svg?=PHPE9568F36-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011144]
 # N. packets [7335], [119] with alerts, N. Alerts [121]
-# Execution time: 0.090252 s
+# Execution time: 0.314783 s
