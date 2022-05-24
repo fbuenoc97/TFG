@@ -1,0 +1,10 @@
+apache
+# N. packets [10], [6] with alerts, N. Alerts [8]
+cgis
+# N. packets [337], [335] with alerts, N. Alerts [1247]
+dirTraversal
+# N. packets [181], [77] with alerts, N. Alerts [245]
+Injections
+# N. packets [43], [37] with alerts, N. Alerts [261]
+wfuzz
+# N. packets [571], [455] with alerts, N. Alerts [1761]

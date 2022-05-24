@@ -1,0 +1,6 @@
+/web//,%ENV,//
+/web/!@,/web/\\\\?\\/,/web/&LT/,/web/(')/,/web/&,/web/..%5c/,/web/..%%35%63/
+/web/..%u2216/
+/web/'%20or%20uname%20like%20'%/
+/web/'%20or%20username%20like%20'%/
+/web/'%20or%20'x'='x/,/web/or%200=0%20,/web/hi'%20or%20'a'='a/,/web/@variable/,/web/desc/,/web/handler/,/web/tz_offset/,/web/(sqlattempt2)/,/web/count(/child::node())/,/web/%26/,/web/<xml%20SRC="xsstest.xml"%20ID=I></xml><SPAN%20DATASRC=

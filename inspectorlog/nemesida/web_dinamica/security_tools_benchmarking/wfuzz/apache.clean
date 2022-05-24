@@ -1,0 +1,4 @@
+/web/error/,/web/dummy/
+/web/cgi-script/,/web/phf/
+/web/.meta/,/web/icons/,/web/status/
+/web/cgi-bin/,/web/server-info/,/web/~bin/

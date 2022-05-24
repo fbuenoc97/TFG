@@ -1,0 +1,16 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l apache.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/web_dinamica/security_tools_benchmarking/wfuzz/apache.clean
+Packet [3]	Uri [/web/.htaccess/,/web/httpd/,/web/printenv/,/web/test-cgi/]	Nattacks [3]	Signatures	[300001826]	[300001847]	[300002846]
+Packet [6]	Uri [/web/cgi/,/web/htdocs/,/web/~nobody/]	Nattacks [1]	Signatures	[300001872]
+Packet [7]	Uri [/web/cgi-pub/,/web/logs/,/web/server-status/]	Nattacks [1]	Signatures	[300001899]
+Packet [8]	Uri [/web/access_log/,/web/manual/,/web/~ftp/]	Nattacks [1]	Signatures	[300001872]
+Packet [9]	Uri [/web/.htpasswd/,/web/httpd.pid/,/web/index.html/,/web/tmp/]	Nattacks [1]	Signatures	[300001846]
+Packet [10]	Uri [/web/.web/,/web/error_log/,/web/~root/]	Nattacks [1]	Signatures	[300001872]
+# N. packets [10], [6] with alerts, N. Alerts [8]
+# Execution time: 0.003588 s

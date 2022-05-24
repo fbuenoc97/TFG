@@ -1,0 +1,4 @@
+/web/.meta/,/web/index.html/,/web/access_log/
+/web/httpd.pid/,/web/icons/,/web/.web/
+/web/status/,/web/htdocs/,/web/test-cgi/
+/web/server-info/,/web/error/,/web/tmp/
