@@ -1,4 +1,0 @@
-# ms-inspectorlog v3.5
-#----- Analysis results ----------------------------
-# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l commix.uri -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -t list -o modsecurity/commix.clean
-# N. packets [20458], [0] with alerts, N. Alerts [0]

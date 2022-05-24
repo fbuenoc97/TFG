@@ -1,6 +1,0 @@
-# ms-inspectorlog v3.5
-#----- Analysis results ----------------------------
-# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l xsser.uri -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -t list -o modsecurity/xsser.clean
-Packet [44]	Uri [/web/index.php/2022/01/21/hola-mundo/\'http:/192.168.1.102/web/index.php/2022/01/21/hola-mundo/?replytocom=%2522%253e%2538%2563%2531%2535%2565%2561%2539%2532%2536%2531%2530%2533%2531%2531%2539%2563%2562%2535%2533%2561%2565%2538%2564%2566%2530%2536%2561%2562%2562%2565%2563%2533]	Nattacks [3 ]	Signatures	[920230]	[942110]	[942490]
-Packet [61]	Uri [/web/index.php/2022/01/21/hola-mundo/\'http:/192.168.1.102/web/index.php/2022/01/21/hola-mundo/?replytocom=%22%3E6d5b04a328eb92826fd6a62821640923]	Nattacks [2 ]	Signatures	[942110]	[942490]
-# N. packets [61], [2] with alerts, N. Alerts [5]
