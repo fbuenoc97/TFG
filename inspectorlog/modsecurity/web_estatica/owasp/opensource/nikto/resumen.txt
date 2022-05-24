@@ -1,0 +1,24 @@
+command_execution
+# N. packets [829], [198] with alerts, N. Alerts [801]
+denial_of_service
+# N. packets [544], [67] with alerts, N. Alerts [131]
+evasion
+# N. packets [63012], [38223] with alerts, N. Alerts [170136]
+file_inclusion
+# N. packets [792], [64] with alerts, N. Alerts [126]
+information_disclosure
+# N. packets [1511], [309] with alerts, N. Alerts [448]
+injection
+# N. packets [880], [374] with alerts, N. Alerts [2281]
+interesting_file
+# N. packets [2241], [292] with alerts, N. Alerts [983]
+misconfiguration
+# N. packets [1322], [216] with alerts, N. Alerts [299]
+nikto
+# N. packets [73619], [40290] with alerts, N. Alerts [177124]
+remote_file_retrieval
+# N. packets [1369], [351] with alerts, N. Alerts [1176]
+remote_source_inclusion
+# N. packets [493], [59] with alerts, N. Alerts [121]
+sql_injection
+# N. packets [626], [137] with alerts, N. Alerts [622]

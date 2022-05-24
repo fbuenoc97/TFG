@@ -1,0 +1,8 @@
+/web/error/,/web/dummy/
+/web/cgi-script/,/web/phf/
+/web/.meta/,/web/icons/,/web/status/
+/web/cgi-bin/,/web/server-info/,/web/~bin/
+/web/cgi/,/web/htdocs/,/web/~nobody/
+/web/cgi-pub/,/web/logs/,/web/server-status/
+/web/access_log/,/web/manual/,/web/~ftp/
+/web/.web/,/web/error_log/,/web/~root/

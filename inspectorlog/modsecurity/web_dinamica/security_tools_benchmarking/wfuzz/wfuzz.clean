@@ -1,0 +1,9 @@
+/web/'%20UNION%20SELECT/,/web/truncate/,/web/to_timestamp_tz/,/web/'sqlattempt1/,/web/@*/,/web/%28/,/web/<xml%20ID=I><X><C><![CDATA[<IMG%20SRC="javas]]><![CDATA[cript:alert('XSS');">]]>/
+/web/error/,/web/dummy/
+/web/cgi-script/,/web/phf/
+/web/.meta/,/web/icons/,/web/status/
+/web/cgi-bin/,/web/server-info/,/web/~bin/
+/web/cgi/,/web/htdocs/,/web/~nobody/
+/web/cgi-pub/,/web/logs/,/web/server-status/
+/web/access_log/,/web/manual/,/web/~ftp/
+/web/.web/,/web/error_log/,/web/~root/

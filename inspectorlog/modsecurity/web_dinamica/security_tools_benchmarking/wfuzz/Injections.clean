@@ -1,0 +1,1 @@
+/web/'%20UNION%20SELECT/,/web/truncate/,/web/to_timestamp_tz/,/web/'sqlattempt1/,/web/@*/,/web/%28/,/web/<xml%20ID=I><X><C><![CDATA[<IMG%20SRC="javas]]><![CDATA[cript:alert('XSS');">]]>/

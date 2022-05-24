@@ -1,0 +1,48 @@
+command_execution
+# N. packets [829], [198] with alerts, N. Alerts [801]
+denial_of_service
+# N. packets [544], [67] with alerts, N. Alerts [131]
+evasion
+# N. packets [64067], [38226] with alerts, N. Alerts [170181]
+file_inclusion
+# N. packets [792], [64] with alerts, N. Alerts [126]
+information_disclosure
+# N. packets [1510], [309] with alerts, N. Alerts [448]
+injection
+# N. packets [885], [374] with alerts, N. Alerts [2284]
+interesting_file
+# N. packets [2241], [292] with alerts, N. Alerts [983]
+misconfiguration
+# N. packets [1322], [216] with alerts, N. Alerts [299]
+nikto
+# N. packets [76887], [42699] with alerts, N. Alerts [184583]
+remote_file_retrieval
+# N. packets [1374], [351] with alerts, N. Alerts [1176]
+remote_source_inclusion
+# N. packets [2973], [2500] with alerts, N. Alerts [7628]
+sql_injection
+# N. packets [350], [102] with alerts, N. Alerts [526]
+command_execution
+# N. packets [829], [198] with alerts, N. Alerts [801]
+denial_of_service
+# N. packets [544], [67] with alerts, N. Alerts [131]
+evasion
+# N. packets [64067], [38226] with alerts, N. Alerts [170181]
+file_inclusion
+# N. packets [792], [64] with alerts, N. Alerts [126]
+information_disclosure
+# N. packets [1510], [309] with alerts, N. Alerts [448]
+injection
+# N. packets [885], [374] with alerts, N. Alerts [2284]
+interesting_file
+# N. packets [2241], [292] with alerts, N. Alerts [983]
+misconfiguration
+# N. packets [1322], [216] with alerts, N. Alerts [299]
+nikto
+# N. packets [76887], [42699] with alerts, N. Alerts [184583]
+remote_file_retrieval
+# N. packets [1374], [351] with alerts, N. Alerts [1176]
+remote_source_inclusion
+# N. packets [2973], [2500] with alerts, N. Alerts [7628]
+sql_injection
+# N. packets [350], [102] with alerts, N. Alerts [526]

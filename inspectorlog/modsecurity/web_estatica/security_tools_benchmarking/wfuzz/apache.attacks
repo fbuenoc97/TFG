@@ -1,0 +1,6 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l apache.uri -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/inspectorlog/modsecurity/web_estatica/security_tools_benchmarking/wfuzz/apache.clean
+Packet [1]	Uri [/web/.htaccess/,/web/logs/,/web/cgi-pub/]	Nattacks [1 ]	Signatures	[930130]
+Packet [3]	Uri [/web/cgi-bin/,/web/httpd/,/web/.htpasswd/]	Nattacks [1 ]	Signatures	[930130]
+# N. packets [10], [2] with alerts, N. Alerts [2]
