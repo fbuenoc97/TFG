@@ -1,0 +1,4 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l deepfence_threatmapper.short -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/ficheros_uris_completos/web_estatica/modsecurity/deepfence_threatmapper_short.clean
+# N. packets [2], [0] with alerts, N. Alerts [0]

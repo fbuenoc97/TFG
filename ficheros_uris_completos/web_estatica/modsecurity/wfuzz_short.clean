@@ -1,0 +1,10 @@
+/web/.meta/,/web/index.html/,/web/access_log/
+/web////
+/web/httpd.pid/,/web/icons/,/web/.web/
+/web/manual/,/web/cgi/,/web/~root/
+/web/phf/,/web/cgi-script/,/web/~nobody/
+/web/printenv/,/web/dummy/,/web/~ftp/
+/web/scripts/dnewsweb.exe/,/web/scripts/fpcount.exe/,/web/scripts/samples/,/web/scripts/tools/ctss.idc/,/web/search/SQLQHit.asp/,/web/search97cgi/s97_cgi/,/web/secure/.wwwacl/,/web/servlet/SchedulerTransfer/,/web/servlet/com.unify.servletexec.UploadServlet/,/web/servlet/webacc?User.html=noexist/,/web/setup.nsf/,/web/signon/,/web/shoponline/fpdb/shop.mdb/,/web/surf/scwebusers/,/web/stronghold-info/,/web/useraction.php3/
+/web/server-info/,/web/error/,/web/tmp/
+/web/server-status/,/web/error_log/,/web/~bin/
+/web/status/,/web/htdocs/,/web/test-cgi/

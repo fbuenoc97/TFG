@@ -1,0 +1,95 @@
+arachni_short
+# N. packets [33], [3] with alerts, N. Alerts [6]
+burpsuite_short
+# N. packets [74], [22] with alerts, N. Alerts [262]
+commix_short
+# N. packets [1], [0] with alerts, N. Alerts [0]
+deepfence_threatmapper_short
+# N. packets [2], [0] with alerts, N. Alerts [0]
+golismero_short
+# N. packets [8515], [3842] with alerts, N. Alerts [13491]
+grabber_short
+# N. packets [1062], [1013] with alerts, N. Alerts [9130]
+grendel-scan_short
+# N. packets [17770], [494] with alerts, N. Alerts [494]
+havij_short
+# N. packets [289], [286] with alerts, N. Alerts [3276]
+ironwasp_short
+# N. packets [1016], [222] with alerts, N. Alerts [435]
+metasploit_short
+# N. packets [44465], [6822] with alerts, N. Alerts [6962]
+nessus_short
+# N. packets [18363], [10701] with alerts, N. Alerts [46301]
+nexploit_short
+# N. packets [1085], [490] with alerts, N. Alerts [2818]
+nexpose_short
+# N. packets [2592], [484] with alerts, N. Alerts [911]
+nikto_short
+# N. packets [58944], [39172] with alerts, N. Alerts [174736]
+nmap_short
+# N. packets [2241], [80] with alerts, N. Alerts [334]
+nuclei_short
+# N. packets [2829], [1274] with alerts, N. Alerts [5811]
+openvas_short
+# N. packets [8473], [1935] with alerts, N. Alerts [7926]
+owasp_zap_short
+# N. packets [56], [0] with alerts, N. Alerts [0]
+skipfish_short
+arachni_short
+# N. packets [33], [3] with alerts, N. Alerts [6]
+burpsuite_short
+# N. packets [74], [22] with alerts, N. Alerts [262]
+commix_short
+# N. packets [1], [0] with alerts, N. Alerts [0]
+deepfence_threatmapper_short
+# N. packets [2], [0] with alerts, N. Alerts [0]
+golismero_short
+# N. packets [8515], [3842] with alerts, N. Alerts [13491]
+grabber_short
+# N. packets [1062], [1013] with alerts, N. Alerts [9130]
+grendel-scan_short
+# N. packets [17770], [494] with alerts, N. Alerts [494]
+havij_short
+# N. packets [289], [286] with alerts, N. Alerts [3276]
+ironwasp_short
+# N. packets [1016], [222] with alerts, N. Alerts [435]
+metasploit_short
+# N. packets [44465], [6822] with alerts, N. Alerts [6962]
+nessus_short
+# N. packets [18363], [10701] with alerts, N. Alerts [46301]
+nexploit_short
+# N. packets [1085], [490] with alerts, N. Alerts [2818]
+nexpose_short
+# N. packets [2592], [484] with alerts, N. Alerts [911]
+nikto_short
+# N. packets [58944], [39172] with alerts, N. Alerts [174736]
+nmap_short
+# N. packets [2241], [80] with alerts, N. Alerts [334]
+nuclei_short
+# N. packets [2829], [1274] with alerts, N. Alerts [5811]
+openvas_short
+# N. packets [8473], [1935] with alerts, N. Alerts [7926]
+owasp_zap_short
+# N. packets [56], [0] with alerts, N. Alerts [0]
+skipfish_short
+# N. packets [56797], [3379] with alerts, N. Alerts [13978]
+smartscanner_short
+# N. packets [994], [137] with alerts, N. Alerts [144]
+sqlmap_short
+# N. packets [75], [67] with alerts, N. Alerts [97]
+vega_short
+# N. packets [798], [118] with alerts, N. Alerts [368]
+w3af_short
+# N. packets [630], [18] with alerts, N. Alerts [67]
+wapiti_short
+# N. packets [20645], [165] with alerts, N. Alerts [169]
+watobo_short
+# N. packets [2771], [12] with alerts, N. Alerts [32]
+webcruiser_short
+# N. packets [60], [5] with alerts, N. Alerts [45]
+wfuzz_short
+# N. packets [564], [554] with alerts, N. Alerts [2917]
+wikto_short
+# N. packets [3721], [639] with alerts, N. Alerts [1769]
+xsser_short
+# N. packets [8], [0] with alerts, N. Alerts [0]

@@ -1,0 +1,9 @@
+# ms-inspectorlog v3.5
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/dit/Downloads/inspectorlog/ms-inspectorlog -l webcruiser.short -t list -r /home/dit/Downloads/inspectorlog/etc/basic_rules.conf -o /home/dit/TFG/ficheros_uris_completos/web_estatica/modsecurity/webcruiser_short.clean
+Packet [5]	Uri [/web/?demo-message=WCRTEXTAREATESTINPUT4669541&demo-category=1&demo-name=4312809%3Cimg%20src=0%20onerror='alert(2665496)'%3E]	Nattacks [9 ]	Signatures	[941100]	[941120]	[941160]	[941150]	[941320]	[942130]	[942370]	[942431]	[942511]
+Packet [6]	Uri [/web/?demo-name=4312809&demo-category=1&demo-message=WCRTEXTAREATESTINPUT4669541%3Cimg%20src=0%20onerror='alert(8714480)'%3E]	Nattacks [9 ]	Signatures	[941100]	[941120]	[941160]	[941150]	[941320]	[942130]	[942370]	[942431]	[942511]
+Packet [7]	Uri [/web/?email=3860875&message=WCRTEXTAREATESTINPUT3082653&name=2278796%3Cimg%20src=0%20onerror='alert(4576670)'%3E]	Nattacks [9 ]	Signatures	[941100]	[941120]	[941160]	[941150]	[941320]	[942130]	[942370]	[942431]	[942511]
+Packet [8]	Uri [/web/?name=2278796&email=3860875&message=WCRTEXTAREATESTINPUT3082653%3Cimg%20src=0%20onerror='alert(9972891)'%3E]	Nattacks [9 ]	Signatures	[941100]	[941120]	[941160]	[941150]	[941320]	[942130]	[942370]	[942431]	[942511]
+Packet [9]	Uri [/web/?name=2278796&message=WCRTEXTAREATESTINPUT3082653&email=3860875%3Cimg%20src=0%20onerror='alert(3133958)'%3E]	Nattacks [9 ]	Signatures	[941100]	[941120]	[941160]	[941150]	[941320]	[942130]	[942370]	[942431]	[942511]
+# N. packets [60], [5] with alerts, N. Alerts [45]
