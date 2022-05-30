@@ -1,0 +1,40 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l w3af.short -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/ficheros_uris_completos/web_estatica/nemesida/w3af_short.clean
+Packet [10]	Uri [/../]	Nattacks [1]	Signatures	[300000067]
+Packet [11]	Uri [/../../../../../]	Nattacks [2]	Signatures	[300000057]	[300000067]
+Packet [12]	Uri [/./././././././././././././././]	Nattacks [2]	Signatures	[300000057]	[300000077]
+Packet [13]	Uri [/././././././qwerty/.././././././././]	Nattacks [3]	Signatures	[300000057]	[300000067]	[300000077]
+Packet [57]	Uri [/asdfasdfasdfasdfasdf/../]	Nattacks [1]	Signatures	[300000067]
+Packet [59]	Uri [/backup/]	Nattacks [1]	Signatures	[300002856]
+Packet [100]	Uri [/icons/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [138]	Uri [/images/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [203]	Uri [/noindex/css/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [225]	Uri [/noindex/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [247]	Uri [/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [264]	Uri [/server-status]	Nattacks [1]	Signatures	[300001899]
+Packet [309]	Uri [/web/assets/css/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [371]	Uri [/web/assets/fonts/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [409]	Uri [/web/assets/js/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [435]	Uri [/web/assets/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [454]	Uri [/web/assets/sass/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [485]	Uri [/web/images/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [521]	Uri [/web/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [539]	Uri [/web?ysNBMxi=%3C%3F%20passthru%28%22id%22%29%3B%3F%3E]	Nattacks [3]	Signatures	[300000051]	[300000053]	[300002802]
+Packet [540]	Uri [/web?ysNBMxi=%3Cscript%3Ealert%281%29%3C%2Fscript%3E]	Nattacks [3]	Signatures	[300000508]	[300000515]	[300000537]
+Packet [541]	Uri [/web?ysNBMxi=.%2F..%2F..%2F..%2Fetc%2Fmotd%00html]	Nattacks [4]	Signatures	[300000057]	[300000067]	[300001145]	[300001359]
+Packet [542]	Uri [/web?ysNBMxi=..%2F..%2F..%2F..%2Fbin%2Fchgrp%20nobody%20%2Fetc%2Fshadow%7C]	Nattacks [5]	Signatures	[300000057]	[300000067]	[300001053]	[300001145]	[300001559]
+Packet [543]	Uri [/web?ysNBMxi=..%2F..%2F..%2F..%2Fetc%2Fpasswd]	Nattacks [4]	Signatures	[300000057]	[300000067]	[300001145]	[300001559]
+Packet [544]	Uri [/web?ysNBMxi=..%2F..%2FWINNT%2Fsystem32%2Fcmd.exe%3Fdir%2Bc%3A%5C]	Nattacks [4]	Signatures	[300000053]	[300000057]	[300000067]	[300001145]
+Packet [545]	Uri [/web?ysNBMxi=exec%20master..xp_cmdshell%20dir]	Nattacks [1]	Signatures	[300001491]
+Packet [546]	Uri [/web?ysNBMxi=exec%20xp_cmdshell%20dir]	Nattacks [1]	Signatures	[300001491]
+Packet [574]	Uri [/~ftp/]	Nattacks [1]	Signatures	[300001872]
+Packet [590]	Uri [/~nobody/]	Nattacks [1]	Signatures	[300001872]
+Packet [603]	Uri [/~root/]	Nattacks [1]	Signatures	[300001872]
+# N. packets [630], [30] with alerts, N. Alerts [51]
+# Execution time: 0.385360 s

@@ -1,0 +1,19 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l golismero.short -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/ficheros_uris_completos/web_dinamica//snort/golismero_short.clean
+Packet [51]	Uri [/etc/passwd?format=%%%%&xss="><script>alert('xss');</script>&traversal=../../&sql='%20OR%201;]	Nattacks [2]	Signatures	[2008627]	[2009714]
+Packet [114]	Uri [/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [191]	Uri [/web/wp-includes/wlwmanifest.xml]	Nattacks [1]	Signatures	[2031505]
+Packet [201]	Uri [/web/xmlrpc.php]	Nattacks [1]	Signatures	[2018754]
+Packet [202]	Uri [/web/xmlrpc.php?rsd]	Nattacks [1]	Signatures	[2018754]
+# N. packets [207], [5] with alerts, N. Alerts [6]
+# Execution time: 0.466870 s

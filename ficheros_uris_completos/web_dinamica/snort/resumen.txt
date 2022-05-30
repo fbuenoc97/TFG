@@ -1,0 +1,59 @@
+arachni_short
+# N. packets [4950], [591] with alerts, N. Alerts [678]
+burpsuite_short
+# N. packets [565], [173] with alerts, N. Alerts [284]
+commix_short
+# N. packets [2], [0] with alerts, N. Alerts [0]
+deepfence_threatmapper_short
+# N. packets [1], [0] with alerts, N. Alerts [0]
+golismero_short
+# N. packets [207], [5] with alerts, N. Alerts [6]
+grabber_short
+# N. packets [5688], [391] with alerts, N. Alerts [409]
+grendel-scan_short
+# N. packets [17788], [688] with alerts, N. Alerts [688]
+havij_short
+# N. packets [106], [99] with alerts, N. Alerts [195]
+ironwasp_short
+# N. packets [428], [10] with alerts, N. Alerts [10]
+metasploit_short
+# N. packets [44465], [14] with alerts, N. Alerts [14]
+nessus_short
+# N. packets [19277], [1557] with alerts, N. Alerts [1951]
+nexploit_short
+# N. packets [4286], [254] with alerts, N. Alerts [343]
+nexpose_short
+# N. packets [2592], [252] with alerts, N. Alerts [275]
+nikto_short
+# N. packets [61691], [3210] with alerts, N. Alerts [3573]
+nmap_short
+# N. packets [2587], [53] with alerts, N. Alerts [102]
+nuclei_short
+# N. packets [1179], [242] with alerts, N. Alerts [422]
+openvas_short
+# N. packets [45060], [6338] with alerts, N. Alerts [8692]
+owasp_zap_short
+# N. packets [5758], [618] with alerts, N. Alerts [649]
+skipfish_short
+# N. packets [18463], [77] with alerts, N. Alerts [223]
+smartscanner_short
+# N. packets [1586], [90] with alerts, N. Alerts [95]
+sqlmap_short
+# N. packets [460], [286] with alerts, N. Alerts [539]
+vega_short
+# N. packets [7192], [179] with alerts, N. Alerts [491]
+w3af_short
+wapiti_short
+# N. packets [36900], [986] with alerts, N. Alerts [1038]
+watobo_short
+# N. packets [11], [0] with alerts, N. Alerts [0]
+webcruiser_short
+# N. packets [1605], [21] with alerts, N. Alerts [35]
+wfuzz_short
+# N. packets [562], [334] with alerts, N. Alerts [716]
+wikto_short
+# N. packets [3721], [67] with alerts, N. Alerts [91]
+wpscan_short
+# N. packets [163], [4] with alerts, N. Alerts [4]
+xsser_short
+# N. packets [37], [0] with alerts, N. Alerts [0]

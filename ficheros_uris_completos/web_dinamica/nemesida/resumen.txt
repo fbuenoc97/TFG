@@ -1,0 +1,59 @@
+arachni_short
+# N. packets [4950], [3521] with alerts, N. Alerts [14194]
+burpsuite_short
+# N. packets [565], [327] with alerts, N. Alerts [1830]
+commix_short
+# N. packets [2], [0] with alerts, N. Alerts [0]
+deepfence_threatmapper_short
+# N. packets [1], [0] with alerts, N. Alerts [0]
+golismero_short
+# N. packets [207], [65] with alerts, N. Alerts [73]
+grabber_short
+# N. packets [5688], [3652] with alerts, N. Alerts [11330]
+grendel-scan_short
+# N. packets [17788], [2574] with alerts, N. Alerts [2598]
+havij_short
+# N. packets [106], [0] with alerts, N. Alerts [0]
+ironwasp_short
+# N. packets [428], [109] with alerts, N. Alerts [363]
+metasploit_short
+# N. packets [44465], [10702] with alerts, N. Alerts [10845]
+nessus_short
+# N. packets [19277], [7780] with alerts, N. Alerts [20011]
+nexploit_short
+# N. packets [4286], [832] with alerts, N. Alerts [2718]
+nexpose_short
+# N. packets [2592], [585] with alerts, N. Alerts [969]
+nikto_short
+# N. packets [61691], [32977] with alerts, N. Alerts [74871]
+nmap_short
+# N. packets [2587], [321] with alerts, N. Alerts [505]
+nuclei_short
+# N. packets [1179], [644] with alerts, N. Alerts [2031]
+openvas_short
+# N. packets [45060], [16750] with alerts, N. Alerts [47606]
+owasp_zap_short
+# N. packets [5758], [3009] with alerts, N. Alerts [7438]
+skipfish_short
+# N. packets [18463], [1501] with alerts, N. Alerts [3808]
+smartscanner_short
+# N. packets [1586], [528] with alerts, N. Alerts [1069]
+sqlmap_short
+# N. packets [460], [177] with alerts, N. Alerts [418]
+vega_short
+# N. packets [7192], [2319] with alerts, N. Alerts [3724]
+w3af_short
+wapiti_short
+# N. packets [36900], [4145] with alerts, N. Alerts [13439]
+watobo_short
+# N. packets [11], [3] with alerts, N. Alerts [7]
+webcruiser_short
+# N. packets [1605], [362] with alerts, N. Alerts [2059]
+wfuzz_short
+# N. packets [562], [454] with alerts, N. Alerts [1776]
+wikto_short
+# N. packets [3721], [856] with alerts, N. Alerts [1514]
+wpscan_short
+# N. packets [163], [115] with alerts, N. Alerts [136]
+xsser_short
+# N. packets [37], [7] with alerts, N. Alerts [16]

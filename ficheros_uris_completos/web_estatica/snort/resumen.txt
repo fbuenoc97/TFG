@@ -1,0 +1,58 @@
+arachni_short
+# N. packets [33], [0] with alerts, N. Alerts [0]
+burpsuite_short
+# N. packets [74], [15] with alerts, N. Alerts [28]
+commix_short
+# N. packets [1], [0] with alerts, N. Alerts [0]
+deepfence_threatmapper_short
+# N. packets [2], [0] with alerts, N. Alerts [0]
+golismero_short
+# N. packets [8515], [502] with alerts, N. Alerts [555]
+grabber_short
+# N. packets [1062], [184] with alerts, N. Alerts [184]
+grendel-scan_short
+# N. packets [17770], [688] with alerts, N. Alerts [688]
+havij_short
+# N. packets [289], [40] with alerts, N. Alerts [40]
+ironwasp_short
+# N. packets [1016], [10] with alerts, N. Alerts [10]
+metasploit_short
+# N. packets [44465], [14] with alerts, N. Alerts [14]
+nessus_short
+# N. packets [18363], [1331] with alerts, N. Alerts [1596]
+nexploit_short
+# N. packets [1085], [89] with alerts, N. Alerts [120]
+nexpose_short
+# N. packets [2592], [252] with alerts, N. Alerts [275]
+nikto_short
+# N. packets [58944], [3098] with alerts, N. Alerts [3458]
+nmap_short
+# N. packets [2241], [34] with alerts, N. Alerts [79]
+nuclei_short
+# N. packets [2829], [430] with alerts, N. Alerts [635]
+openvas_short
+# N. packets [8473], [578] with alerts, N. Alerts [837]
+owasp_zap_short
+# N. packets [56], [0] with alerts, N. Alerts [0]
+skipfish_short
+# N. packets [56797], [644] with alerts, N. Alerts [684]
+smartscanner_short
+# N. packets [994], [4] with alerts, N. Alerts [4]
+sqlmap_short
+# N. packets [75], [27] with alerts, N. Alerts [37]
+vega_short
+# N. packets [798], [12] with alerts, N. Alerts [36]
+w3af_short
+# N. packets [630], [114] with alerts, N. Alerts [116]
+wapiti_short
+# N. packets [20645], [2] with alerts, N. Alerts [2]
+watobo_short
+# N. packets [2771], [1] with alerts, N. Alerts [3]
+webcruiser_short
+# N. packets [60], [0] with alerts, N. Alerts [0]
+wfuzz_short
+# N. packets [564], [338] with alerts, N. Alerts [698]
+wikto_short
+# N. packets [3721], [67] with alerts, N. Alerts [91]
+xsser_short
+# N. packets [8], [0] with alerts, N. Alerts [0]

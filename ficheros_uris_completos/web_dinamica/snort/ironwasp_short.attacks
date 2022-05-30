@@ -1,0 +1,24 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l ironwasp.short -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/ficheros_uris_completos/web_dinamica//snort/ironwasp_short.clean
+Packet [154]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd]	Nattacks [1]	Signatures	[2030337]
+Packet [155]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd%00]	Nattacks [1]	Signatures	[2030337]
+Packet [156]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd%00.html]	Nattacks [1]	Signatures	[2030337]
+Packet [157]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd%00.html/]	Nattacks [1]	Signatures	[2030337]
+Packet [158]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd%00.jpg]	Nattacks [1]	Signatures	[2030337]
+Packet [159]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd%00.jpg/]	Nattacks [1]	Signatures	[2030337]
+Packet [160]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd%00.txt]	Nattacks [1]	Signatures	[2030337]
+Packet [161]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd%00.txt/]	Nattacks [1]	Signatures	[2030337]
+Packet [162]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd%00/]	Nattacks [1]	Signatures	[2030337]
+Packet [163]	Uri [/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd/]	Nattacks [1]	Signatures	[2030337]
+# N. packets [428], [10] with alerts, N. Alerts [10]
+# Execution time: 0.110645 s

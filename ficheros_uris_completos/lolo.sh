@@ -26,7 +26,7 @@ case ${opcion} in
 	RUTA_RULES=/home/kali/Downloads/reglas_javi/nemesida
                	for i in $(ls $PWD | grep .short)
                	do
-                       	RUTA_SNORT=/home/kali/TFG/ficheros_uris_completos/$RUTA_URI/nemesida
+                       	RUTA_NEMESIDA=/home/kali/TFG/ficheros_uris_completos/$RUTA_URI/nemesida
                        	nombre_fich=${i%.*}
                        	echo "Analizando con IL+Reglas Nemesida el fichero" $i;
                        	$RUTA_IL/inspectorlog -l $i -m $RUTA_RULES/nemesida-rules-bin-20220109.txt -t list -o $RUTA_NEMESIDA/$nombre_fich"_short".clean > $RUTA_NEMESIDA/$nombre_fich"_short".attacks;

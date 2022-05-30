@@ -1,0 +1,49 @@
+# inspectorlog v3.5
+#----- Initializing Rules (SNORT) ---------------------
+# Rules directory : "/home/kali/Downloads/reglas_javi/snort"
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-sn-20220324.rules... done
+#		Rules: read [3749], erroneous [0], URI [384]
+#	Opening SNORT rule file /home/kali/Downloads/reglas_javi/snort/http_uri-er-20220224.rules... done
+[parse_snortRule] WARNING: Line [4970] exceeds allowed number of PCRE fields
+#		Rules: read [6015], erroneous [0], URI [5116]
+#----- Statistics (SNORT) ------------------------------
+# Read [9764] Snort rules, [5500] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l w3af.short -r /home/kali/Downloads/reglas_javi/snort -t list -o /home/kali/TFG/ficheros_uris_completos/web_dinamica//snort/w3af_short.clean
+Packet [91]	Uri [/icons/PHPINFO.php]	Nattacks [1]	Signatures	[2019526]
+Packet [92]	Uri [/icons/PHPinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [93]	Uri [/icons/PhpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [94]	Uri [/icons/phpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [95]	Uri [/icons/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [114]	Uri [/images/apache_pb.gif?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000]	Nattacks [1]	Signatures	[2011141]
+Packet [115]	Uri [/images/apache_pb.gif?=PHPE9568F34-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011142]
+Packet [116]	Uri [/images/apache_pb.gif?=PHPE9568F35-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011143]
+Packet [117]	Uri [/images/apache_pb.gif?=PHPE9568F36-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011144]
+Packet [128]	Uri [/images/PHPINFO.php]	Nattacks [1]	Signatures	[2019526]
+Packet [129]	Uri [/images/PHPinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [130]	Uri [/images/PhpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [131]	Uri [/images/phpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [132]	Uri [/images/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [139]	Uri [/images/poweredby.png?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000]	Nattacks [1]	Signatures	[2011141]
+Packet [140]	Uri [/images/poweredby.png?=PHPE9568F34-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011142]
+Packet [141]	Uri [/images/poweredby.png?=PHPE9568F35-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011143]
+Packet [142]	Uri [/images/poweredby.png?=PHPE9568F36-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011144]
+Packet [178]	Uri [/noindex/css/bootstrap.min.css?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000]	Nattacks [1]	Signatures	[2011141]
+Packet [179]	Uri [/noindex/css/bootstrap.min.css?=PHPE9568F34-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011142]
+Packet [180]	Uri [/noindex/css/bootstrap.min.css?=PHPE9568F35-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011143]
+Packet [181]	Uri [/noindex/css/bootstrap.min.css?=PHPE9568F36-D428-11d2-A769-00AA001ACF42]	Nattacks [1]	Signatures	[2011144]
+Packet [195]	Uri [/noindex/css/PHPINFO.php]	Nattacks [1]	Signatures	[2019526]
+Packet [196]	Uri [/noindex/css/PHPinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [197]	Uri [/noindex/css/PhpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [198]	Uri [/noindex/css/phpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [199]	Uri [/noindex/css/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [217]	Uri [/noindex/PHPINFO.php]	Nattacks [1]	Signatures	[2019526]
+Packet [218]	Uri [/noindex/PHPinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [219]	Uri [/noindex/PhpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [220]	Uri [/noindex/phpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [221]	Uri [/noindex/phpinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [239]	Uri [/PHPINFO.php]	Nattacks [1]	Signatures	[2019526]
+Packet [240]	Uri [/PHPinfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [241]	Uri [/PhpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [242]	Uri [/phpInfo.php]	Nattacks [1]	Signatures	[2019526]
+Packet [243

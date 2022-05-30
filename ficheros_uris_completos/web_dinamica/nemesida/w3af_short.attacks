@@ -1,0 +1,36 @@
+# inspectorlog v3.5
+#----- Initializing Rules (NEMESIDA)  ---------------------
+#	Opening NEMESIDA rule file /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt...
+#		Rules: read [506], erroneous [0], URI (URL|ARGS) [449]
+#-----  Statistics (NEMESIDA) ------------------------------
+# Read [506] nemesida rules, [449] http-related, [0] with errors
+#----- Analysis results ----------------------------
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l w3af.short -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/ficheros_uris_completos/web_dinamica/nemesida/w3af_short.clean
+Packet [10]	Uri [/../]	Nattacks [1]	Signatures	[300000067]
+Packet [11]	Uri [/../../../../../]	Nattacks [2]	Signatures	[300000057]	[300000067]
+Packet [12]	Uri [/./././././././././././././././]	Nattacks [2]	Signatures	[300000057]	[300000077]
+Packet [13]	Uri [/././././././qwerty/.././././././././]	Nattacks [3]	Signatures	[300000057]	[300000067]	[300000077]
+Packet [59]	Uri [/asdfasdfasdfasdfasdf/../]	Nattacks [1]	Signatures	[300000067]
+Packet [61]	Uri [/backup/]	Nattacks [1]	Signatures	[300002856]
+Packet [95]	Uri [/icons/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [132]	Uri [/images/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [199]	Uri [/noindex/css/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [221]	Uri [/noindex/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [243]	Uri [/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
+Packet [261]	Uri [/server-status]	Nattacks [1]	Signatures	[300001899]
+Packet [286]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0A%2Fbin%2Fcat%20%2Fetc%2Fpasswd]	Nattacks [3]	Signatures	[300001053]	[300001359]	[300001559]
+Packet [287]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0A%2Fusr%2Fsbin%2Fping%20-s%20localhost%209]	Nattacks [2]	Signatures	[300001053]	[300001359]
+Packet [288]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0Aping%20-c%209%20localhost]	Nattacks [1]	Signatures	[300001359]
+Packet [289]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0Aping%20-n%209%20localhost]	Nattacks [1]	Signatures	[300001359]
+Packet [290]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0Atype%20%25SYSTEMROOT%25%5Cwin.ini]	Nattacks [1]	Signatures	[300001359]
+Packet [291]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0D%0A%2Fbin%2Fcat%20%2Fetc%2Fpasswd]	Nattacks [3]	Signatures	[300001053]	[300001359]	[300001559]
+Packet [292]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0D%0A%2Fusr%2Fsbin%2Fping%20-s%20localhost%209]	Nattacks [2]	Signatures	[300001053]	[300001359]
+Packet [293]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0D%0Aping%20-c%209%20localhost]	Nattacks [1]	Signatures	[300001359]
+Packet [294]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0D%0Aping%20-n%209%20localhost]	Nattacks [1]	Signatures	[300001359]
+Packet [295]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%0D%0Atype%20%25SYSTEMROOT%25%5Cwin.ini]	Nattacks [1]	Signatures	[300001359]
+Packet [306]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%25SYSTEMROOT%25%5Cwin.ini%00]	Nattacks [1]	Signatures	[300001359]
+Packet [307]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%25SYSTEMROOT%25%5Cwin.ini%00.html]	Nattacks [1]	Signatures	[300001359]
+Packet [308]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%26%26%2Fbin%2Fcat%20%2Fetc%2Fpasswd]	Nattacks [3]	Signatures	[300000032]	[300001053]	[300001559]
+Packet [317]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2Fboot.ini]	Nattacks [3]	Signatures	[300000057]	[300000067]	[300001145]
+Packet [318]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2Fboot.ini%00]	Nattacks [4]	Signatures	[300000057]	[300000067]	[300001145]	[300001359]
+Packet [319]	Uri [/web/2022/02/02/hola-mundo/?replytocom=%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%2F%2F..%
