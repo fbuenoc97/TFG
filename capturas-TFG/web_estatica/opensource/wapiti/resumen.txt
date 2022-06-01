@@ -1,0 +1,14 @@
+9 backup.short
+9 blind_sql.short
+9 brute_login_form.short
+20630 buster.short
+9 crlf.short
+9 exec.short
+1 file.short
+2 http_headers.short
+5 methods.short
+5 shellshock.short
+1 sql.short
+1 ssrf.short
+20645 wapiti.short
+1 xss.short

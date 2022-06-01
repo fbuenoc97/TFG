@@ -1,0 +1,14 @@
+435 code_injection.short
+107 command_injection.short
+21 expression_language_injection.short
+27 header_injection.short
+1016 ironwasp.short
+13 ldap_injection.short
+49 lfi.short
+37 open_redirect.short
+123 rfi.short
+233 sql_injection.short
+17 ssi_injection.short
+19 ss_request_forgery.short
+13 xpath_injection.short
+10 xss.short

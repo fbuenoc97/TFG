@@ -2,7 +2,7 @@
 
 RUTA=$1
 cd $RUTA
-for i in $(ls $PWD)
+for i in $(ls $PWD | grep .uri)
 	do	
 	    nombre_fich=${i%.*}
             sort $i | uniq > $nombre_fich.tmp          # 1) Eliminar repeticiones 

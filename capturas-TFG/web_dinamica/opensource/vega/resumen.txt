@@ -1,0 +1,14 @@
+800 eval_code_injection.short
+6671 header_injections.short
+77 integer_overflow_injection.short
+32 local_file_include.short
+32 os_command_injection.short
+32 remote_file_include.short
+32 shell_injection.short
+32 sql_injection.short
+32 string_format.short
+4878 url_injection.short
+7192 vega.short
+32 xml_injection.short
+32 xpath_injection.short
+32 xss_injection.short

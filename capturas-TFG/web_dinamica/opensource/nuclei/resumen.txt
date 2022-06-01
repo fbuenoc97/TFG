@@ -1,0 +1,15 @@
+115 apache.short
+60 cve.short
+88 exposure.short
+46 injection.short
+320 lfi.short
+1179 nuclei.short
+58 panel.short
+145 rce.short
+53 sqli.short
+63 ssrf.short
+75 tech.short
+61 vulnerabilities.short
+75 wordpress.short
+206 wp-plugin.short
+60 xss.short

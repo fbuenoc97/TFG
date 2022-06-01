@@ -1,0 +1,10 @@
+/web/.htaccess/,/web/logs/,/web/cgi-pub/
+/web/.meta/,/web/index.html/,/web/access_log/
+/web/cgi-bin/,/web/httpd/,/web/.htpasswd/
+/web/httpd.pid/,/web/icons/,/web/.web/
+/web/manual/,/web/cgi/,/web/~root/
+/web/phf/,/web/cgi-script/,/web/~nobody/
+/web/printenv/,/web/dummy/,/web/~ftp/
+/web/server-info/,/web/error/,/web/tmp/
+/web/server-status/,/web/error_log/,/web/~bin/
+/web/status/,/web/htdocs/,/web/test-cgi/

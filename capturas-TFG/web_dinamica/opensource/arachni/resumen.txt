@@ -1,0 +1,11 @@
+4950 arachni.short
+375 code_injection.short
+42 csrf_detection.short
+113 ldap_injection.short
+1186 os_command_injection.short
+529 path_traversal.short
+767 remote_file_inlcusion.short
+1434 sql_injection.short
+42 xml_external_entity.short
+181 xpath_injection.short
+865 xss.short
