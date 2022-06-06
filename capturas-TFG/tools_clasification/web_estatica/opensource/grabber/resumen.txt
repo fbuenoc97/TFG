@@ -1,0 +1,16 @@
+14 backup.uri
+13 backup.short
+183 bsql.uri
+83 bsql.short
+2108 grabber.uri
+1062 grabber.short
+136 include.uri
+73 include.short
+2094 injection.uri
+1050 injection.short
+14 others.uri
+13 others.short
+121 sql.uri
+57 sql.short
+1654 xss.uri
+882 xss.short

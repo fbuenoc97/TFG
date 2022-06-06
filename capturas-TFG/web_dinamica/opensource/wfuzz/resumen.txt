@@ -1,5 +1,0 @@
-10 apache.short
-337 cgis.short
-173 dirTraversal.short
-43 Injections.short
-562 wfuzz.short

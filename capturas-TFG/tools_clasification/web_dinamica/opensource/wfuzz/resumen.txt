@@ -1,0 +1,16 @@
+10 apache.uri
+10 apache.short
+181 broken_access_control.uri
+173 broken_access_control.short
+337 cgis.uri
+337 cgis.short
+181 dirTraversal.uri
+173 dirTraversal.short
+43 injections.uri
+43 injections.short
+43 injection.uri
+43 injection.short
+347 others.uri
+347 others.short
+571 wfuzz.uri
+562 wfuzz.short

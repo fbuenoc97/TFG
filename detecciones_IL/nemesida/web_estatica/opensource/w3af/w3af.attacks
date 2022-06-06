@@ -5,7 +5,7 @@
 #-----  Statistics (NEMESIDA) ------------------------------
 # Read [506] nemesida rules, [449] http-related, [0] with errors
 #----- Analysis results ----------------------------
-# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l w3af.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o /home/kali/TFG/inspectorlog/nemesida/conf_predeterminada/web_estatica/owasp/opensource/w3af/w3af.clean
+# Alerts & signatures generated from: /home/kali/Downloads/inspectorlog/inspectorlog -l w3af.uri -m /home/kali/Downloads/reglas_javi/nemesida/nemesida-rules-bin-20220109.txt -t list -o nemesida/w3af.clean
 Packet [606]	Uri [/web?ysNBMxi=.%2F..%2F..%2F..%2Fetc%2Fmotd%00html]	Nattacks [4]	Signatures	[300000057]	[300000067]	[300001145]	[300001359]
 Packet [608]	Uri [/web?ysNBMxi=..%2F..%2F..%2F..%2Fbin%2Fchgrp%20nobody%20%2Fetc%2Fshadow%7C]	Nattacks [5]	Signatures	[300000057]	[300000067]	[300001053]	[300001145]	[300001559]
 Packet [610]	Uri [/web?ysNBMxi=..%2F..%2FWINNT%2Fsystem32%2Fcmd.exe%3Fdir%2Bc%3A%5C]	Nattacks [4]	Signatures	[300000053]	[300000057]	[300000067]	[300001145]
@@ -38,4 +38,4 @@ Packet [5763]	Uri [/icons/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
 Packet [5808]	Uri [/web/assets/fonts/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
 Packet [6054]	Uri [/web/assets/sass/phpinfo.php]	Nattacks [1]	Signatures	[300001887]
 # N. packets [7896], [31] with alerts, N. Alerts [52]
-# Execution time: 0.155835 s
+# Execution time: 0.562650 s

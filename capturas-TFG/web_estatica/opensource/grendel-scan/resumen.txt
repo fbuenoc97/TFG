@@ -1,9 +1,0 @@
-91 application_architecture.short
-17095 file_enumeration.short
-17770 grendel-scan.short
-92 information_leakage.short
-91 miscellaneous_attacks.short
-91 session_management.short
-91 sql_injection.short
-95 web_server_configuration.short
-145 xss.short

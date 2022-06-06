@@ -1,0 +1,16 @@
+/web/?p=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/?s=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/index.php/2022/01/21/hola-mundo/?replytocom=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/index.php/wp-json/oembed/1.0/embed?url=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/index.php/wp-json/oembed/1.0/embed?url=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version&format=xml
+/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2F2022%2F01%2F21%2Fhola-mundo%2F&format=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F192.168.1.102%2Fweb%2Findex.php%2Fpagina-ejemplo%2F&format=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/wp-login.php?action=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/wp-login.php?action=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version&wp_lang=es_ES
+/web/wp-login.php?action=lostpassword&wp_lang=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/wp-login.php?redirect_to=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version&reauth=1
+/web/wp-login.php?redirect_to=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version&wp_lang=es_ES
+/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&reauth=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/wp-login.php?redirect_to=http%3A%2F%2F192.168.1.102%2Fweb%2Fwp-admin%2F&wp_lang=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/wp-login.php?wp_lang=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version
+/web/xmlrpc.php?rsd=http%253A%2F%2Fwww.google.fr%250D%250Awapiti%253A%25203.0.4%2520version

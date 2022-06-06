@@ -1,9 +1,0 @@
-21 CLRF_injection.short
-56 owasp_zap.short
-11 parameter_tampering.short
-11 path_traversal.short
-11 remote_file_inclusion.short
-11 remote_os_command_injection.short
-11 server_side_injection.short
-11 sql_injection.short
-21 XSS.short
